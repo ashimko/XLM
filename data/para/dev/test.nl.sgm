@@ -1,0 +1,1213 @@
+<refset trglang="nl" setid="commands_nl2bash" srclang="any">
+<doc sysid="ref" docid="1" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Add "prefix_" to every non-blank line in "a.txt"</seg>
+<doc sysid="ref" docid="2" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Add the .abc suffix to the names of all *.txt regular files in the current directory tree</seg>
+<doc sysid="ref" docid="3" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Add cron lists from "filename" to list of cron jobs, giving errors for any lines that cannot be parsed by crontab.</seg>
+<doc sysid="ref" docid="4" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive "/media/Incoming/music/" to "/media/10001/music/" on host "server" and skip files that are newer in the destination, delete any files in the destination not in the source, and compress data during transmission</seg>
+<doc sysid="ref" docid="5" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive "/path/to/copy" on host "remote.host" as user "user" to "/path/to/local/storage" updating files with different checksums, showing human readable progress and statistics, and compressing data during transmission</seg>
+<doc sysid="ref" docid="6" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive "/path/to/files" on host "remotemachine" authentifying as user "user" and compressing data during transmission, copy symlinks as symlinks.</seg>
+<doc sysid="ref" docid="7" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive "foo/bar/baz.c" to "remote:/tmp/" preserving the relative path of "foo/bar/baz.c"</seg>
+<doc sysid="ref" docid="8" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive "myfile" to "/foo/bar/" and create directory "/foo/bar/" if "/foo/" exists</seg>
+<doc sysid="ref" docid="9" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive all files beginning with .env or .bash in current directory to user's home directory on host "app1", preserving timestamps and skipping files that are newer on "app1"</seg>
+<doc sysid="ref" docid="10" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive all files (not directories) in "folder1" to "copy_of_folder1" specifying to include files info.txt and data.zip</seg>
+<doc sysid="ref" docid="11" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive all files specified on standard input under "/path/to/files" to "/path" on host "targethost" as user "user" with escalated privileges</seg>
+<doc sysid="ref" docid="12" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive directory specified by variable "i" to "/iscsi" preserving relative paths.</seg>
+<doc sysid="ref" docid="13" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive directory specified by variable "myFolder" to current directory.</seg>
+<doc sysid="ref" docid="14" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Archive preserving permissions and ownership files in "/var/www/" on host "user@10.1.1.2" to local "/var/www/"</seg>
+<doc sysid="ref" docid="15" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Assigns MAC address 00:80:48:BA:d1:30 to interface eth0.</seg>
+<doc sysid="ref" docid="16" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Attempt to connect as root via ssh to host whose IP address or hostname is specified by environment variable IPADDRESS - this will normally fail because ssh servers normally don't accept root logins.</seg>
+<doc sysid="ref" docid="17" genre="commands_nl2bash" origlang="nl">
+<seg id="1">bind "\C-i" to "complete" function</seg>
+<doc sysid="ref" docid="18" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Calculate md5 checksum of $KEY, take the 1st to 10th character, append them with the string '/tmp/command_cache.' and save the rsultant string to variable FILE</seg>
+<doc sysid="ref" docid="19" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Calculate the md5 sum of the contents of the sorted list of files "$FILES"</seg>
+<doc sysid="ref" docid="20" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Calculate md5 sum of empty string</seg>
+<doc sysid="ref" docid="21" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Calculate md5 sum of empty string</seg>
+<doc sysid="ref" docid="22" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Calculate the md5 sum of the list of files in the current directory</seg>
+<doc sysid="ref" docid="23" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Change all files with no user under "/var/www" to have owner "root" and group "apache"</seg>
+<doc sysid="ref" docid="24" genre="commands_nl2bash" origlang="nl">
+<seg id="1">change the extension of all the ".abc" files in the folder "/the/path" to ".edefg" and do not change in the sub directories</seg>
+<doc sysid="ref" docid="25" genre="commands_nl2bash" origlang="nl">
+<seg id="1">change the group of all the files in the folder /u/netinst/ to staff</seg>
+<doc sysid="ref" docid="26" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Changes group ownership of 'logdir' to 'loggroup'.</seg>
+<doc sysid="ref" docid="27" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Changes group ownership of 'public' and 'private' to 'god'.</seg>
+<doc sysid="ref" docid="28" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Changes group ownership of 'shared' to 'Workers'.</seg>
+<doc sysid="ref" docid="29" genre="commands_nl2bash" origlang="nl">
+<seg id="1">change the owner of all the files in the file system which belong to the user with the uid 999</seg>
+<doc sysid="ref" docid="30" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Change the ownership of "/etc/udev/rules.d/51-android.rules" to "root"</seg>
+<doc sysid="ref" docid="31" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Change the ownership of "file.sh" to "root"</seg>
+<doc sysid="ref" docid="32" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Change the ownership of all aluno1's files in the current directory and below to aluno2</seg>
+<doc sysid="ref" docid="33" genre="commands_nl2bash" origlang="nl">
+<seg id="1">change the permissions of all the directories in the folder "/path/to/someDirectory" to 755</seg>
+<doc sysid="ref" docid="34" genre="commands_nl2bash" origlang="nl">
+<seg id="1">change the permission of all the php files in the folder /var/www/ to 700</seg>
+<doc sysid="ref" docid="35" genre="commands_nl2bash" origlang="nl">
+<seg id="1">change the permissions of all regular/normal files in the current directory, print0 is used for handling files with newlines in their file name</seg>
+<doc sysid="ref" docid="36" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Change permissions to 644 for all directories under and below /path/to/someDirectory/</seg>
+<doc sysid="ref" docid="37" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Change permission to 755 of all files/directories under current directory tree that have 777 permission</seg>
+<doc sysid="ref" docid="38" genre="commands_nl2bash" origlang="nl">
+<seg id="1">change the word "GHBAG" to "stream-agg" in all the file names in current folder which have the word "-GHBAG-" in their name</seg>
+<doc sysid="ref" docid="39" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Combine every two lines of standard input</seg>
+<doc sysid="ref" docid="40" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Compare *.csv files in the current directory tree with their analogs stored in /some/other/path/ prompting before running `diff'</seg>
+<doc sysid="ref" docid="41" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Compare files in "/tmp/dir1" and "/tmp/dir2", treating absent files as empty and all files as text</seg>
+<doc sysid="ref" docid="42" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Compresses all files in a current folder (not recursively).</seg>
+<doc sysid="ref" docid="43" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Compress all files in directory "$PATH_TO_LOGS" that were last modified more than "$SOME_NUMBER_OF_DAYS" days ago</seg>
+<doc sysid="ref" docid="44" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Compresses all files in the directory 'PATH_TO_FOLDER' without recursion and keeps uncompressed files from deletion.</seg>
+<doc sysid="ref" docid="45" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Compress regular files in the current directory tree that were last modified more than 7 days ago</seg>
+<doc sysid="ref" docid="46" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Compresses with compression level 9 all files under the current folder but already compressed '*.bz2' files, performing in background.</seg>
+<doc sysid="ref" docid="47" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Connect to host "${HOSTNAME}" as user "${USERNAME}" and execute "${SCRIPT}" non-interactively</seg>
+<doc sysid="ref" docid="48" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Copy "*.cc", "*.h", and "SConstruct" to "rsync://localhost:40001/bledge_ce" using blocking IO</seg>
+<doc sysid="ref" docid="49" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Copies ${FILE} to COLLECT folder with unique name formatted like 'job_XXXXXXXXX'.</seg>
+<doc sysid="ref" docid="50" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Copy a file xyz.c to all the .c files present in the C directory and below</seg>
+<doc sysid="ref" docid="51" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Copy all *.data files under /source_path to /target_path</seg>
+<doc sysid="ref" docid="52" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Copy all files (not directories) in "/path/to/local/storage" to "/path/to/copy" on host "remote.host" authenticating as user "user"</seg>
+<doc sysid="ref" docid="53" genre="commands_nl2bash" origlang="nl">
+<seg id="1">copy all the files with the extension ".type" from one folder to a target directory</seg>
+<doc sysid="ref" docid="54" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Copy directory structure from directory 'olddir' to 'newdir'</seg>
+<doc sysid="ref" docid="55" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Copy file in current directory of local host to host "remote", connecting as ssh user matching current local username, and copying the file in home directory on remote host - enable compression during transfer.</seg>
+<doc sysid="ref" docid="56" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Copy the owner and group from "file.txt" to "$tempfile"</seg>
+<doc sysid="ref" docid="57" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Counts all lines in $i file.</seg>
+<doc sysid="ref" docid="58" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Count all the lines of all php files in current directory recursively</seg>
+<doc sysid="ref" docid="59" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Counts lines in each *.php file.</seg>
+<doc sysid="ref" docid="60" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Counts lines in each *.php file.</seg>
+<doc sysid="ref" docid="61" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Counts lines in each *.php file.</seg>
+<doc sysid="ref" docid="62" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Count the number of directories under directory '/directory/' non-recursively</seg>
+<doc sysid="ref" docid="63" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Count the number of files in the /usr/ports directory tree whose names begin with 'pkg-plist' and which contain 'dirrmtry'</seg>
+<doc sysid="ref" docid="64" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Count the number of open files for PID "$PYTHONPID" every 2 seconds</seg>
+<doc sysid="ref" docid="65" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Counts number of processors and saves in variable NUMCPU.</seg>
+<doc sysid="ref" docid="66" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Count the number of regular files with case insensitive name pattern $srchfor under 'teste2' directory tree</seg>
+<doc sysid="ref" docid="67" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create 1000 files each file having a number from 1 to 1000 named "file000" to "file999"</seg>
+<doc sysid="ref" docid="68" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Creates 5-letter random file name and saves it in 'rand_str' variable.</seg>
+<doc sysid="ref" docid="69" genre="commands_nl2bash" origlang="nl">
+<seg id="1">create a compressed archive "compressFileName.tar.gz" with verbose output</seg>
+<doc sysid="ref" docid="70" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a compressed archive named 'my_directory.tar.gz' with files inside directory 'my_directory' without including the directory entry 'my_directory' itself</seg>
+<doc sysid="ref" docid="71" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a rsa key with comment specified by variable APP and passphrase specified y SSHKEYPASS.</seg>
+<doc sysid="ref" docid="72" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a ssh key with no passphrase and store it in "outfile".</seg>
+<doc sysid="ref" docid="73" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a symolic link in "/usr/local/bin/" to "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"</seg>
+<doc sysid="ref" docid="74" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a symbolic link in the current directory to "$file"</seg>
+<doc sysid="ref" docid="75" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a symbolic link in target directory "~/newlinks" to "$source"</seg>
+<doc sysid="ref" docid="76" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a symbolic link named ".profile" to "git-stuff/home/profile" without dereferencing ".profile"</seg>
+<doc sysid="ref" docid="77" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a symbolic link named "/usr/bin/my-editor" to "/usr/share/my-editor/my-editor-executable" and attemp to hard link directories</seg>
+<doc sysid="ref" docid="78" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a symbolic link named "/usr/local/bin/subl" to "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"</seg>
+<doc sysid="ref" docid="79" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a symbolc link named "public_html" to "current/app/webroot" under the current working directory</seg>
+<doc sysid="ref" docid="80" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a symbolic link named "~/bin/subl" to "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"</seg>
+<doc sysid="ref" docid="81" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a symbolic link named the basename of "$file" to "$file"</seg>
+<doc sysid="ref" docid="82" genre="commands_nl2bash" origlang="nl">
+<seg id="1">create a symbolic link with absolute path "/cygdrive/c/Program Files" to file "/cygdrive/c/ProgramFiles"</seg>
+<doc sysid="ref" docid="83" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create a tar file containing all the files in ~/Library folder that contain spaces in their names</seg>
+<doc sysid="ref" docid="84" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create an archive named newArch from the contents of ./test directory</seg>
+<doc sysid="ref" docid="85" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create the directory '.npm-packages' in the user's home directory($HOME)</seg>
+<doc sysid="ref" docid="86" genre="commands_nl2bash" origlang="nl">
+<seg id="1">create directory /tmp/foo</seg>
+<doc sysid="ref" docid="87" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create directory dir2</seg>
+<doc sysid="ref" docid="88" genre="commands_nl2bash" origlang="nl">
+<seg id="1">create symbolic links in directory "/usr/local/symlinks " to all files located in directiry "incoming" and that have been modified earlier then 5 days and owned by user "nr"</seg>
+<doc sysid="ref" docid="89" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create tar archive "dirall.tar" and copy all files from directory tree /tmp/a1 to it</seg>
+<doc sysid="ref" docid="90" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Create tar archive "foo.tar" and copy all files from directory tree /tmp/a1 to it</seg>
+<doc sysid="ref" docid="91" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Creates temporary file in a TMPDIR folder with name like tmp.XXXXXXXXXX.</seg>
+<doc sysid="ref" docid="92" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete all __temp__* files/directories under current directory tree</seg>
+<doc sysid="ref" docid="93" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete all __temp__* files/directories under current directory tree</seg>
+<doc sysid="ref" docid="94" genre="commands_nl2bash" origlang="nl">
+<seg id="1">delete all the broken symbolic links from the folder /usr/ports/packages</seg>
+<doc sysid="ref" docid="95" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete all directories in the TBD directory that were modified more than 1 day ago</seg>
+<doc sysid="ref" docid="96" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete all files/directories with node number $inum under current directory tree</seg>
+<doc sysid="ref" docid="97" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete all files in the TBD directory that were modified more than 1 day ago</seg>
+<doc sysid="ref" docid="98" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete all files (files, directories, links, pipes...) named 'core' under current directory</seg>
+<doc sysid="ref" docid="99" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete all files with '.old' extension under current directory tree</seg>
+<doc sysid="ref" docid="100" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete all files with '.old' extension under current directory tree</seg>
+<doc sysid="ref" docid="101" genre="commands_nl2bash" origlang="nl">
+<seg id="1">delete all the normal/regular files in the current folder</seg>
+<doc sysid="ref" docid="102" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete all regular files under current directory</seg>
+<doc sysid="ref" docid="103" genre="commands_nl2bash" origlang="nl">
+<seg id="1">delete all text files from current folder</seg>
+<doc sysid="ref" docid="104" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete files under $LOCATION that match $REQUIRED_FILES in their names and were modified more than 1 day ago</seg>
+<doc sysid="ref" docid="105" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Delete in the background all files in /var/tmp/stuff1 and below that have not been modified in over 90 days</seg>
+<doc sysid="ref" docid="106" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display the three largest files by size in current folder</seg>
+<doc sysid="ref" docid="107" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display the three smallest files by size in a folder.</seg>
+<doc sysid="ref" docid="108" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Display a binary file as a sequence of hex codes</seg>
+<doc sysid="ref" docid="109" genre="commands_nl2bash" origlang="nl">
+<seg id="1">dispaly a long listig of all the files in the current folder which are bigger than 100KB</seg>
+<doc sysid="ref" docid="110" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display a long listing of all the log files in the current folder which are bigger than 1MB</seg>
+<doc sysid="ref" docid="111" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the .sh scripts in the folder /usr</seg>
+<doc sysid="ref" docid="112" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the .sh scripts in the folder /usr</seg>
+<doc sysid="ref" docid="113" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the directories in the current folder which are atleast one level deep</seg>
+<doc sysid="ref" docid="114" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the directories in the current folder which start with processor followed by digit and ends with .1 or .2</seg>
+<doc sysid="ref" docid="115" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the directories in the current folder which start with processor followed by digit and ends with .1 or .2</seg>
+<doc sysid="ref" docid="116" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all directories in vim folder do not search in sub directories</seg>
+<doc sysid="ref" docid="117" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the files along with their group name in the folder /home which do not belong to the group test</seg>
+<doc sysid="ref" docid="118" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all files  expect directories in the current folder</seg>
+<doc sysid="ref" docid="119" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Display all files in a folder</seg>
+<doc sysid="ref" docid="120" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Display all files in a folder</seg>
+<doc sysid="ref" docid="121" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all files in a folder</seg>
+<doc sysid="ref" docid="122" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the files in the current folder excluding the file states_to_csv.pl and those that are present in the directories whose name starts with ".git"</seg>
+<doc sysid="ref" docid="123" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the files in the current folder excluding those that are present in the sub directory aa and display those files that start with the word "file"</seg>
+<doc sysid="ref" docid="124" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the files in the current folder which have been modified in one hour ago</seg>
+<doc sysid="ref" docid="125" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the files in the current folder which contains form feed (^L) and does not contain NULL</seg>
+<doc sysid="ref" docid="126" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all files in the entire file system excluding the directories /proc,/sys,/dev and those files which are writable and which are not symbolic links and which are not sockets and which do not have the sticky bit set</seg>
+<doc sysid="ref" docid="127" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all files in the entire file system excluding those that are in the transfer directory</seg>
+<doc sysid="ref" docid="128" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the files in the folder /mp3-collection which are bigger than 10MB or which start with the name "Metallica"</seg>
+<doc sysid="ref" docid="129" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all files in the folder bar only in the path /foo/bar/myfile (no output is generated)</seg>
+<doc sysid="ref" docid="130" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all file in the home folder except ".c" files</seg>
+<doc sysid="ref" docid="131" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all file in the home folder except ".c" files</seg>
+<doc sysid="ref" docid="132" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the hidden directories in the directory "/dir/to/search/"</seg>
+<doc sysid="ref" docid="133" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the html files in the current folder excluding search in the paths ./foo, ./bar.</seg>
+<doc sysid="ref" docid="134" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the jars in the current folder</seg>
+<doc sysid="ref" docid="135" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all mp3 files in the file system which have not been accessed in the last 24 hours</seg>
+<doc sysid="ref" docid="136" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the php files in the current folder which do not have the permission 644</seg>
+<doc sysid="ref" docid="137" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all php,xml and phtml files in current folder</seg>
+<doc sysid="ref" docid="138" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the regular/normal files in the /root folder which are bigger than 500MB</seg>
+<doc sysid="ref" docid="139" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the regular files in current folder excluding all the directories and all the sub directories having "normal" in their name</seg>
+<doc sysid="ref" docid="140" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the regular files in the current folder which have the permission 777</seg>
+<doc sysid="ref" docid="141" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all regular files in current folder which have spaces in their name</seg>
+<doc sysid="ref" docid="142" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all regular files in the folder image-folder</seg>
+<doc sysid="ref" docid="143" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all regular/normal files in temp folder and display the filename along with file size</seg>
+<doc sysid="ref" docid="144" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all shell scripts in current folder</seg>
+<doc sysid="ref" docid="145" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all the text files and hidden files in the home folder</seg>
+<doc sysid="ref" docid="146" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display all text files in the folder /tmp/1</seg>
+<doc sysid="ref" docid="147" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display the count of all the normal/ regular files in the current directory</seg>
+<doc sysid="ref" docid="148" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Display differences between file1 and file2 side-by-side.</seg>
+<doc sysid="ref" docid="149" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Display each line in file.txt backwards</seg>
+<doc sysid="ref" docid="150" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display files ending with ".ext" in current folder excluding those that are present in the list list.txt</seg>
+<doc sysid="ref" docid="151" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Displays information about all network interfaces in system, including inactive ones.</seg>
+<doc sysid="ref" docid="152" genre="commands_nl2bash" origlang="nl">
+<seg id="1">(GNU specific) Display information about number of processes in various states.</seg>
+<doc sysid="ref" docid="153" genre="commands_nl2bash" origlang="nl">
+<seg id="1">display long listing of all the empty files in the current folder</seg>
+<doc sysid="ref" docid="154" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Display machine architecture, ie. x86_64</seg>
+<doc sysid="ref" docid="155" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Display only mimetype of myfile.txt, without the filename.</seg>
+<doc sysid="ref" docid="156" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Display standard input as a table with "${tab}" separators</seg>
+<doc sysid="ref" docid="157" genre="commands_nl2bash" origlang="nl">
+<seg id="1">download content from "http://example.com/textfile.txt" and output to "textfile.txt"</seg>
+<doc sysid="ref" docid="158" genre="commands_nl2bash" origlang="nl">
+<seg id="1">download contents of a website "http://example.com/"</seg>
+<doc sysid="ref" docid="159" genre="commands_nl2bash" origlang="nl">
+<seg id="1">download file  "https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh" and execute it</seg>
+<doc sysid="ref" docid="160" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Enables shell option 'direxpand'.</seg>
+<doc sysid="ref" docid="161" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Enables shell option 'histappend'.</seg>
+<doc sysid="ref" docid="162" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ERROR - need to add -a or -r for recursive copy</seg>
+<doc sysid="ref" docid="163" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Execute `somecommand' on each file from the current directory tree with the environment variable f set to the filename</seg>
+<doc sysid="ref" docid="164" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Execute all arguments to a shell script and write the output to console and "$FILE"</seg>
+<doc sysid="ref" docid="165" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Execute command "$cmd_str" on host "$SERVER" as user "$USER"</seg>
+<doc sysid="ref" docid="166" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Expand bash array "myargs" as arguments to "mv"</seg>
+<doc sysid="ref" docid="167" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Extract all gzip-compressed files from tar archives beginning with 'myfiles_split.tgz_*'</seg>
+<doc sysid="ref" docid="168" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Extract any line in sorted file "A" that does not appear in "B", "C", or "D"</seg>
+<doc sysid="ref" docid="169" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Filter out current date in current time zone from the GMT+30 and GMT+20 representations of current date and show the last one</seg>
+<doc sysid="ref" docid="170" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Finds $a pattern in a $b string, and returns exit code 0 if found, suppressing any visible output.</seg>
+<doc sysid="ref" docid="171" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find *.c and *.h files under the current directory tree skipping hidden directories and files</seg>
+<doc sysid="ref" docid="172" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find *.jpg screenshots that are bigger than 500k</seg>
+<doc sysid="ref" docid="173" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find .cpp files that differs in subdirectories PATH1 and PATH2.</seg>
+<doc sysid="ref" docid="174" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find a directory named 'project.images' case insensitively in the entire filesystem and show it in long listing format</seg>
+<doc sysid="ref" docid="175" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the ".jpg" files in current folder and display their count</seg>
+<doc sysid="ref" docid="176" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *.cgi (case insensitive) files/directories under current directory and change their permission to 755</seg>
+<doc sysid="ref" docid="177" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *.cgi files/directories under current directory and change their permission to 755</seg>
+<doc sysid="ref" docid="178" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *.epub, *.mobi, *.chm, *.rtf, *.lit and *.djvu files/directories under current directory</seg>
+<doc sysid="ref" docid="179" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all *.java files/directories under current directory</seg>
+<doc sysid="ref" docid="180" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all *.java files/directories under current directory</seg>
+<doc sysid="ref" docid="181" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *.java files in the current directory tree</seg>
+<doc sysid="ref" docid="182" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *.mp4 files under /foo/bar and move them to /some/path</seg>
+<doc sysid="ref" docid="183" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *.mp4 files under /foo/bar and move them to /some/path</seg>
+<doc sysid="ref" docid="184" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *.ps files under $STARTDIR</seg>
+<doc sysid="ref" docid="185" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *.rpm files/directories under current directory</seg>
+<doc sysid="ref" docid="186" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *.txt files under the current directory whose names are not "File.txt"</seg>
+<doc sysid="ref" docid="187" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *.txt files under the current directory whose names are not "File.txt"</seg>
+<doc sysid="ref" docid="188" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all *shp* directories under current directory and move their contents to ../shp_all/</seg>
+<doc sysid="ref" docid="189" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all .c and .C files in the current directory tree that contain "main(" and copy them to directory test1/</seg>
+<doc sysid="ref" docid="190" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all .gz archives in the /path/to/dir directory tree</seg>
+<doc sysid="ref" docid="191" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all .js files in the current directory tree that do not contain a whitespace</seg>
+<doc sysid="ref" docid="192" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all .mp3 files with more then 10MB and delete them from root directory .</seg>
+<doc sysid="ref" docid="193" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all 777 permission files/directories under current directory tree</seg>
+<doc sysid="ref" docid="194" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all broken symlinks in maximum 1 level down the $path directory</seg>
+<doc sysid="ref" docid="195" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all directories in the current directory</seg>
+<doc sysid="ref" docid="196" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all directories in maximum 2 levels down the /tmp/test directory</seg>
+<doc sysid="ref" docid="197" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all directories starting from / that have permissions 777</seg>
+<doc sysid="ref" docid="198" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all directories that start with stat</seg>
+<doc sysid="ref" docid="199" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all directories under $x directory and set read-write-execute permission for owner and group and no permission for other for those directories</seg>
+<doc sysid="ref" docid="200" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all directories under 'project' directory without going into subdirectories that do not match the POSIX egrep regex $PATTERN in their paths and are not empty</seg>
+<doc sysid="ref" docid="201" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all directories under /directory-path and change their permission to 2755</seg>
+<doc sysid="ref" docid="202" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all directories under minimum 1 level down the current directory excluding  directories (along with their contents) that start with a . (dot) in their names</seg>
+<doc sysid="ref" docid="203" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the empty directories in current folder and delete them</seg>
+<doc sysid="ref" docid="204" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all empty directories in the current one and delete them</seg>
+<doc sysid="ref" docid="205" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all empty directories in the current one and delete them</seg>
+<doc sysid="ref" docid="206" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the empty in the current folder do not search in sub directories</seg>
+<doc sysid="ref" docid="207" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all executable files under the current directory and below</seg>
+<doc sysid="ref" docid="208" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories named 'photoA.jpg' under current directory tree</seg>
+<doc sysid="ref" docid="209" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories named modules under current directory and list them twice</seg>
+<doc sysid="ref" docid="210" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories owned by user 'michel' under current directory</seg>
+<doc sysid="ref" docid="211" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories that are not newer than Jul 01 by modification time</seg>
+<doc sysid="ref" docid="212" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories that are owned by user 'eric' under current directory tree</seg>
+<doc sysid="ref" docid="213" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under $1 which have at least execute permission for their owner and set execute permission for group for these files/directories</seg>
+<doc sysid="ref" docid="214" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under $1 which have at least execute permission for their owner and set execute permission for group for these files/directories</seg>
+<doc sysid="ref" docid="215" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under $1 which have at least read permission for their owner and set read permission for group for these files/directories</seg>
+<doc sysid="ref" docid="216" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under $1 which have at least read permission for their owner and set read permission for group for these files/directories</seg>
+<doc sysid="ref" docid="217" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under '/usr' directory tree that have been modified exactly 5 minutes ago</seg>
+<doc sysid="ref" docid="218" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under '/usr/share/doc' directory tree whose name start with 'README'</seg>
+<doc sysid="ref" docid="219" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under /non-existent/directory directory with ~/bin/find</seg>
+<doc sysid="ref" docid="220" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under /var/www/some/subset and change their owner and group to www-data</seg>
+<doc sysid="ref" docid="221" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under current directory and put the output into full_backup_dir variable</seg>
+<doc sysid="ref" docid="222" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under current directory that are 10MB in size</seg>
+<doc sysid="ref" docid="223" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under current directory that were modified exactly 30 minutes ago</seg>
+<doc sysid="ref" docid="224" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under current directory tree that belong to the group 'compta'</seg>
+<doc sysid="ref" docid="225" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories under minimum 1 level down the $FOLDER directory and sort them</seg>
+<doc sysid="ref" docid="226" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories with '.pdf' extension excluding 'pdfs' directory and all of its contents</seg>
+<doc sysid="ref" docid="227" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files/directories with user id 120 under current directory tree</seg>
+<doc sysid="ref" docid="228" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all files ending with "js.compiled" in current folder</seg>
+<doc sysid="ref" docid="229" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all files ending with "js.compiled" in current folder (print0 is used to handle files with newlines in their names)</seg>
+<doc sysid="ref" docid="230" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all files ending with "js.compiled" in current folder and rename them.</seg>
+<doc sysid="ref" docid="231" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files from root folder which have nogroup or noname and dispaly their details.</seg>
+<doc sysid="ref" docid="232" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files in /home/kos and below whose names end in ".tmp"</seg>
+<doc sysid="ref" docid="233" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files in /tmp whose names begin with the current user's name followed by "."</seg>
+<doc sysid="ref" docid="234" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files in the /usr folder that have been modified after the file /usr/FirstFile.</seg>
+<doc sysid="ref" docid="235" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files in and below all subdirectories of the current directory</seg>
+<doc sysid="ref" docid="236" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files in and below the home directory that have been modified in the last 90 minutes</seg>
+<doc sysid="ref" docid="237" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files in the current directory and search for the word "pw0" in them.</seg>
+<doc sysid="ref" docid="238" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files in the current directory recursively that were last modified more than 5 days ago</seg>
+<doc sysid="ref" docid="239" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files in the current directory recursively with "linkin park" in their names and copy them to /Users/tommye/Desktop/LP</seg>
+<doc sysid="ref" docid="240" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all files in the current directory that are less than 1 byte size</seg>
+<doc sysid="ref" docid="241" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files in current directory that were modified less than 1 day ago excluding hidden files  and archive them and put the output into the variable file_changed</seg>
+<doc sysid="ref" docid="242" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files in the current directory that have the word "lib" in them</seg>
+<doc sysid="ref" docid="243" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files in the current directory whose size is equal to exactly 126MB.</seg>
+<doc sysid="ref" docid="244" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files in current folder ending with "ini" and search for a word in all these files</seg>
+<doc sysid="ref" docid="245" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files in the current folder that are modified after the modification date of a file</seg>
+<doc sysid="ref" docid="246" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all files in current folder which are more than 300MB</seg>
+<doc sysid="ref" docid="247" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files in the current folder which are readable</seg>
+<doc sysid="ref" docid="248" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all files in the current folder which have not been changed in the last 48 hours</seg>
+<doc sysid="ref" docid="249" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all files in the file system which are modified after the file /tmp/checkpoint</seg>
+<doc sysid="ref" docid="250" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files in the file system which hae set uid enabled and save them to /root/suid.txt and those which have size greater than 100MB save them to /root/big.txt</seg>
+<doc sysid="ref" docid="251" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files in the folder /home which are exactly of size 10MB</seg>
+<doc sysid="ref" docid="252" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files in maximum 2 levels down the current directory</seg>
+<doc sysid="ref" docid="253" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Finds all files like "mylog*.log" newer than $2 and archives them with bzip2.</seg>
+<doc sysid="ref" docid="254" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files name passwd in the root directory and all its sub-directories.</seg>
+<doc sysid="ref" docid="255" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files starting with "config" in the folder Symfony</seg>
+<doc sysid="ref" docid="256" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files starting with "config" in the folder Symfony ( case insensitive search)</seg>
+<doc sysid="ref" docid="257" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files that are modified in the last 1 day</seg>
+<doc sysid="ref" docid="258" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files that are modified in the last 1 day</seg>
+<doc sysid="ref" docid="259" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the files that have been changed today</seg>
+<doc sysid="ref" docid="260" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all files that have been used more than two days since their status was last changed</seg>
+<doc sysid="ref" docid="261" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files that belongs to group Developer under /home directory</seg>
+<doc sysid="ref" docid="262" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files that contain the case insensitive regex 'stringtofind' in maximum 1 level down the / directory without descending into other partitions</seg>
+<doc sysid="ref" docid="263" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files that contain the case insensitive regex 'stringtofind' in maximum 1 level down the / directory without descending into other partitions</seg>
+<doc sysid="ref" docid="264" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files under $source_dir that match the regex .*\.\(avi\|wmv\|flv\|mp4\) in their paths and print them with null character as the delimiter</seg>
+<doc sysid="ref" docid="265" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files under ${searchpath} that match the regex '"${string1}".*"${string2}".*"${string3}"' (${string1} ... won't be expanded) in their contents</seg>
+<doc sysid="ref" docid="266" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files under and below the current working directory with the word California in the file (case insensitive), and count the number of lines in the output</seg>
+<doc sysid="ref" docid="267" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files under and below the current working directory with the word California in the file, and count the number of lines in the output</seg>
+<doc sysid="ref" docid="268" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files under and below the current working directory with the word California in the file, and count the number of lines in the output</seg>
+<doc sysid="ref" docid="269" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files under current directory</seg>
+<doc sysid="ref" docid="270" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files under current directory and set read-write permission for owner and group and no permission for other for those directories</seg>
+<doc sysid="ref" docid="271" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files under the current directory whose filenames are not "file.txt", ignoring the case</seg>
+<doc sysid="ref" docid="272" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files under media/ directory and change their permission to 600</seg>
+<doc sysid="ref" docid="273" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files whose permission are 777</seg>
+<doc sysid="ref" docid="274" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files with '.conf' extension under '/etc' directory tree that have been modified in the last 30 minutes</seg>
+<doc sysid="ref" docid="275" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all files with '.txt' extension under '/home/my_dir' dirctory tree and display the number of lines in these files</seg>
+<doc sysid="ref" docid="276" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all fonts (in '/usr/local/fonts') that belong to the user 'warwick'</seg>
+<doc sysid="ref" docid="277" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the jpg files in current folder and sort them</seg>
+<doc sysid="ref" docid="278" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all of the files that are readable</seg>
+<doc sysid="ref" docid="279" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the ogg files in the current directory which have the word "monfichier" in their name</seg>
+<doc sysid="ref" docid="280" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the perl files in /var/www</seg>
+<doc sysid="ref" docid="281" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the perl files in /var/www ( case insensitive search )</seg>
+<doc sysid="ref" docid="282" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Finds all php processes running in system.</seg>
+<doc sysid="ref" docid="283" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the png files in the current folder which begin with the word image</seg>
+<doc sysid="ref" docid="284" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all README's in /usr/share</seg>
+<doc sysid="ref" docid="285" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all regular files in current directory and /home/www directory</seg>
+<doc sysid="ref" docid="286" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all regular files in the current directory tree and count them</seg>
+<doc sysid="ref" docid="287" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all regular files in the current directory tree and count them</seg>
+<doc sysid="ref" docid="288" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all regular files named postgis-2.0.0 under current directory</seg>
+<doc sysid="ref" docid="289" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all regular files that reside in the current directory tree and were last modified more than 5 days ago</seg>
+<doc sysid="ref" docid="290" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all regular files under ${S} directory</seg>
+<doc sysid="ref" docid="291" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all regular files whose names contain a case insensitive pattern composed of space separated positional arguments and display a long listing of them</seg>
+<doc sysid="ref" docid="292" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all SUID set files under current directory and show a few lines of output from the beginning</seg>
+<doc sysid="ref" docid="293" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all text files in the current folder</seg>
+<doc sysid="ref" docid="294" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the text files in the current folder</seg>
+<doc sysid="ref" docid="295" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the text files in the current folder</seg>
+<doc sysid="ref" docid="296" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all text files in current folder and delete all the files that have the word foo in their name</seg>
+<doc sysid="ref" docid="297" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find all the text files that have modified in the last 2 days and not modified today</seg>
+<doc sysid="ref" docid="298" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find all TXT files that belong to user root</seg>
+<doc sysid="ref" docid="299" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find and delete all .zip files in the current directory tree</seg>
+<doc sysid="ref" docid="300" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find and remove the .rhosts file in the /home directory tree</seg>
+<doc sysid="ref" docid="301" genre="commands_nl2bash" origlang="nl">
+<seg id="1">this find command Substitute space with underscore in the file name replaces space in all the *.mp3 files with _</seg>
+<doc sysid="ref" docid="302" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find directories in the folder /usr/spool/uucp</seg>
+<doc sysid="ref" docid="303" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find empty regular files in /dir and its subdirectories</seg>
+<doc sysid="ref" docid="304" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find every JavaScript file in the wordpress directory</seg>
+<doc sysid="ref" docid="305" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find the file "filename.txt" in the usr folder</seg>
+<doc sysid="ref" docid="306" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find files/directories named 'filename' in the entire filesystem</seg>
+<doc sysid="ref" docid="307" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find files/directories named 'photo.jpg' in the entire filesystem</seg>
+<doc sysid="ref" docid="308" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find files/directories named 'somename.txt' under current directory tree</seg>
+<doc sysid="ref" docid="309" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find files in the current directory tree whose names begin with "file" and whose size is 0, and remove them</seg>
+<doc sysid="ref" docid="310" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find files in the current directory tree whose names begin with "file" and whose size is 0, and remove them</seg>
+<doc sysid="ref" docid="311" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find files in the current directory tree whose permissions are 775</seg>
+<doc sysid="ref" docid="312" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find the file whose inode number is 1316256</seg>
+<doc sysid="ref" docid="313" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find the file with the name "file" in the entire file system</seg>
+<doc sysid="ref" docid="314" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find the first file/directory in ... directory and quit</seg>
+<doc sysid="ref" docid="315" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Finds the folder where temporary files would be written to, and save path to it in a 'TMPDIR' variable.</seg>
+<doc sysid="ref" docid="316" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find out if there are any files on the system owned by user `account'</seg>
+<doc sysid="ref" docid="317" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find PHP files with abstract classes</seg>
+<doc sysid="ref" docid="318" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Finds recursively all files in '/path/' excluding folders dir1, dir2 and all like *.dst, that contain 'pattern', and prints matched strings with string number and file name.</seg>
+<doc sysid="ref" docid="319" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find recursively all files matching pattern 'file??' in the xargstest/ directory and print a sorted list of them</seg>
+<doc sysid="ref" docid="320" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find regular files in the current directory that are writable by at least somebody</seg>
+<doc sysid="ref" docid="321" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find regular files in the current directory, without descending into sub-directories and display as a null separated list.</seg>
+<doc sysid="ref" docid="322" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Finds strings like "texthere" recursively in all files of a current folder regarding all symlinks.</seg>
+<doc sysid="ref" docid="323" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Finds strings with dot-separated sequence of numbers, and prints part of that sequence before the first dot.</seg>
+<doc sysid="ref" docid="324" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Finds strings with dot-separated sequence of numbers, and prints part of that sequence before the second and third dot.</seg>
+<doc sysid="ref" docid="325" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Finds strings with dot-separated sequence of numbers, and prints part of that sequence between the first and second dot.</seg>
+<doc sysid="ref" docid="326" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Find symlinks in the current directory tree</seg>
+<doc sysid="ref" docid="327" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Force create a symbolc link named "softlink_name" to "source_file_or_directory_name" without dereferencing "softlink_name"</seg>
+<doc sysid="ref" docid="328" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Forcefully delete all files in the current directory</seg>
+<doc sysid="ref" docid="329" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Format the contents of "[file]" in a neat table</seg>
+<doc sysid="ref" docid="330" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Format the contents of "[file]" in a neat table</seg>
+<doc sysid="ref" docid="331" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Format time string @1267619929 according to default time format</seg>
+<doc sysid="ref" docid="332" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Forward port 16186 on hello.com to 8888 on localhost using private key "privatekeystuffdis88s8dsf8h8hsd8fh8d" for login</seg>
+<doc sysid="ref" docid="333" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Get domain "$domain" IP address</seg>
+<doc sysid="ref" docid="334" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Get domain name of $ip and save it to the variable 'reverse'</seg>
+<doc sysid="ref" docid="335" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Gets MAC address of p2p0 network interface.</seg>
+<doc sysid="ref" docid="336" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Get second line from text contained in variable $data.</seg>
+<doc sysid="ref" docid="337" genre="commands_nl2bash" origlang="nl">
+<seg id="1">get year-month-day hour:minute:second from date</seg>
+<doc sysid="ref" docid="338" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Go to directory /cygdrive/c/Program Files (x86) using backslashes to escape special characters</seg>
+<doc sysid="ref" docid="339" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Go to directory /cygdrive/c/Program Files (x86) using quotes to escape special characters</seg>
+<doc sysid="ref" docid="340" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Interactively create a symbolic link in the current directory for "$SCRIPT_DIR/$FILE"</seg>
+<doc sysid="ref" docid="341" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Isolate first comma-delimited field of each line in "file", discard consecutive duplicates, and search "file" for first matching occurrence of that field.</seg>
+<doc sysid="ref" docid="342" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Join columns in "file1" and "file2" if their first field matches and format the output as a table</seg>
+<doc sysid="ref" docid="343" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Join comma-separated data in file1 and file2, including extra non-matching information in both files.</seg>
+<doc sysid="ref" docid="344" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List .log files from the current directory tree</seg>
+<doc sysid="ref" docid="345" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all .jpg files in the home directory tree</seg>
+<doc sysid="ref" docid="346" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all .jpg files in the home directory tree</seg>
+<doc sysid="ref" docid="347" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all .jpg files in the home directory tree in a fast way</seg>
+<doc sysid="ref" docid="348" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all .svn files/directories under current directory</seg>
+<doc sysid="ref" docid="349" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all .svn files/directories under current directory</seg>
+<doc sysid="ref" docid="350" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all files and directories in long list format with a time style of "long-iso" and sort from oldest modifed to newest modified</seg>
+<doc sysid="ref" docid="351" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all files/directories under current directory</seg>
+<doc sysid="ref" docid="352" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all files/directories under current directory with 'FooBar' in their names ensuring white space safety</seg>
+<doc sysid="ref" docid="353" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all files in the current directory tree larger than 1000 kb</seg>
+<doc sysid="ref" docid="354" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all files under current directory with their sizes and paths</seg>
+<doc sysid="ref" docid="355" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all IPV4 addresses found in all files under /etc directory</seg>
+<doc sysid="ref" docid="356" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all regular files from the current directory tree that were modified less than 60 minutes ago</seg>
+<doc sysid="ref" docid="357" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all regular files from the current directory tree that were modified less than 60 minutes ago</seg>
+<doc sysid="ref" docid="358" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List all SGID and SUID files in entire file system</seg>
+<doc sysid="ref" docid="359" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List files and directories recursively</seg>
+<doc sysid="ref" docid="360" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List files in "dir1" that are not in "dir2"</seg>
+<doc sysid="ref" docid="361" genre="commands_nl2bash" origlang="nl">
+<seg id="1">List the full path of each directory in the current working directory</seg>
+<doc sysid="ref" docid="362" genre="commands_nl2bash" origlang="nl">
+<seg id="1">list regular files ending in .mbox</seg>
+<doc sysid="ref" docid="363" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Locate all *.mov files in the current directory tree</seg>
+<doc sysid="ref" docid="364" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Locate all files in the current directory and below that have "testfile" in their names</seg>
+<doc sysid="ref" docid="365" genre="commands_nl2bash" origlang="nl">
+<seg id="1">long list the detials of all the shell scripts in current directory</seg>
+<doc sysid="ref" docid="366" genre="commands_nl2bash" origlang="nl">
+<seg id="1">looks for all files larger than 10 megabytes (10485760 bytes) within /home</seg>
+<doc sysid="ref" docid="367" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Make directory "/tmp/foo"</seg>
+<doc sysid="ref" docid="368" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Make directories to "directory{1..3}/subdirectory{1..3}/subsubdirectory{1..2}" as needed</seg>
+<doc sysid="ref" docid="369" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Merge lines from "file_1" and "file_2" and format the output as a table with tab separators</seg>
+<doc sysid="ref" docid="370" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Modify interval to 0.1 seconds for the watch command</seg>
+<doc sysid="ref" docid="371" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Mount "nifs" filesystem "/dev/mapper/myldm" on "/mnt" as read only</seg>
+<doc sysid="ref" docid="372" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Mount partition with label "WHITE" on "/mnt/WHITE"</seg>
+<doc sysid="ref" docid="373" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Mount partition with label "WHITE" on "/mnt/WHITE" with read and write permission and have it accessible by user and group "test"</seg>
+<doc sysid="ref" docid="374" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Move all *.pdf.marker files and their corresponding *.pdf files under ${INPUT} to ${OUTPUT}</seg>
+<doc sysid="ref" docid="375" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Move all files excluding hidden files in "/path/subfolder/" to "/path/"</seg>
+<doc sysid="ref" docid="376" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Move each of the directories in /path/to/folders/* to another directory whose name is constituted by appending .mbox to each directory name and create a directory named Messages in this directory then move all *.emlx files into this directory</seg>
+<doc sysid="ref" docid="377" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Move files from $sourcePath to $destPath that have not been modified in the last 10 days</seg>
+<doc sysid="ref" docid="378" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Numerically sort file "file.dat" by the second word of each line and output from greatest value to least value</seg>
+<doc sysid="ref" docid="379" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Numerically sort file "file.dat" by the second word of each line and output from greatest value to least value</seg>
+<doc sysid="ref" docid="380" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Open gcc info manual and select "option index" menu entry.</seg>
+<doc sysid="ref" docid="381" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Opens gcc info manual and selects "option index" menu entry.</seg>
+<doc sysid="ref" docid="382" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Perform case-insensitive search for file `TeSt123.txt' on the system</seg>
+<doc sysid="ref" docid="383" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu precise main" and append to file "/etc/apt/sources.list"</seg>
+<doc sysid="ref" docid="384" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print 'file' content, formatting output as 29-symbol wide column</seg>
+<doc sysid="ref" docid="385" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print 1 byte from "/dev/urandom" as a signed decimal value and no address radix</seg>
+<doc sysid="ref" docid="386" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print a list of all *.code files from the current directory tree</seg>
+<doc sysid="ref" docid="387" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print a list of regular files from directory tree sort_test/ sorted with LC_COLLATE=en_US.UTF-8</seg>
+<doc sysid="ref" docid="388" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print a list of regular files from directory tree sort_test/ sorted with LC_COLLATE=en_US.utf8</seg>
+<doc sysid="ref" docid="389" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print a list of unique users who are logged in</seg>
+<doc sysid="ref" docid="390" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print a randomly sorted list of numbers from 1 to 10 to file "/tmp/lst" and outputs "-------" followed by the reverse list to the screen</seg>
+<doc sysid="ref" docid="391" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print a space separated list of numbers from 1 to 10</seg>
+<doc sysid="ref" docid="392" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print absolute path of "PATH"</seg>
+<doc sysid="ref" docid="393" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Prints all business days in a current month.</seg>
+<doc sysid="ref" docid="394" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print common files of directory "1" and "2"</seg>
+<doc sysid="ref" docid="395" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the contents of "order.txt"</seg>
+<doc sysid="ref" docid="396" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print count of unique lines in all files like 'list_part*'</seg>
+<doc sysid="ref" docid="397" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print current date as epoch seconds</seg>
+<doc sysid="ref" docid="398" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the current directory tree with the date of last modification for each file or directory</seg>
+<doc sysid="ref" docid="399" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print details for all files in the ./work directory tree with extension .sh that were modified less than 20 days ago</seg>
+<doc sysid="ref" docid="400" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print differences between the sorted content of file $1 and file $2, executing 'diff' with options from "${@:3}" array slice</seg>
+<doc sysid="ref" docid="401" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print directories in the the current directory as a list with no report information</seg>
+<doc sysid="ref" docid="402" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print each line in "set1" and "set2" that does not exist in the other</seg>
+<doc sysid="ref" docid="403" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the file content of command "[whatever]"</seg>
+<doc sysid="ref" docid="404" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print files created/modified in the last day</seg>
+<doc sysid="ref" docid="405" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print first 11 characters from $line, print a tab, print the md5 sum of the file specified by the 13th and onward characters from $line and print a null character at end without a trailing new line</seg>
+<doc sysid="ref" docid="406" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print first field from semicolon-seprated line $string.</seg>
+<doc sysid="ref" docid="407" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print flow of random data, showing all non-printing characters</seg>
+<doc sysid="ref" docid="408" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the full path of a file under the current working directory with inode number specified on standard input</seg>
+<doc sysid="ref" docid="409" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the full path of executable "lshw"</seg>
+<doc sysid="ref" docid="410" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Prints full path to files with dot in name in a current folder.</seg>
+<doc sysid="ref" docid="411" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the given file name's extensions.</seg>
+<doc sysid="ref" docid="412" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the largest 20 files under current directory</seg>
+<doc sysid="ref" docid="413" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the largest 20 files under current directory</seg>
+<doc sysid="ref" docid="414" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print last 10 commands in history</seg>
+<doc sysid="ref" docid="415" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the last 10 commands in history</seg>
+<doc sysid="ref" docid="416" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the last 10 commands in history</seg>
+<doc sysid="ref" docid="417" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the last 10 commands in history</seg>
+<doc sysid="ref" docid="418" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print line number of each line in /etc/passwd file, where current user name is found</seg>
+<doc sysid="ref" docid="419" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the list of files in the current directory tree excluding those whose paths contain "exclude3" or "exclude4"</seg>
+<doc sysid="ref" docid="420" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the list of regular files from the current directory tree that were modified less than 2 days ago</seg>
+<doc sysid="ref" docid="421" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Prints logged in users in sorted order.</seg>
+<doc sysid="ref" docid="422" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Prints long listing of the current directory and top-level directories within, sorted from oldest to newest, with appended indicators.</seg>
+<doc sysid="ref" docid="423" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Prints long listing of the current directory, sorted from oldest to newest, with appended indicators.</seg>
+<doc sysid="ref" docid="424" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the most repeated line in "list2.txt" that exists in "list1.txt" prefixed by the number of occurrences</seg>
+<doc sysid="ref" docid="425" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the names of the directories from the paths expanded by the glob pattern /path/to/directory/*</seg>
+<doc sysid="ref" docid="426" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the names of the directories from the paths expanded by the glob pattern /path/to/directory/*</seg>
+<doc sysid="ref" docid="427" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the names of the directories from the paths expanded by the glob pattern /path/to/directory/*</seg>
+<doc sysid="ref" docid="428" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print nothing because 'MYVAR' string doesn`t match with '/[^/]+:' pattern</seg>
+<doc sysid="ref" docid="429" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the number of lines for each *.txt file from the $DIR directory tree</seg>
+<doc sysid="ref" docid="430" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print only common strings in content of files 'file1.sorted' and 'file2.sorted'</seg>
+<doc sysid="ref" docid="431" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Prints only unique strings of those stored in variables $COMMANDS and $ALIASES.</seg>
+<doc sysid="ref" docid="432" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Prints sizes of all top-level folders in a current folder with human-readable format and descending order.</seg>
+<doc sysid="ref" docid="433" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Prints string "0 1 * * * /root/test.sh" to the terminal, and append it to file '/var/spool/cron/root'</seg>
+<doc sysid="ref" docid="434" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Prints strings with text "texthere" in all files recursively in a current folder.</seg>
+<doc sysid="ref" docid="435" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print the text file paths that match 'needle text' in their contents under 'my_folder' recursively</seg>
+<doc sysid="ref" docid="436" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print unique lines of sorted "File 1" compared with sorted "File 2"</seg>
+<doc sysid="ref" docid="437" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print unique lines of sorted file "A.txt" compared to sorted file "B.txt"</seg>
+<doc sysid="ref" docid="438" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print unique lines of sorted file "A.txt" compared to sorted file "B.txt"</seg>
+<doc sysid="ref" docid="439" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Prints what day it was 222 days ago</seg>
+<doc sysid="ref" docid="440" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print which files differ in "/tmp/dir1" and "/tmp/dir2" recursively</seg>
+<doc sysid="ref" docid="441" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Print your/dir if it's empty</seg>
+<doc sysid="ref" docid="442" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Process each file beginning with "file" in the current directory as an argument to "bash script.sh"</seg>
+<doc sysid="ref" docid="443" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Puts the job 1 in the background.</seg>
+<doc sysid="ref" docid="444" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Read a line from standard input and save each word in the bash array variable "arr"</seg>
+<doc sysid="ref" docid="445" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Read a line from standard input into variable "message" with escaped prompt "Please Enter a Message: \n\b"</seg>
+<doc sysid="ref" docid="446" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Read the first line of output from "du -s $i" into variable "k" in ksh</seg>
+<doc sysid="ref" docid="447" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Read standard input and replace any repeated characters except spaces with a single instance</seg>
+<doc sysid="ref" docid="448" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Read standard input until a null character is found and save the result in variable "f2"</seg>
+<doc sysid="ref" docid="449" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively changes group ownership of everything within a '/path/to/repo' to 'GROUP'.</seg>
+<doc sysid="ref" docid="450" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively changes group ownership of everything within a current folder to 'admin'.</seg>
+<doc sysid="ref" docid="451" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively change owner of all files in "folder" to "user_name"</seg>
+<doc sysid="ref" docid="452" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively change the owner to "$USER" and group to "$GROUP" of "/var/lib/cassandra"</seg>
+<doc sysid="ref" docid="453" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively change the owner to "${JBOSS_USER}" of "$JBOSS_LOG_DIR"</seg>
+<doc sysid="ref" docid="454" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively copy "emptydir" to "destination/newdir"</seg>
+<doc sysid="ref" docid="455" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively copy /path/foo on host "prod" to local directory "/home/user/Desktop", connecting as ssh username corresponding to local username.</seg>
+<doc sysid="ref" docid="456" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively copy all files with names ending with .txt from dir_1 to the same location within copy_of_dir_1</seg>
+<doc sysid="ref" docid="457" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively copy local file/directory "/copy/from/path" to remote location "/copy/to/path" on host "server", connecting as ssh user "user" and using identity key file "/path/to/your/.pemkey" instead of the default in ~/.ssh/</seg>
+<doc sysid="ref" docid="458" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively from current folder searches only files that names match ".*xxx" pattern, ignores binary files and prints file name before every string that contains "my Text to grep".</seg>
+<doc sysid="ref" docid="459" genre="commands_nl2bash" origlang="nl">
+<seg id="1">recursively look for files ending in either .py or .py.server</seg>
+<doc sysid="ref" docid="460" genre="commands_nl2bash" origlang="nl">
+<seg id="1">recursively look for files ending in either .py or .py.server</seg>
+<doc sysid="ref" docid="461" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively print all files and directories in the current directory tree including hidden files</seg>
+<doc sysid="ref" docid="462" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively search current directory for all files with name ending with ".t1", change this to .t2</seg>
+<doc sysid="ref" docid="463" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively search for everything under the current directory, displaying human-readable file type description for each entry.</seg>
+<doc sysid="ref" docid="464" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively set all permissions under "../tools" to 777</seg>
+<doc sysid="ref" docid="465" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Recursively set all permissions under "/whatever/your/directory/is" to 755</seg>
+<doc sysid="ref" docid="466" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Reformat date "Sat Aug 09 13:37:14 2014 +1100" according to format string "%a %b %d %H:%M:%S %Y %z"</seg>
+<doc sysid="ref" docid="467" genre="commands_nl2bash" origlang="nl">
+<seg id="1">remote copy all text files from one location to another</seg>
+<doc sysid="ref" docid="468" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remount "/system" with read and write permission</seg>
+<doc sysid="ref" docid="469" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remount "/system" with read and write permission</seg>
+<doc sysid="ref" docid="470" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remount "yaffs2" filesystem "/dev/block/mtdblk4" to "/system" as read and write only</seg>
+<doc sysid="ref" docid="471" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Removes '/var/lib/mongodb/mongod.lock' in 'sudo' mode.</seg>
+<doc sysid="ref" docid="472" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Removes 'foo' file.</seg>
+<doc sysid="ref" docid="473" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all *.swp files under current directory ensuring white space safety</seg>
+<doc sysid="ref" docid="474" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all .txt files from the /full/path/dir directory tree</seg>
+<doc sysid="ref" docid="475" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all .txt files from the /full/path/dir directory tree</seg>
+<doc sysid="ref" docid="476" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all directories in and below the current directory</seg>
+<doc sysid="ref" docid="477" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Removes all empty folders under path '/foo/bar' and the path itself.</seg>
+<doc sysid="ref" docid="478" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all files and directories called "test" from the current directory tree</seg>
+<doc sysid="ref" docid="479" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all files and directories called "test" from the current directory tree</seg>
+<doc sysid="ref" docid="480" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all files and directories called "test" from the current directory tree</seg>
+<doc sysid="ref" docid="481" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Removes all files but $1 newest ones from current folder.</seg>
+<doc sysid="ref" docid="482" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Removes all files from current folder but 3 newest ones</seg>
+<doc sysid="ref" docid="483" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all files named `junk' and `dummy'</seg>
+<doc sysid="ref" docid="484" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all files that end with 'prefs copy' in their names under '/mnt/zip' directory tree</seg>
+<doc sysid="ref" docid="485" genre="commands_nl2bash" origlang="nl">
+<seg id="1">remove all the log files which have not been modified in the last 5 days</seg>
+<doc sysid="ref" docid="486" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all regular files from the current directory tree that were modified a day ago</seg>
+<doc sysid="ref" docid="487" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove all vmware-*.log files/directories under current directory</seg>
+<doc sysid="ref" docid="488" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove duplicates in variable "variable" and preserve the order</seg>
+<doc sysid="ref" docid="489" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Removes empty folder 'symlink'.</seg>
+<doc sysid="ref" docid="490" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove files in current directory according to the filenames found in ~/clang+llvm-3.3/bin/</seg>
+<doc sysid="ref" docid="491" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Removes files ~/.android/adbkey and ~/.android/adbkey.pub without prompting.</seg>
+<doc sysid="ref" docid="492" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove the first 13 characters of each ".txt" filename in the "/tmp" directory tree and number the output</seg>
+<doc sysid="ref" docid="493" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove the first 7 characters of every line in the output of "history"</seg>
+<doc sysid="ref" docid="494" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove the last 3 characters from 987654321, keeping only 987654</seg>
+<doc sysid="ref" docid="495" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Removes only lowest level subfolders from current directory tree (folders without files and another folders within).</seg>
+<doc sysid="ref" docid="496" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove the passphrase from user's ssh key without prompting.</seg>
+<doc sysid="ref" docid="497" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove the regular files from the current directory tree that are newer than /tmp/date.start but not newer than /tmp/date.end</seg>
+<doc sysid="ref" docid="498" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Remove regular files in the current directory tree</seg>
+<doc sysid="ref" docid="499" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Rename all .html files to .txt</seg>
+<doc sysid="ref" docid="500" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Replace all sequence of 'blank' characters in file 'log' with a single occurence of such symbol and print space-separated fields of each string but first two fields</seg>
+<doc sysid="ref" docid="501" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Reports count of characters in the value of ${FOO_NO_LEAD_SPACE} variable as follows: "length(FOO_NO_LEAD_SPACE)==<counted number of characters>"</seg>
+<doc sysid="ref" docid="502" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Report file system containing path-to-file disk usage human-readable.</seg>
+<doc sysid="ref" docid="503" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Report root file system disk usage human-readable.</seg>
+<doc sysid="ref" docid="504" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Returns 0 if user $1 belongs to group $2.</seg>
+<doc sysid="ref" docid="505" genre="commands_nl2bash" origlang="nl">
+<seg id="1">return every file that does not have bar somewhere in its full pathname</seg>
+<doc sysid="ref" docid="506" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Run a shell with all environment variables specified in the file 'cronenv' in the user's home directory.</seg>
+<doc sysid="ref" docid="507" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Save a nginx link to "/path/to/file" with the current user and system FQDN host name in variable "path"</seg>
+<doc sysid="ref" docid="508" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Save a space separated list of process ids of currently running jobs to variable 'bgxjobs'</seg>
+<doc sysid="ref" docid="509" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Save absolute path of the script filename in variable "MY_PATH"</seg>
+<doc sysid="ref" docid="510" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Saves calendar of $month, $year in the 'cal' variable.</seg>
+<doc sysid="ref" docid="511" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Save the directory name of the current bash script to variable "path" if it is found in one of the directories specified by PATH.</seg>
+<doc sysid="ref" docid="512" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Saves listing of a current folder in 'var' variable.</seg>
+<doc sysid="ref" docid="513" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Saves list of logged in users in system together with 'USER' header in the 'b' variable.</seg>
+<doc sysid="ref" docid="514" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Saves number of lines of current directory listing in 'n_max' variable.</seg>
+<doc sysid="ref" docid="515" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the "your/dir" directory for empty subdirectories</seg>
+<doc sysid="ref" docid="516" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the `images' directory tree for regular files</seg>
+<doc sysid="ref" docid="517" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the /Path directory tree for files matching pattern "file_name*" and containing "bar" in their pathnames</seg>
+<doc sysid="ref" docid="518" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the /path directory tree for files matching pattern '*.foo'</seg>
+<doc sysid="ref" docid="519" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search /usr/local recursively for directories whose names end with a number 0-9</seg>
+<doc sysid="ref" docid="520" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search all .java files residing in the current directory tree and modified at least 7 days ago for string "swt"</seg>
+<doc sysid="ref" docid="521" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search  all directory from /usr downwards for files whose inode number is 1234 and print them .</seg>
+<doc sysid="ref" docid="522" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search  all files & directoy from root directory which  are greater then 100M and delete them .</seg>
+<doc sysid="ref" docid="523" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search all files in the current directory tree that are named "whatever" for "whatever"</seg>
+<doc sysid="ref" docid="524" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search all files in the current directory tree whose names contain "." for "SearchString"</seg>
+<doc sysid="ref" docid="525" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search all files in the current folder which match the regular expression</seg>
+<doc sysid="ref" docid="526" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search all jpg images in current folder and rename them</seg>
+<doc sysid="ref" docid="527" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search all non-hidden files in the current directory and all non-hidden sub-directories for the file hi.dat.</seg>
+<doc sysid="ref" docid="528" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the bla directory recursively for *.so files</seg>
+<doc sysid="ref" docid="529" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory and all of its sub-directory for any PDF files being careful to prevent the shell from expanding anything in '*.pdf'  before it'ss passed to find.</seg>
+<doc sysid="ref" docid="530" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory recursively for files containing "needle text"</seg>
+<doc sysid="ref" docid="531" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory recursively for files containing "needle text"</seg>
+<doc sysid="ref" docid="532" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory recursively for files containing "needle text"</seg>
+<doc sysid="ref" docid="533" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory recursively for files containing "needle text"</seg>
+<doc sysid="ref" docid="534" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory recursively for regular files last modified more than 2 days ago</seg>
+<doc sysid="ref" docid="535" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory tree for all regular non-hidden files except *.o</seg>
+<doc sysid="ref" docid="536" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory tree for files whose names begin with "my" and end with "p" followed by any character, ignoring path names containing "test"</seg>
+<doc sysid="ref" docid="537" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory tree for files whose name is ".note", case insensitive</seg>
+<doc sysid="ref" docid="538" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory tree for files whose name is ".note", case insensitive</seg>
+<doc sysid="ref" docid="539" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory tree for files whose name is ".note", case insensitive</seg>
+<doc sysid="ref" docid="540" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory tree for files whose names do not end in ".exe" and ".dll"</seg>
+<doc sysid="ref" docid="541" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory tree for files whose names do not end in ".exe" and ".dll"</seg>
+<doc sysid="ref" docid="542" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the current directory tree for symbolic links named "link1"</seg>
+<doc sysid="ref" docid="543" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search directory trees foo and bar for .java files</seg>
+<doc sysid="ref" docid="544" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the entire file hierarchy for files ending in '.old' and delete them.</seg>
+<doc sysid="ref" docid="545" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the entire file hierarchy for files ending in '.old' and delete them.</seg>
+<doc sysid="ref" docid="546" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the files from the current directory tree for "foo"</seg>
+<doc sysid="ref" docid="547" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the files from the current directory tree for "foo"</seg>
+<doc sysid="ref" docid="548" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the files from the current directory tree for "foo"</seg>
+<doc sysid="ref" docid="549" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for 'Text To Find' in all regular files under current directory tree and show the matched files</seg>
+<doc sysid="ref" docid="550" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for 'birthday' (case insensitive) in all regular files under ~/Documents directory tree and show only the filenames</seg>
+<doc sysid="ref" docid="551" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for 'foo' in all the java files under 'dir1', 'dir2' and 'dir3' directory tree and print only the names of the matched files</seg>
+<doc sysid="ref" docid="552" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for 'string-to-find' in all HTML files under current directory tree and show the matched lines with their filenames</seg>
+<doc sysid="ref" docid="553" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for 'stuff' in all *,txt files under current directory</seg>
+<doc sysid="ref" docid="554" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for .pdf files</seg>
+<doc sysid="ref" docid="555" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for Subscription.java under current directory, and go to directory containing it.</seg>
+<doc sysid="ref" docid="556" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search for all "tif" images in current folder</seg>
+<doc sysid="ref" docid="557" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for all .mp3 files in the /mnt/usb directory tree</seg>
+<doc sysid="ref" docid="558" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for all files in the current directory recursively whose names contain "linkin park", ignoring the case</seg>
+<doc sysid="ref" docid="559" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search for all the files in the folder /data/images which have been modified after /tmp/start and before /tmp/end</seg>
+<doc sysid="ref" docid="560" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for the case insensitive regex 'STRING_TO_SEARCH_FOR' in all files under current directory</seg>
+<doc sysid="ref" docid="561" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search for the file "job.history" in the folder /data/Spoolln and search for multiple patterns in the file and display the count of matched lines along with the pattern</seg>
+<doc sysid="ref" docid="562" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search for the file "name_to_find" in the home folder</seg>
+<doc sysid="ref" docid="563" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search for the file, filename.txt in the folder /home</seg>
+<doc sysid="ref" docid="564" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for the regex $greppattern in all files with '.c' or '.h' extension under $searchpath with name pattern $filepat and show the matched line numbers, file names and matched lines</seg>
+<doc sysid="ref" docid="565" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search for the string 'magic' in all regular files under current directory tree and display long listing of them</seg>
+<doc sysid="ref" docid="566" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search for text files in the current folder which have write access to others</seg>
+<doc sysid="ref" docid="567" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search for the word "foo" in all the regular/normal files in the directory "/path/to/dir"</seg>
+<doc sysid="ref" docid="568" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search for the word "foo" in all the regular/normal files in the directory "/path/to/dir"</seg>
+<doc sysid="ref" docid="569" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search for the word "foo" in all the regular/normal files with the name "file-pattern" in the directory "/path/to/dir"</seg>
+<doc sysid="ref" docid="570" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search for the word text in all the python files in the current folder</seg>
+<doc sysid="ref" docid="571" genre="commands_nl2bash" origlang="nl">
+<seg id="1">search in the current folder for the files that begin with "myletter"</seg>
+<doc sysid="ref" docid="572" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Searches the manual page names and descriptions</seg>
+<doc sysid="ref" docid="573" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the system for directories named "needle"</seg>
+<doc sysid="ref" docid="574" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Search the system for the file “testfile.txt” ignoring the case</seg>
+<doc sysid="ref" docid="575" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Send 4 ping packets of size 2 to "www.google.com" on a Solaris machine</seg>
+<doc sysid="ref" docid="576" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Set 644 permission to all regular files under current directory</seg>
+<doc sysid="ref" docid="577" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Set 644 permission to all regular files under current directory</seg>
+<doc sysid="ref" docid="578" genre="commands_nl2bash" origlang="nl">
+<seg id="1">set a crontab to create or update the timestamp of "washere2" in the current directory every 30 minutes.</seg>
+<doc sysid="ref" docid="579" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Set the bash environmental variable "PROMPT_COMMAND" to save the output of the last executed command to variable "LAST" and file '/tmp/x"</seg>
+<doc sysid="ref" docid="580" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Set permissions to 600 for regular files under media/</seg>
+<doc sysid="ref" docid="581" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Set permissions to ug=rw,o= for files inside the ./default/files tree</seg>
+<doc sysid="ref" docid="582" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Set the setup connection timeout to 3 seconds for connecting to "user@ip" via ssh</seg>
+<doc sysid="ref" docid="583" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Set timestamp of old_file.dat to specified timestamp.</seg>
+<doc sysid="ref" docid="584" genre="commands_nl2bash" origlang="nl">
+<seg id="1">(GNU specific) Set variable LINE to full process info of process currently taking the most CPU time, squeezing multiple consecutive spaces into one.</seg>
+<doc sysid="ref" docid="585" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Show the number of lines for each PHP file in the current directory tree</seg>
+<doc sysid="ref" docid="586" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Silently read $char number of symbols from file descriptor 4, without backslash escaping, and store received input in 'line' variable</seg>
+<doc sysid="ref" docid="587" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Sort all files/directories under current directory according to modification time and print only the recent 7 of them</seg>
+<doc sysid="ref" docid="588" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Sort and display the file name and creation month of top 11 files in the entire file system (Sort in the order of month )</seg>
+<doc sysid="ref" docid="589" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Split "domains.xml" into files of at most 50000 lines each with a numeric suffix of length 4 and prefix of "domains_"</seg>
+<doc sysid="ref" docid="590" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Split "file.txt" into files of at most 1 MiB in size with a numeric suffix and prefix "file"</seg>
+<doc sysid="ref" docid="591" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Split "filename" into files of at most 200000 lines each</seg>
+<doc sysid="ref" docid="592" genre="commands_nl2bash" origlang="nl">
+<seg id="1">split content all files file1..40000 into pieces per 1445 lines named as outputprefixNNN as digital prefix</seg>
+<doc sysid="ref" docid="593" genre="commands_nl2bash" origlang="nl">
+<seg id="1">split file abc.txt into pieces per 1500000000 bytes named as "abc.NNN"</seg>
+<doc sysid="ref" docid="594" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh into "hostname" as user "buck"</seg>
+<doc sysid="ref" docid="595" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh into "hostname" as user "buck"</seg>
+<doc sysid="ref" docid="596" genre="commands_nl2bash" origlang="nl">
+<seg id="1">SSH into "hostname" on port 22 as user "myName"</seg>
+<doc sysid="ref" docid="597" genre="commands_nl2bash" origlang="nl">
+<seg id="1">SSH into "hostname" on port 22 as user "myName"</seg>
+<doc sysid="ref" docid="598" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh into "ssh.myhost.net" as user "myusername" and run command "mkdir -p $2"</seg>
+<doc sysid="ref" docid="599" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh into localhost on port 10022</seg>
+<doc sysid="ref" docid="600" genre="commands_nl2bash" origlang="nl">
+<seg id="1">SSH into user@server and run command ${SSH_COMMAND}</seg>
+<doc sysid="ref" docid="601" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Strips last section from the path $pathname, and prints basename of the rest part.</seg>
+<doc sysid="ref" docid="602" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Test if "file.tar.gz" is corrupt</seg>
+<doc sysid="ref" docid="603" genre="commands_nl2bash" origlang="nl">
+<seg id="1">Unzip file "$empty_variable"</seg>
+<doc sysid="ref" docid="604" genre="commands_nl2bash" origlang="nl">
+<seg id="1">(GNU specific) Use 'top' to monitor one process.</seg>
+<doc sysid="ref" docid="605" genre="commands_nl2bash" origlang="nl">
+<seg id="1">use find command to search for .png and .jpg files</seg>
+<doc sysid="ref" docid="606" genre="commands_nl2bash" origlang="nl">
+<seg id="1">when using vi-insert keymap bind command "\C-v{}\ei" to key "{"</seg>

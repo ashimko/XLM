@@ -1,0 +1,608 @@
+find -name ' * .php '
+whoami
+find . | xargs echo
+file -i filename
+find / -user root
+find / -readable
+mkdir mybuild
+mv old tmp
+find -iname " * .jpg "
+find . -lname " * "
+echo ' whoami '
+find -name " * text "
+find $ something
+find . -links 1
+find -name filename
+find . -name ' * .jpg '
+find / -name local -type d
+find -name test2 -prune
+find / -type f ! -perm 644
+readlink ' pwd '
+read -n 1 c
+chmod -R 755 / directory
+find . -name \ * .c -print0
+bind -p | grep -a forward
+find / -name " * .txt "
+find / home / foo -name " * .gz "
+gzip -l $ i
+cat --help
+find . -name " $ pattern "
+find $ target -type f -iname " * .txt "
+du -sb
+od -t c file
+find . -name ' * .gz '
+find * -name " * .java "
+find / -name arrow.jpg
+tree -L 2
+rmdir ed *
+find . -perm 775 -print
+chmod + x pretty-print
+chmod + x rr.sh
+find / myDir -type d -delete
+find -mtime -1
+find . -name " D " -type d
+find . ... -print -quit
+bind -l | grep /
+find / -name passwd
+mv * / foo
+basename ' pwd '
+pwd | xargs basename
+pstree -p user
+find dir -name \ \ * ~ -exec rm { } +
+myVar = $ ( tee )
+find -type f -user www
+find . -type d -name aa
+mount -l
+find . -name ' * shp * '
+find . / -type d -name ' D '
+find -type d | xargs chmod 775
+find . | xargs wc -l
+find . -type s
+md5sum file * .txt
+mount | column -t
+find . -type f -exec basename { } \ ;
+sort filename | uniq -c
+basename $ ( pwd )
+echo " dirname : ' dirname $ 0 ' "
+date + " % T "
+history -w
+find $ 1 -type f -name ' * ' $ n ' .txt '
+uname -s -r -v
+find . -maxdepth 1 -type d -print0
+find -name photo.jpg
+find ~ -size 100M
+find . -type f -exec ls -l ' { } ' \ ;
+mv ' ls ' / foo
+basename " ' pwd ' "
+~ $ . trap.sh | cat
+ls -l | head -2 | tail -1
+find . -prune
+cp -r $ 1 $ 2
+find -L .
+find . -name " * .txt " -prune -o -print
+uname -o
+find jcho -name 2 * .data
+find . -print0 | xargs -I { } -0 echo { }
+find ~ -iname ' * .tex '
+find / home -group developer
+find " $ musicdir " -type f -print
+find . -name " foo . * "
+find / -name grub.conf
+echo " dirname : ' dirname " $ 0 " ' "
+echo ' date -v-1d + % F '
+pstree -p
+who -la
+echo " ' pwd -P ' "
+history | grep " 840 "
+find / -iname ' * python * '
+find / -name ' * python * '
+find . -name * -exec ls -a { } \ ;
+find -type d exec chmod 775 { } +
+find . | sort
+find . -type f -iname ' * .jpg ' -print0
+find / path -perm -022
+find ~ / src -newer main.css
+find / -inum 199053
+find -name ' * .jpg ' | sort -n
+ls -l | tail -n + 2 | head -n1
+find -name " * " | xargs rm -f
+su -l builder
+find . -type d -exec chmod 777 { } \ ;
+find -name " * .cpp " -o -name " * .c "
+find . -size -10k
+find . -type f -atime 1
+find ~ -mtime 1 -daystart
+find / -name " dir-name-here "
+find / path -perm -go + w
+find . / -name " * .sqlite " -ls
+dirname ' pwd -P '
+find . -type f -mtime + 3 -exec rm -f { } \ ;
+ssh " $ 1 " -l pete
+ln -s .bashrc test
+find . -mtime 0 -type f
+ls | column -c 80
+shopt -s lithist
+shopt -s nocasematch
+shopt -s progcomp
+find -amin -60
+find . -name \ * \ : \ *
+ls | sort -f | uniq -i -d
+cut -d \ -f 2
+CAT = ' which cat '
+find -name file -quit
+find / -group managers -print
+cp -n
+find . -type d -exec ls -dlrt { } \ ; | wc --lines
+find / usr / share \ ! -type d wc -l
+find . -user tommye
+find / path -perm -022
+find / var / www / -type f -iname " * .php " -print
+find dir1 ! -type d | xargs wc -c
+paste -d , -s file
+echo " $ ( basename $ ( pwd ) ) "
+cal 02 1956
+pstree | cat
+cut -d ' ' -f 2
+read -r ans
+rm * * / * .pyc
+find . -name libGLE * | xargs rm -f
+find / nfs / office -name .user.log -print
+read -n1 -s
+ifconfig eth0 down
+find root -mindepth 2 -type d -empty -delete
+who | grep $ USER
+find . -mtime -1 -ls
+find / -uid 1005
+tree -p -u -g -f
+echo " $ url " | cut -d ' / ' -f3
+find $ parentdir -name $ tofind *
+find / path -perm -go + w
+find / home -type d -perm 777 -print -exec chmod 755 { } \ ;
+find / path -perm -g + w , o + w
+find . -mtime -3 -exec rm -rf { } \ ;
+column -t -s ' ' filename
+find . -print0 | xargs -0
+ls * * / * .py * * / * .html
+find . -type f -size + 1M -exec rm { } +
+mv file001abc.txt abc1.txt
+f = $ ( cat numbers.txt )
+find . -type f -print | xargs grep " example "
+find / home -type f -perm 0777 -print
+find . -name " S1A * 1S * SAFE "
+find . -type f | xargs grep whatever
+split -n l / 10 file
+find . -name ' * .doc '
+sudo find foldername -type d -exec chmod 755 { } " ; "
+find . -iname " photo.jpg "
+find . -atime + 30 -print
+find . | sort -f | uniq -i -d
+pwd | grep -o ' [ ^ / ] * $ '
+echo < ( yes )
+find . -name ' * .doc ' -exec rm " { } " \ ;
+ip = $ ( hostname -I )
+find $ path -type f -name " * . $ extension "
+find . -type f | xargs grep " magic "
+find . -type f -exec grep " foo " ' { } ' \ ;
+find . -name " * ITM * '
+find / mnt / raid -type d -print
+zcat tarball.tar.gz | tar x
+find -name " * .php " -exec cp { } { } .bak \ ;
+cp --remove-destination ' readlink file ' file
+find . -name ' * .doc ' -exec rm " { } " \ ;
+find . -type f -atime + 1
+file utf8.txt
+shopt -s nocaseglob
+find -regex ' . * \ . \ ( c \ | cpp \ ) '
+find / home / myuser -mtime + 7 -print
+cat ' find . -name aaa.txt '
+find / path -type f -print0 | xargs -0 md5sum
+find / -mtime + 50 -mtime -100
+find . -size -500k
+find wordpress -name ' * js '
+find -mindepth 3 -maxdepth 5 -name passwd
+find -mindepth 3 -maxdepth 5 -name passw
+tail -1 < ( sort set )
+read -p " $ * "
+grep -RIl " " .
+rm ' find . -name \ * .pyc '
+grep -iH foo ' find . -name " * .js " '
+uname -m | grep ' 64 '
+find . -mtime -1 | xargs ls -ld
+find / -group lighttpd -print
+find . -type f -atime 7
+find / -name ' * .txt ' -exec du -hc { } \ ;
+find / -type d -perm 777 -print -exec chmod 755 { } \ ;
+find / home / me / target _ dir _ 1 -type d
+find { } -type f -depth 1 -perm + 0111 | sort -r
+find / usr / local -mtime -1
+find / eserver6 -L
+find / path -perm -g + w , o + w
+find temps / -name " thumb.png "
+find ~ / -name ' core * ' -exec rm { } \
+find / -type f -perm -002 -print0
+find . / -type f -print | xargs -i mv -f { } . / newdir
+df -h /
+seq 10 | paste -sd " \ n " -
+find / tmp -maxdepth 1 -type f -delete
+find / srv / abc / -type d -empty -exec rmdir { } \ ;
+find test1 -type f -name ' textfile.txt ' -print
+find -P . -lname ' * / test * '
+date " + % Y- % m- % d "
+env - scriptname
+LBUFFER + = " $ ( date ) "
+yes | mv ...
+find -name " * .txt " cp { } { } .bkup \ ;
+find . -name " * [ 1k ] * "
+find . -type f -exec echo mv -t . { } +
+find . -user sedlav -type f
+find . -name ' * .wav ' -maxdepth 1
+find sourceDir -print0 | xargs -0 mv -t destDir
+sort file1 file2 | uniq -u
+ls -ld / tmp / tnt
+find -type f -exec grep -Iq . { } \ ; -and -print
+cat file | grep pattern | paste -sd ' '
+find . -print | xargs grep v \ $ process
+find . -type f | xargs -L 100 grep whatever
+PS1 = ' hostname " : \ W > '
+find . -perm 600 -print | xargs chmod 666
+chown -- " $ user : $ group " " $ file "
+find / myDir -mindepth 1 -mtime 7 -delete
+find / myDir -mtime 7 -exec rm -rf { } \ ;
+crontab yourFile.text
+find / \ ( -perm -006 -o -perm -007 \ ) \ ( ! -type -l \ ) -ls
+find -type d -printf ' % T + % p \ n ' | sort | head -1
+find / home / user / myusername / -name myfile.txt -print
+find . -mindepth 1 -maxdepth 1 -type f -print0 | xargs -0 -I { } echo " { } "
+ls -d -1 $ PWD / * * / *
+pwd | tr ' / ' ' \ n '
+find . -type f -not -name ' * txt ' | xargs rm
+find . -name " * .pyc " | xargs rm -rf
+find . -name ' * .pyc ' -print0 | xargs -0 rm
+sudo mount -o remount -o exec / dev / sda7
+find . -type f -exec grep -Iq . { } \ ; -and -print
+find . -name " * .js " -exec grep -iH foo { } \ ;
+find . -type f -exec grep -H whatever { } \ ;
+find / var -maxdepth 2 -type d ;
+find . -size -26c -size + 23c -ls
+du -s --block-size = M / path / to / your / directory /
+read -p $ ' Enter your age : \ n '
+full _ f = " $ ( which f ) "
+find -user root -exec chown www-data { } \ ;
+cd ' find . -name file.xml -printf % h '
+find dir -not -path ' .git ' -iname ' * .py '
+find $ d -name ' * .js ' | grep -v " "
+find . -atime + 30 -print
+find / -mount -name " * .txt "
+find / -xdev -name " * .txt "
+grep -r " searched-string " .
+find . -type f -name " Tes * " -exec ls -l { } \ ;
+mv " $ 2 " " ' dirname $ 1 ' "
+sort filename | uniq -c | sort -nr
+cat text.txt | cut -d " " -f 4
+STAMP = ' date -r file _ name '
+gzip ' find . \ ! -name ' * .gz ' -print '
+find . -name " * .zip " -mtime + 2 orint0 | xargs -0 rm
+find . -path " * .git " -prune -o -type f -print
+od -tx2 FILENAME
+find / etc -iregex ' . * xt . * '
+find ~ -iname " screen * "
+find / opt -mtime + 30 -mtime -50
+find / -type f -size + 50M -size -100M
+find / -type d -iname " project.images " -ls
+find . -type l | xargs -I % ls -l % | grep targetfile.txt
+find empty1 empty2 not _ empty -prune -empty
+find . -name " * .pyc " -exec rm -rf { } \ ;
+fif2 = $ ( mktemp -u )
+find . -path " * .git * " -prune -o -type f -print
+find . -type f -name " * .java " | xargs tar rvf myfile.tar
+find . | grep -vf file.lst
+find -newer ordinary _ file
+find " $ SOURCE " -type f -iname ' * .jpg '
+find / usr -newer / usr / FirstFile -print
+find $ FULFILLMENT -ls
+find . / -type f -print | xargs -l56 -I { } mv -f { } . / newdir
+sudo chown -R www-data : www-data / var / www
+uname -v | grep -o ' # [ 0-9 ] \ + '
+find . -name .vendor -prune -o -name ' * .rb ' -print
+find . -name " * .bash " | xargs grep " echo "
+yes | cp * / tmp
+sudo find / var / www / html / -type d -exec chmod 775 { } \ ;
+find . -name " * .zip " -mtime + 2 -print0 | xargs -0 -I { } rm { }
+find " $ some _ directory " -name ' . * ' ! -name ' . ' ! -name ' .. ' -delete
+cd ' find . -name file.xml -exec dirname { } \ ; '
+find $ HOME -name ' * .c ' -print | xargs grep -l sprintf
+find test -regex " [ course * ] " -type d
+find / etc -newer / etc / motd
+find -name " * test * " -depth
+cat dump.txt | head -16224 | tail -258
+ifconfig | grep HW
+find . -name vmware- * .log -print0 | xargs -0 rm
+yes image.png | head -n10 | xargs echo
+find . -name foo | xargs ls -tl
+find . \ ! -name " * .gz " -exec gzip { } \ ;
+find / myDir -mindepth 1 -mtime 7 -exec rm -rf { } \ ;
+find working -type f -name " * .srt " | head -1
+find . -name " * .c ' | xargs egrep stdlib.h
+find / -wholename ' / proc ' -prune -o -type f -perm -0002 -exec ls -l { } \ ;
+find / -wholename ' / proc ' -prune -o -type f -perm -0002 -exec ls -l { } \ ;
+find main-directory -type f -exec mv -v ' { } ' ' { } ' .html \ ;
+find . -type f -name ' * .zip ' -print0 | xargs -0 tar -xzf
+find / proc / $ 1 / exe -printf ' % l \ n '
+ssh user @ host -X
+find . -name " new * .sh " -exec rm -f ' { } ' \ +
+find . -name " new * .sh " -exec rm -f ' { } ' \ ;
+echo $ ( yes image.png | head -n10 )
+abspath = $ ( readlink -f $ path )
+chmod 644 ' find / home / my / special / folder -type f '
+sudo find / var / www / html / -type f -exec chmod 664 { } \ ;
+find . -type f -ok chown username { } \ ;
+find . -maxdepth 1 -type f -printf ' % TY- % Tm \ n ' | sort | uniq -c
+find . -type d -name " mydir " -exec touch ' { } / abc.txt ' \ ;
+find . - name " * " - print -<<unk>> -name " . * " - print -depth
+find / var / log / -mtime + 60 -type f -exec ls -l { } \ ;
+find / mnt / zip -name " * prefs copy " -print0 | xargs rm
+find " $ source _ dir " -name * . $ input _ file _ type
+find . / music -name " * .mp3 " -print0 | xargs -0 ls
+find . -path . / directory -prune -o -name ' * .js ' -print
+tail -n 1000 / var / spool / cron / *
+find . -name ' * .pdf ' -exec rm -f { } \ ;
+mount -o remount , size = 40G / dev / shm
+path = $ ( basename $ path )
+find / path / to / files * -mtime + 5 -exec rm { } \ ;
+size = " $ ( zcat " $ file " | wc -c ) "
+rsync -avz foo : src / bar / data / tmp
+bind ' " \ e [ 24 ~ " : " pwd \ n " '
+find / -name " oldStuff * .txt " -delete
+find / etc -size + 5M -exec ls -sh { } +
+find . -iwholename " * ACK * 1 "
+find . / -name " * .txt " | rev | cut -d ' / ' -f1 | rev
+find / var -path * / l ? ? / samba *
+who | grep -i admin | cut -c10-20
+find . -name ' * .php ' -type f -exec cat -- { } + | wc -l
+find . -name vmware- * .log | xargs -i rm -rf { }
+echo $ filename | rev | cut -f 2- -d ' . ' | rev
+find . -name ' * .java ' -newer build.xml -print
+grep foo ' find / usr / src / linux -name " * .html " '
+cp --remove-destination ' readlink bar.pdf ' bar.pdf
+watch -n10 cat / tmp / iostat.running
+find . -type f -printf " % f \ n " -name " * .jar " | sort -f | uniq -i -d
+find / home / wsuNID / -name file1.txt
+find / usr / include -type f -mtime -400 -name " * .h "
+find . -name " * .pdf " -print0 | xargs -0 rm -rf
+find / usr -name core -atime + 7 -exec rm " { } " \ ;
+find . -maxdepth 1 | grep -v " exclude these " | xargs rm -r
+join -t $ ' \ t ' file1 file2
+history | grep -C 5 ifconfig
+find . -type d -print0 | xargs -0 chmod 2775
+find / home / john -name " landof * " -type f -print
+find . -type d -print0 | xargs -0 du | sort -n | tail -10 | cut -f2 | xargs -I { } du -sh { }
+ps -e -orss = , args = | sort -nr | head
+read -e -p " My prompt : " varname
+me = $ ( readlink --canonicalize --no-newline $ 0 )
+find / home / mywebsite -type f -name " foobar.txt "
+cat file1 file2 | sort -t . -k 2.1
+diff -U 0 file1 file2 | grep -v ^ @ | wc -l
+comm -12 < ( sort file1.txt ) < ( sort file2.txt ) | wc -l
+find . -type f -name " * .java " | xargs tar cvf myfile.tar
+find . / subfolder . / subfolder / * / -maxdepth 1 -type f
+date -d @ $ TIMESTAMP
+find $ directory -type l -printf " % p $ IFS "
+find . / -name * .ogv -exec echo myfile { } \ ;
+date -d " $ ( date -d " 2 months " + % Y- % m-1 ) -1 day " + % a
+ssh-keygen -f ~ / .ssh / id _ rsa -P " "
+find / mnt / raid / upload -mtime + 5 -print
+touch -t ' date + % m % d0000 ' / tmp / $ $
+rmdir " $ ( dirname $ ( dirname $ dir ) ) "
+find * -maxdepth 0 -name ' b ' -prune -o -exec rm -rf { } \ ;
+find / usr / share / doc -name " copyright "
+join -t : < ( sort file1 ) < ( sort file2 )
+find . -name vmware- * .log -print0 | xargs -0 rm
+history | grep ifconfig -A5 -B5
+find sources -type f -exec grep -H foo { } +
+find my _ folder -type f -exec grep -l " needle text " { } \ ; -exec file { } \ ; | grep text
+kill $ PID
+rsync -avz tata / tata2 /
+sudo chown bob : sftponly / home / bob / writable
+find . -name ' * .php ' -exec chmod 755 { } \ ; -exec echo ' + ' \ ;
+find . -name ' * ' $ VERSION ' * '
+find . -atime + 1 -type f -exec mv { } TMP \ ; # mv files older then 1 day to dir TMP
+find / home / my _ dir -name ' * .txt ' | xargs grep -c ^ . *
+find / Users / Me / Desktop -readable
+find . / lib / app -type f | sort | tee myFile
+find . -type f -mtime 2 -mtime -3 -daystart -exec ls -l { } \ ;
+find . -iname ' * .pyc ' -print0 | xargs -0 --no-run-if-empty rm
+find ' pwd ' -name core -ctime + 4 -execdir / bin / rm -f { } \ ;
+find / -user olduser -type f -exec chown newuser { } \
+split --bytes = 1500000000 abc.txt abc
+bzip2 -kv * / *
+date -d @ 1278999698 + ' % Y- % m- % d % H : % M : % S '
+find * -maxdepth 0 -name ' b ' -prune -o -exec rm -rf ' { } ' ' ; '
+find . -name " * .NEF " -exec basename \ { \ } .NEF \ ;
+find $ workspace _ ts -mindepth 1 -maxdepth 1 -type d -mtime -30
+find / users / tom -name " * .pl " -name " * .pm "
+od -A n -N 2 -t u2 / dev / urandom
+ver = ' echo -ne " $ 1 \ n $ 2 " | sort -Vr | head -n1 '
+history 300 | grep scp | grep important $
+find . \ ( -name ' * .wmv ' -o -name ' * .wma ' \ ) -exec rm { } \ ;
+find / data -type f -perm 400 -exec echo Modifying { } \ ;
+find . -type f -name ' * .gz ' -printf ' % s % p \ n ' | sort -nr | head -n 1
+chgrp " $ { USER } " myprogram
+rsync -a -f " + * / " -f " - * " source / destination /
+find / tmp / -type f -mtime + 1 -exec rm { } +
+find " $ STORAGEFOLDER " -name .todo -printf ' % h \ n ' | xargs ls -l
+find / dir / to / search / -type f -name ' expression -or expression ' -print
+mkdir ~ / Labs / lab4a / folder { 1 .. 3 }
+tail -f / var / log / some.log | grep --line-buffered foo | grep bar
+basename $ ( echo " a : b : c : d : e " | tr ' : ' ' / ' )
+find / book -print | xargs grep ' [ Nn ] utshell '
+grep -ar -e . / your / dir | md5sum | cut -c-32
+find . -iname " * $ @ * " -or -iname " . * $ @ * "
+find . -name " * .java " -exec grep -Hin TODO { } + | cut -d " : " -f 1
+find / dir \ ( -name foo -prune \ ) -o \ ( -name bar -prune \ ) -o -name " * .sh " -print
+FILES = $ ( find $ FILES _ PATH -type f -name " * " )
+read -s ENTERED _ PASSWORD
+yes n | rm -ir dir1 dir2 dir3
+grep -v ' ^ \ s * $ ' * .py | wc
+find / -name composer.json -exec grep -n drush { } / dev / null \ ;
+mkdir ~ / Labs / lab4a / folder { 1,2,3 }
+PS4 = ' + $ ( date " + % s : % N " ) % N : % i > '
+find " $ STORAGEFOLDER " -name .todo -printf ' % h \ n ' | uniq | xargs ls -l
+find / apps / audit -perm -7 -print | xargs chmod o ‑ w
+dig @ some.other.ip.address domain. a
+grep -ao " [ / \ \ ] " / dev / urandom | tr -d \ \ n
+echo 123 | tee > ( tr 1 a ) | tr 1 b
+read -p " Password : " -s SSHPASS
+grep -inr " Text " folder / to / be / searched /
+find / home / user / Series / -iname ' * sample * ' -exec rm { } \ ;
+find . -name " * .andnav " | rename " s / \ .andnav $ / .tile / "
+od -t x2 -N 1000 $ file | cut -c8- | egrep -m1 -q ' 0d | 0d | 0d $ '
+cp ' which python2.7 ' myenv / bin / python
+find ' ls -d / [ ubso ] * ' -name sar
+ln -sfn / other / dir new _ dir
+find sourceDir -mindepth 1 -maxdepth 1 -print0 | xargs -0 mv --target-directory = destDir
+uniq -w12 -c file
+find . -type f | egrep -v ' \ .bz2 ' | xargs bzip2 -9 &
+md5 = $ ( md5sum " $ my _ iso _ file " | cut -d ' ' -f 1 )
+find . -type f -regex " . + - [ 0-9 ] + x [ 0-9 ] + \ .jpg "
+ssh -o UserKnownHostsFile = / dev / null username @ hostname
+rsync -a --include = ' * / ' --exclude = ' * ' source / destination /
+find . -size -26c -size + 23c -exec ls -l ' { } ' \ ;
+find . -path ' * / lang / en.css ' -prune -o -name ' * .css ' -print
+find / tmp / test / * -daystart -mtime -1
+find $ DIR -type f -iname " * . $ TYPE "
+find . -type f -exec ls -s { } \ ; sort -n | head -5
+find . -type f -regex ' . * \ ( c \ | h \ | cpp \ ) ' -exec ls { } \ ;
+find / somelocation / log _ output -type f -ctime + 40 -exec ls -l { } \ ;
+$ ( dirname $ ( readlink -e .. / .. / .. / .. / etc / passwd ) )
+$ ( dirname $ ( readlink -e .. / .. / .. / .. / etc / passwd ) )
+find -maxdepth 3 -mindepth 3 -type f -iname ' * .jpg ' -exec rename -n ' s / jpg $ / jpeg / i ' { } +
+head -1 table | tr -s ' ' ' \ n ' | nl -nln | grep " Target " | cut -f1
+env ' cat xxxx ' otherscript.sh
+SCRIPT = " $ ( readlink --canonicalize-existing " $ 0 " ) "
+find . -mtime -1 ! -name ' .DS _ Store ' -type f -printf ' % f \ n '
+find / -fstype ext3 -name zsh -ls
+head -n99999999 file1.txt file2.txt file3.txt
+find / mail -type f | cpio -pvdmB / home / username
+ln -s target-directory / ' ls -rt target-directory | tail -n1 ' latest
+find . -type f -newermt " 2014-01-01 " ! -newermt " 2014-06-01 "
+find . / music -name " * .mp3 " -print0 | xargs -0 ls
+cd $ ( find . -name Subscription.java -printf ' % h \ n ' )
+find . -regex " . * / ( test ) [ 0-9 ] [ 0-9 ] \ .txt "
+mkdir / tmp / A / tmp / B / tmp / C " / tmp / dir with spaces "
+find sourceDir -mindepth 1 -maxdepth 1 -exec mv --target-directory = destDir ' { } ' +
+crontab
+find . -mtime -1 ! -name ' .DS _ Store ' -type f -exec basename { } \ ;
+find . -perm -a + r -perm / a + w ! -perm / a + x
+touch -m --date = " Wed Jun 12 14 : 00 : 00 IDT 2013 " filename
+find . -depth -name " * * " -execdir rename " s / / _ / g " " { } " \ ;
+find . -name " * .pdf " -print | grep -v " ^ \ . / pdfs / "
+find . -type f -regex " . + - [ 0-9 ] + x [ 0-9 ] + \ .jpg " | xargs rm
+find . -perm -444 -perm / 222 ! -perm / 111
+find / home -type f -name * .sxw -atime -3 -user bruno
+find . -name " * .xml " -exec grep -HFf < ( find . -name " * .txt " -printf " % f \ n " ) { } \ ;
+/ usr / bin / find / home / user / Series / -iname " * sample * " -exec rm { } \ ;
+KEY + = ' date -r " $ arg " + \ % s '
+find { } -name ' upvoter- * ' \ ( -type f -or -type l \ ) -maxdepth 1 -perm + 111
+find . -name " * .txt " | xargs -I ' { } ' mv ' { } ' / foo / ' { } ' .bar
+find . -perm -444 -perm / 222 ! -perm / 111
+find ~ / -atime + 100 -exec rm -i { } \ ;
+find $ dir -type -f size + $ size -print0 | xargs -0 ls -1hsS
+find $ STORAGEFOLDER -name .todo -exec ls -l { } \ ;
+find . -regextype posix-extended -regex " [ a-f0-9 \ - ] \ { 36 \ } \ .jpg "
+find / \ ! -readable -prune -o -name ' * .jbd ' -ls
+comm -2 -3 A B | comm -2 -3 - C | comm -2 -3 - D
+read -p " Please Enter a Message : $ cr " message
+find . -name \ * .pdf -print
+ln -s git-stuff / home / . [ ! . ] * .
+grep UTRACE / boot / config- $ ( uname -r )
+echo " This is a sentence " . | tr -s " " " \ 012 "
+find . -type f -name " * keep . $ { SUFFIX } "
+diff -y -W 150 file1.cf file2.cf
+find . -maxdepth 1 -name ' * .dat ' -type f -cmin + 60 -exec basename { } \ ;
+cat commands-to-execute-remotely.sh | ssh blah _ server
+sort file | uniq | cut -f1 -d ' ' | uniq -c | rev
+find / path / to / source -type d | cpio -pd / path / to / dest /
+find . -type f -regex " . + - [ 0-9 ] + x [ 0-9 ] + \ .jpg " -exec rm -rf { } \ ;
+find . -path . / .git -prune -o -not -name ' * git * ' -print | grep git
+gzip -dc libxml2-sources-2.7.7.tar.gz | tar xvf -
+find " $ { S } / bundled-libs " \ ! -name ' libbass.so ' -delete
+find . \ ( ! -path " * target * " -a ! -path " * tools * " -a ! -path " * .git * " -print \ )
+find / somePath -type d -name " someNamePrefix * ' -mtime + 10 -print | xargs rm -rf ;
+find " $ STORAGEFOLDER " -name .todo -exec dirname { } \ ;
+find ~ / Desktop -name " * .jpg " -o -name " * .gif " -o -name " * .png " -print0 | xargs -0 mv -target-directory ~ / Pictures
+find / apps -xdev -name " * .log " -type f -mtime + 60 | xargs rm
+ssh-keygen -l -E md5 -f / etc / ssh / ssh _ host _ ecdsa _ key.pub
+find . -name " * .andnav " -exec rename -v ' s / \ .andnav $ / \ .tile / i ' { } \ ;
+find / -name " * . * ' -exec grep -il " foobar " { } \ ;
+mktemp / tmp / banana.XXXXXXXXXXXXXXXXXXXXXXX.mp3
+find / usr / local / apache / logs / -type f -name " * _ log " | xargs du -csh
+find . -maxdepth 1 -mindepth 1 \ ( -name ' * .py ' -not -name ' test _ * ' -not -name ' setup.py ' \ )
+find . -name \ * .xml -print0 | cpio -pamvd0 / new / parent / dir
+mkdir -p directory { 1 .. 3 } / subdirectory { 1 .. 3 } / subsubdirectory { 1 .. 2 }
+find MyApp.app -name Headers -type d -prune -exec rm -rf { } +
+find / home / folder1 / * .txt -type f -exec ln -s { } " folder1 _ " + \ ;
+sudo ln -f -s $ javaUsrLib / jdk1 * / bin / * / usr / bin /
+cat / dev / urandom | tr -dc ' a-zA-Z0-9 ' | fold -w 32 | head -n 1 | xargs mkdir
+mkdir $ ( cat / dev / urandom | tr -dc ' a-zA-Z0-9 ' | fold -w 32 | head -n 1 )
+grep -v ' ^ $ ' YOURFILE | nl -s = -w99 | tr -s ' ' p
+rsync -Rv src / prog.js images / icon.jpg / tmp / package /
+cat $ 2 | grep -v " # " | ssh -t $ 1 $ INTERPRETER
+echo 0a.00.1 usb controller some text device 4dc9 | rev | cut -b1-4 | rev
+rsync -aqz _ vimrc ~ / .vimrc
+find / home / mywebsite / public _ html / sites / all / modules -type d -exec chmod 750 { } +
+find . -name CVS -prune -o -exec mv ' { } ' ' echo { } | tr ' [ A-Z ] ' ' [ a-z ] " \ ; -print
+sudo ln -s -f " / usr / local / bin / findpdftext " " / usr / local / bin / fpdf "
+join -v1 success.txt fail.txt
+fold -b -w 20 | cut --output-delimiter $ ' \ t ' -b 1-3,4-10,11-20
+find . \ ( -name " * .c " -or -name " * .cpp " -or -name " * .h " -or -name " * .m " -or -name ' * .java ' \ ) -print0 | xargs -0 wc
+find / data / SpoolIn -name job.history | xargs grep -l FAIL | wc -l
+find / tmp -name " * .tmp " -print0 | xargs -0 rm find / tmp -name " * .tmp " -print0 | xargs -0 rm
+find . -type f \ ( -name " * .dat " \ ) -exec tail -n + 5 -q " $ file " { } + | tee concat.txt
+full _ backup _ dir = " $ ( find . -depth \ ( -wholename \ . / \ . \ * \ ) -prune -o -print | cpio -oav ) "
+echo " aaaa eeee bbbb ffff cccc " | tr ' ' ' \ n ' | tac | tr ' \ n ' ' '
+find \ ( -name ' messages . * ' ! -path " * / .svn / * " ! -path " * / CVS / * " \ ) -exec grep -Iw uint { } +
+find / data / SpoolIn -name job.history -exec grep -l FAIL { } \ + | wc -l
+find / data / SpoolIn -name job.history -exec grep -l FAIL { } \ ; | wc -l
+find . -name \ * .sql -not -samefile $ oldest _ to _ keep -not -newer $ oldest _ to _ keep
+find / \ ( -perm 2000 -o -perm 4000 \ ) -print | diff - files.secure
+head / dev / random -c16 | od -tx1 -w16 | head -n1 | cut -d ' ' -f2- | tr -d ' '
+find / nas / projects / mgmt / scripts / perl -mtime 8 -mtime -10 -daystart -iname " * .pl "
+find $ INTRANETDESTINATION / monthly -mtime + 366 -exec rm { } \ ;
+ssh -XY -t user @ remote _ IP ' ssh -XY -t user @ remoteToRemote _ IP '
+find / home / u20806 / public _ html -maxdepth 1 -mmin + 25 -type f -name " * .txt " -delete
+find . \ ( -not -path ' . / dir1 / * ' -and -not -path ' . / dir2 / * ' -or -path ' . / dir1 / subdir1 / * ' \ ) -type f
+find var / log -print0 -iname ' anaconda . * ' | tar -cvf somefile.tar -T -
+ssh -L 1234 : remote2 : 22 -p 45678 user1 @ remote1
+find $ { FOLDER } -type f ! -name \ " . * \ " -mtime - $ { RETENTION }
+rename -v ' s # / file # # ' v _ { 1,2,3 } / file.txt
+rsync -avlzp / path / to / sfolder name @ remote.server : / path / to / remote / dfolder
+scp -v user @ remotehost : / location / KMST _ DataFile _ * .kms
+$ my _ temp _ dir = $ ( mktemp -d --tmpdir = $ temp _ dir -t $ template )
+echo -e " length ( FOO ) = = $ ( echo -ne " $ { FOO } " | wc -m ) "
+cat file1 file2 ... file40000 | split -n r / 1445 -d - outputprefix
+read -e -p " Enter the path to the file : " -i " / usr / local / etc / " FILEPATH
+chown amzadm.root -R / usr / lib / python2.6 / site-packages / awscli /
+find / home / u20806 / public _ html -daystart -maxdepth 1 -mmin + 25 -type f -name " * .txt " \ -exec rm -f { } \ ;
+cat < ( fgrep -i -v " $ command " < ( crontab -u test -l ) ) < ( echo " $ job " ) | crontab -u test -
+diff -burNad teste1 teste2
+ln -s / var / cache / apt / archives / bash _ 4.3-14ubuntu1 _ amd64.deb foo
+find -mindepth 3 -maxdepth 3 -type d -name " * New Parts * " -exec ln -s -t / cygdrive / c / Views { } \ ;
+join < ( sort -n file1 ) < ( sort -n file2 )
+find -E / somefolder -type f -regex ' \ . / ( . * \ .error. * | second . * log | . * FFPC \ .log ) $ '
+cp -v [ MacVim _ source _ folder ] / src / MacVim / mvim / usr / local / bin
+find . -type f ! \ ( -name " * gz " -o -name " * tmp " -o -name " * xftp " \ ) -exec gzip -n ' { } ' \ ;
+pass = $ ( LC _ CTYPE = C < / dev / urandom tr -cd [ : graph : ] | tr -d ' \ n ' | fold -w 32 | head -n 1 )
+grep ^ Q File1.txt | cut -d = -f2- | sort | comm -23 - < ( sort File2.txt )
+find -name " * exp _ to _ find _ in _ folders * ' -exec rename " s / exp _ to _ find _ for _ replacement / exp _ to _ replace / " { } \ ;
+mount -o ro , loop , offset = $ OFFSET -t auto $ IMAGE / media / $ DEST
+find / data / -name ' command- * -setup ' | sort -t - -V -k 2,2
+find . -type f -iname \ * .mov -printf ' % h \ n ' | sort | uniq | xargs -n 1 -d ' \ n ' -I ' { } ' echo mkdir -vp " / TARGET _ FOLDER _ ROOT / { } "
+find / [ опция _ поиска ] [ значение ] [ опция _ действия ]
+rm -f / tmp / stored _ exception / tmp / stored _ exception _ line / tmp / stored _ exception _ source
+find test -path ' test / icecream / cupcake / * ' -o -path ' test / mtndew / livewire / * ' | cpio -padluv test-keep
+read -rsp $ ' Press any key or wait 5 seconds to continue ... \ n ' -n 1 -t 5
+comm -12 < ( find ~ / bin / FilesDvorak / . * -maxdepth 0 ) < ( find ~ / .PAST _ RC _ files / . * )
+find / home / myhome / data / ARCHIVE / . -name . -o -type d -prune -o -name ' * 201512 * ' -print | xargs -i mv { } / home / myhome / ARCHIVE / TempFolder / .
+gnuplotscript = $ ( mktemp / tmp / gnuplot _ cmd _ $ ( basename " $ { 0 } " ) .XXXXXX.gnuplot )
+scp -c blowfish -r user @ your.server.example.com : / path / to / foo / home / user / Desktop /
+find . -iname " * .cls " -exec echo ' { if ( length ( $ 0 ) > L ) { LINE = $ 0 ; L = length ( $ 0 ) } } END { print LINE " L " L } ' { } \ ;

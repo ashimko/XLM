@@ -1,0 +1,608 @@
+find all the php files in the current folder
+change the ownership of all regular / normal files in the current directory
+Remove all files from the current directory tree whose names end in " ~ "
+Print file type information of the " java " executable
+Find files / directories owned by root in the root directory tree
+Find files / directories that are accessed in the last 7 days
+Make directory " mydirectories "
+Copy all files below the current directory whose names contain " foobar " ( case-insensitive ) to directory foo / bar / in
+find files ending with " .jpg "
+Find files larger than 100MB in / var / www and exclude files with / download / in their path from the
+Print ' whoami ' for files with at least one minute ago
+find all text files in the current directory
+find the file " dateiname " in the current folder ( case insensitive search )
+Find all links to path / to / file
+find for a filename with multiple patterns in the current folder
+Find all files / directories named ' * .jpg ' under current directory tree
+find all the directories in the folder local
+find all the files named " test2 " in the current folder
+Find all regular files starting from / that have been changed within the last 30 minutes
+Write ' " myname = " Test " ' to the console and append to " $ CONFI
+Read line from file descriptor 4 and store received input in ' line ' variable
+Set permissions for all files under " / opt / lampp / htdocs " to 644
+Find all the files in the current directory
+Replace spaces in file names with underscores for all files in the current directory tree
+Find all * .txt files / directories under your home directory
+Search the / home / foo directory tree for files named " * .txt "
+get the count of all the files that have been accessed in the last 30 days
+Compress " hello world " and save to variable " hey "
+Find all files matching pattern ' . # * ' in the current directory tree
+Find all target files outside the current working directory with symbolic links in the current working directory
+dsisplay all files inthe current folder
+Add read permission for ' other ' for all files / directories named ' rc.conf ' under current directory tree
+Find all * .gz files / directories under current directory
+Find all * .java files under current directory
+Find all files / directories named ' articles.jpg ' under ' images ' directory tree
+Print the current directory
+run ls command on * .pl files
+Find all the files whose permissions are 777 in the current directory
+Set permissions to ug = rwx , o = for directories inside the . / default / files tree
+Set permissions to ug = rwx , o = for directories inside the . / default / files tree
+Delete all directories in the / myDir directory tree
+find all the files that have been modified today
+Find all " D " files in the current directory tree
+Find all files / directories under current directory and print them with newline as the delimiter
+Replace spaces in file names with underscores for all files in the current directory tree
+find the passwd file under root and two levels down
+Copy all files ending in " .a " in directory trees matching " folder * " to " / path / to / dest
+Rename " svnlog.py " to " svnlog "
+Update timestamps of all files and directories under current directory .
+Show the list of files larger than 100 MB
+Delete all dir * files / directories under dir _ data directory
+Verbosely change ownership of " $ file " to " root "
+find all the regular / normal files in the current folder
+display all directories in a folder
+Remount the number of lines in " / etc / fstab "
+Find all files / directories under current directory tree that match the regex ' pattern '
+Search only for directories named ' D '
+find all the directories in the current folder and do not search in sub directories
+Search the current directory tree for files last accessed more than 10 days ago
+Find all executables under current directory
+Calculate the md5 sum of file " password "
+Removes count of processors in system .
+display the base name ( name without extension ) of all the " .flac " files in the current folder
+Sort file " filename " by line
+Represent the current time as seconds since epoch and save it to variable ' TODAY '
+Print the list of files in directory / tmp / a1 recursively
+Print the date formatted with " % a % x % X " followed by the host name
+Print command history
+Find all files / directories under $ 1 which have at least write permission for their owner and set write permission for group for these files /
+Rename recursively all files in the current directory tree with " target " in their names
+Find all files in the current directory tree whose names begin with ' - '
+find all the photos files in the current folder
+Find all files in your home directory and below that are smaller than 100M .
+display the number of lines in all the files in the current folder
+Copy all files with ' .png ' ( case insensitive ) extension under ' / home / mine ' directory tree to ' / home / mine
+Represent the current time as seconds since epoch and save it to variable ' TODAY '
+search all the files in the current folder and traverse from the sub directories
+List all regular files in the current directory tree that were modified less than 60 minutes ago
+Find all files and directories under current directory
+Recursively delete all files in the current directory tree that match " * / not-from-here / * " and *
+find files in current directory that names are game
+Find all * .txt and * .json files in current directory
+Rename file file.txt.123456 to file.txt
+Find all * .data files under jcho directory
+Search in current directory downwards all files whose size is 10 bytes ( Characters ) .
+Find all files / directories with ' .tex ' extension under your home directory
+Find all files / directories that have read , write , execution permission for user and belong to the user ' my _ user ' under current directory
+find all " .flac " files starting with " cmn- " and search for files having CJK characters using
+Find all files named " foo " in the current directory tree
+find all grpm files in the file system
+Print the list of files in directory / tmp / a1 recursively
+Print ' file ' content , formatting output as 29-symbol wide column , regarding space symbol
+Show the list of files larger than 100 MB
+Show who is logged on
+Print every 3 characters of standard input as a line
+Search history for " part _ of _ the _ command _ i _ still _ remember _ here "
+Find all files / directories with ' .what _ to _ find ' extension under current directory tree
+Find all python files / directories under current directory tree
+Find all the * .c files at any level of directory Programming under any ' src ' directory
+find all the directories in the current directory and create the same directory structure in a remote machine using ssh
+Search all files from the current directory tree for " chrome "
+display all the regular / normal files ending with " .mod " in a folder
+Find files / directories with exactly read , write and execute permission for all ( owner , group and others ) under / path
+Search the home directory tree for files modified less than a day ago
+Find files / directories with inode number ' 212042 ' under ' / var ' directory tree without traversing other de
+find all the normal / regular files in the current folder and search for the word mail and display the file names
+List all files in the current directory tree that were last modified more than 60 minutes ago
+find all the text files in the current folder and do not search in the sub directories
+Disables shell option ' nullglob ' .
+Find all directories under current directory and change their permission to 775
+find all the cpp files in the current folder and move them to another folder
+Find files larger than 10MB in the current directory and delete them
+display all the files in current folder which have been accessed in the last 15 days
+find all the files in the home folder that have been modified in the last 24 hours
+find all the files in the entire file system and display the total lines in them
+Find files / directories with exactly read , write and execute permission for all ( owner , group and others ) under / path
+Search the current directory and directories below for .sql files
+create directory dirname with permissions 777
+Remove regular files modified more than 3 days ago
+Save " $ 1 " into variable " absolute " in variable " h2 "
+Move all * .data files / directories in $ S directory to $ S / data / directory
+find all the files that have been modified exactly 24 hours ago
+List all regular files in the current directory tree that were modified less than 60 minutes ago
+Set variable BZIP2 _ CMD to the full path of command " bzip2 "
+Set shell option ' nocasematch ' .
+Set prompt to the system host name and history number
+find all files that aren ' t owned by user www-data
+Find all the files in the current directory excluding the pattern * sql
+List all unique parent directories of .class files found under the current directory
+Print all files that exceed 1000 blocks and were modified at least a month ago
+Create intermediate directories as required
+find file which case-insensitive name is too in currect directory
+Find files / directories that have no owner or group under / path
+copy the file header.shtml to those dirs
+Find all directories under current directory having DIRNAME in their name
+find all the files in the folder / usr / share
+Find all files owned by group ' root '
+Find files / directories with exactly read , write and execute permission for all ( owner , group and others ) under / path
+Find all regular files under and below / var / www directory
+Find all files starting from / whose names end with " .rpm " and change their permissions to 755
+Show logged in users with idle time of each one
+Print the full path of command " rails "
+Clean the current directory from all subversion directories recursively
+Show the list of files larger than 100 MB
+Print all string from file ' file2.txt ' matching pattern in file ' file1.txt '
+Read standard input until a null character is found and save the result in variable " line "
+Remove all * .pyc files under current directory
+Remove all libEGL * files from the current directory tree
+Find all files / directories under / srv / $ { x } / $ { x } / incoming directory
+Read one character from standard input into variable " REPLY "
+View manual page of find utility
+Delete all empty directories in minimum 2 levels down the root directory
+Print whether the unique contents of " set1 " and " set2 " differ
+find all the files that have been modified today ( from the strart of the day )
+Find files / directories that are bigger than 10000 KB in size uder ' / usr / local ' directory tree
+Print the current directory tree with file sizes
+Print the list of all regular files from the current directory tree that contain " confirm " , case insensitive
+find all the parent directory of the root filesystem
+Find files / directories with exactly read , write and execute permission for all ( owner , group and others ) under / path
+Find all directories with permissions 777 under and below / home / user / demo /
+Find files / directories with exactly read , write and execute permission for all ( owner , group and others ) under / path
+find all the files that have been modified exactly 3 days ago
+count all the regular files that are present in a directory
+Search in current directory downwards all files whose owner is aa1 or whose name is myfile .
+List all * .py files / directories under current directory
+display all the files in current folder which are bigger than 1KB
+Copy " file0001.txt " to " 1.txt " and output the result to " newdir "
+Print content of each file under the current directory followed by that file name
+Search all the regular files from the current directory tree for " example "
+display all the files in the folder / home which do not belong to the group test
+Find all 1US * files / directories under current directory
+Search the current directory tree for regular files that were changed $ FTIME days ago
+Split " / tmp / file " into files of at most 1000 lines each
+Find all ' doc.txt ' files in the current directory tree printing " found " for each of them
+Change permissions to 500 for all regular files under and below the current directory
+Find files containing string " # ! / bin / ksh " and append their names and matching strings to / tmp / allfiles
+Find all files / directories that have been accessed within the last day in the drectories / files taken from the glob pattern ' / tmp / test
+Find all files in the current directory tree whose names end with the suffix " .keep. $ 1 " , where $ 1 is the first command line
+Update timestamps of all files and directories under directory / path / to / dir .
+Print the sorted uniqe list of folders in compressed archive nginx-1.0.0.tar.gz
+Delete all files / directories under current directory tree with inode number 211028 and move them to ' newname.dir '
+Kill the processes of user ' myuser ' that have been working more than 7 days
+Find all regular files under $ path directory tree
+Search the current directory tree for regular files last changed more than 14 days ago
+Search the regular files of the current directory tree for string " foo "
+Find all IP addresses in the current host name
+Find all directories in maximum 1 level down the current directory that were modified less than 1 day ago
+Merge already sorted files in the current directory ending in " . $ suffix "
+find all the php files in current folder and search for multiple patterns in these files
+Recursively copy " old / " to " new / " as a dry run skipping files that have matching checksums
+Delete all files / directories under current directory tree with inode number 211028 and move them to ' newname.dir '
+display all the files in current folder which have been accessed in the last 60 minutes
+Print file information of command " bash "
+Set shell option ' nounset ' .
+find all files which name contain ' foo ' and path is not dir1 or dir2
+Find all files in the / home / directory tree that were last modified less than 7 days ago
+Compress all files under current directory tree with gzip
+Find all regular files in the / path / to / base / dir tree
+find all the files in the entire file system that have been modified exactly 50 days ago
+Find files larger than 50k
+Find all * .pdf files under / working directory
+Find files in entire file system that are writable by group or other
+Find files in entire file system that are writable by group or other
+Print the last space separated word from " a b c d e "
+Read a line from standard input into variable " a " without backslash escapes
+Search for files / directories which have read and write permission for their owner , and group and only read permission for others
+Recursively delete all files / folders named ' .svn ' in a current folder .
+search for files in current folder using regular expressions
+Rename file file.txt.123456 to file.txt
+find all the files that have been modified in the last 60 minutes
+Find files / directories that have no owner or group under / var directory
+display all the files in current folder which have been accessed in the last 7 days
+find all text files in the entire file system excluding the folder proc , which do not belong to any user or any group
+Find all directories with permissions 777 under and below / var / www / html , and change their permissions to 755
+Find all directories under / home / me / target / path
+find all regular files which have been modified in the last 48 hours in home folder
+Search / usr / local for subdirectories whose names end with a number 0-9
+Find all files / directories named orm.properties under / eserver6 directory
+Find files / directories with exactly read , write and execute permission for all ( owner , group and others ) under / path
+Remove all Thumbs.db files in the current directory tree
+Remove all core dump files from user ' s home directory
+display all the files in the entire file system which have set uid bit set .
+Search the current directory recursively for files last modified within the past 24 hours ignoring .swp files and paths . / es * and . / en *
+Report file system containing / tmp disk usage in kilobytes .
+searches through the / usr directory for the regular file named ' Chapter1 * '
+Delete all files / directories named ' file ' under / tmp directory tree
+Search directory tree / srv / $ { x } for regular files accessed at least 10080 minutes ago , and remove those files
+Search the " test1 " directory recursively for regular files
+find all files and directories that have been modified in the last seven days
+Print the current date in ' % H : % M : % S ' format followed by the string ' : done waiting. both jobs terminated on their own
+Prints path location of $ BASH _ SOURCE file .
+Lookup information of the current user
+Recursively finds all files and prints all strings with ' text-to-find-here ' from that files , preceding matched string with filename .
+find all text files in current folder ; which have been modified exactly 5 days ago
+Find all * . [ ch ] files under current directory
+display the help of find command
+Find files owned by the " second-to-find-here " directory tree in minimum 1 level down the current directory
+Find all * .wav files under current directory
+Find all files in the ' sourceDir ' directory tree
+Sort file1 and file2 then display differences between them .
+List all files and directories from the current directory tree
+find all regular / normal files in the current folder whose name has the word photo or picture and which have been modified in the last 30 minutes
+Compress every file in the current directory tree that matches " * cache.html " and keep the original file
+Search the files from the current directory tree for " chrome "
+Search the current directory tree for regular files that were accessed $ FTIME days ago
+Prepend the reverse history number to the output of the history command with arguments " $ @ "
+Find all 664 permission files / drectories under current directory tree
+change the owner and group of all the files in the folder / usr / lpp / FINANCIALS
+Delete all files in the / myDir directory tree that were last modfied more than 7 days ago
+Remove all files in the / myDir directory tree that were last modfied more than 7 days ago
+Convert relative symbolic link " $ link " to absolute symbolic link
+find all the files in the file system which have been accessed in the last 1 day
+find all the directories with the name " c " in the current folder which are at least 3 levels deep and which are not present in the path " / p / " .
+Search the / home / myuser directory tree for files whose names end in " .exe " and " .dll "
+Find files in the current directory tree whose size is 24000 bytes
+List all variables ( names and values ) whose name or value contains X .
+Update timestamps of all files and directories under current directory .
+display all files in current folder excluding current folder ( . )
+Delete all .pyc files in the current directory tree
+Delete all .pyc files in the current directory tree
+Change permissions of all files ending in " .php " under the current directory to 755 and print a count of modified files
+Search the regular files of the current directory tree for string " foo "
+list all normal / regular files in the current directory
+Search the regular files of the current directory tree for string " texthere "
+Find all directories in / var / www / html / zip / data / * / * / * / * / * that are older than 90 days
+find all files in the current folder which are bigger than 2MB
+download contents of a website " https : / / get.scoop.sh "
+Read a line from standard input into variable " REPLY " with prompt " > $ line ( Press Enter to continue ) "
+Print full path of command " c + + "
+find out what group a given user has
+Create a symbolic link named " .bash _ profile " to " .bashrc "
+find all files in the directory " dir " which have been accessed in the last 60 minutes
+find all the normal / regular files in the folder $ directory
+Find all files / directories that have been accessed within the last day in the drectories / files taken from the glob pattern ' / tmp / test / * '
+Find files / directories named ' file.txt ' in the path ' / usr / lib / important / '
+Find files / directories that are owned by the user ' syslog ' in entire filesystem
+search for the word " search-pattern " in all the regular / normal files in the current folder and display the matched file name
+display all the files in the current folder excluding those that are present in the folder " secret "
+Copy all files in " / path / to / dest " to " / path / to / backup / "
+Sort file " filename " by line
+Compress all " .txt " files in all sub directories with gzip
+Save the absolute path of the current script to variable " SELF "
+Get the grandparent directory of each found ' pattern ' file in $ SEARCH _ PATH
+Remove all .zip files in the current directory tree
+Find all files under current directory excluding hidden files
+Add a line number to every line in " infile "
+find files in the / etc directory that begin with the last two days
+find all the files ending with " .foo " in the folder / usr
+find all the files in the folder / opt which have been accessed exactly 20 days ago
+display all files in the file system which are bigger than 50MB and having size " filename " in them
+Find a directory named ' project.images ' in the entire filesystem and show it in long listing format
+Search the current directory tree for symbolic links to files matching pattern ' * test * '
+Delete files in the entire file system with at least 644 permissions
+Delete all .pyc files in the current directory tree
+prevents curl from returning error ( 23 ) Failed writing body when grepping for foo
+Find all files under current directory excluding hidden files
+display all the normal / regular files in the current folder and do not go beyond 3 levels
+Search the current directory tree for files whose names end in " rb " or " js " and which contain string " matchNameHere "
+find all files newer than the file system which are newer than the file / tmp / t1
+display all normal / regular files in the folder " $ ORIG _ DIR "
+Find files / directories that are newer than ' FirstFile ' under ' / usr ' directory tree
+Find all regular files under $ FOLDER directory tree that start with ' " . ' and end with ' " ' in their names and were modified in less than $ RETENTION days
+Search the current directory recursively for files last modified within the past 24 hours ignoring .swp files and paths . / es * and . / en *
+Change the owner to " user " and group to " group " of files " file " ...
+Rename file file.txt.123456 to file.txt
+Find all .axvw files / directories under current directory
+Search the current directory tree for .bash files ignoring the " .git "
+Recursively finds strings with " text string to search " in any file within the ' directory-path ' , following symlinks , and prints found strings with file names .
+Change permissions to 775 for all directories under / var / www / html , and change their permissions to 775
+Find all .zip files in the current directory tree
+Delete all hidden files under $ some _ directory
+Create a symbolic link named " .bash _ profile " to " .bashrc "
+find all ' * .c ' files under $ HOME directory which context contains sprintf
+Find all files / directories under test directory that match the case insensitive regex . * / course [ 0-9 . ] * in their paths
+Find files newer than / etc / motd under / etc / motd under the / etc / passwd file
+find all the directories in current folder and delete them
+Compare the files in ' FOLDER1 ' and ' FOLDER2 ' and show which ones are indentical and which ones differ
+Filters only directories from long file listing of the current directory
+Remove all vmware- * .log files under current directory
+Recursively finds all files not like * .itp , * ane.gro , * .top in a current folder and removes them .
+Find all files named ' foo ' under current directory tree without descending into directories named ' foo '
+delete all the files in the current folder which do not belong to any user
+Remove all files in the / myDir directory tree that were last modfied more than 7 days ago
+Find all * .rb ( regular ) files under the current working directory tree
+Search all * .c files from the current directory tree for " hogehoge "
+Find files / directories whose owner is ' root ' or beid in with username '
+Find files / directories whose owner is ' root ' or beid in with username '
+find all the normal / regular files in the folder " pathfolder " which are 2 levels deep , excluding all hidden files and display the count
+display all the files in the current folder excluding the current folder and do not search in the sub directories
+Find all symbolic links under ' / proc / $ pid / exe ' directory tree with name pattern ' $ save _ path / sess _ \ * ' and update their timestamps
+Save the user name of the current user to variable " me "
+Remove all new files in the current directory tree
+Remove all new files in the current directory tree whose names begin with " t "
+Print the current default full path of the " java " executable
+Print absolute path of " YOUR _ PATH "
+Set permissions to 644 for every subdirectory of the current directory
+Change permissions to 600 for all regular .rb files in the current directory tree
+display all the files in current folder which have been modified in the last 24 hours whose name has only 1 letter
+Find all files in the current directory tree whose path names match pattern ' . / sr * sc '
+display all the directories in the current folder excluding those that are present in the folder " secret "
+Find all the files whose name is tecmint.txt in the current directory
+Find files in the / var / log folder which were modified between 60 minutes and 10 minutes ago
+Remove files under / mnt / zip matching " * prets copy " with confirmation
+Find all * . $ input _ file _ type files / directories under $ source _ dir with the null character as the delimiter
+Search the current directory tree for .m4a files
+Find all files under current directory excluding hidden files
+Print lines 1000 / dev / disk / by-uuid / blocks for " / tmp / sdc1 "
+Delete all hidden files under $ some _ directory
+Removes all files from current folder but 5 newest ones .
+Print the path names of all .png files in the / home / kibab directory tree
+Remove all files from the system whose path names contain " GUI "
+Print 1000 astarisk ( ' * ' )
+Archive " / usr / local / " to " / BackUp / usr / local / " on host " XXX.XXX.XXX.XXX " via ssh and show progress
+Replace all spaces with underscores in directory paths under current directory .
+find the oldest normal file in the entire file system and display its timestamp
+Find all the files in file system which are modified more than 50 days back and less than 100 days
+Find files that are orphaned
+Search the current directory recursively for * .txt files with lines that match regular expression " ^ string "
+Find all files / directories under / var / log directory
+Print whether " $ file " and " $ { file / $ { dir1 } / $ { dir2 } } " differ
+Find all files / directories under current directory tree whose names start with ' test ' followed by two digits and end with ' .txt ' extension
+Remove all vmware- * .log files under current directory
+Print the contents of " filename "
+Find all files / directories under current directory tree that are newer than backup.tar.gz by modification time
+Search for ' foo = ' in all * .png files under current directory without descending into * .gif and * .svn directories
+Recursively copy " old / " to " new / " as a dry run skipping files that have matching checksums and output the name only
+Shows MAC address of network interface eth0 .
+display all the regular / normal files in the current folder that are not accessed in the last 10 minutes
+Find all files / directories that were accessed after February 1st under ' / usr ' directory tree
+find all the header files in / usr / include which have been modified in the last 399 days and display the number of lines , number of files , number of characters of all these files
+Find any hidden regular files in the current directory and its sub-directories that were modified after .cshrc was last modified .
+Find files named ' core ' in or below the directory / tmp and delete them
+Search all files in the current directory tree whose names end in " 1 " for string " 1 "
+Display all symlinks and their targets in the current directory tree
+Print history list
+Find all directories in the current directory tree that do not have ' execute ' permissions for anyone
+list all running jobs
+Find all directories in the current directory tree that are not accessible by all
+Show the list of files that are not owned by user wnj or are not newer than file ' ttt '
+Read a line from standard input in an interactive shell into variable " input " with prompt " Do that ? [ Y , n ] " and suggestion " Y "
+Print all directories under $ root appending a : ( colon ) at the end of each path without descending into directories matching the pattern . [ a-z ] *
+display all the files in the folder " / home / mywebsite " which have been changed in the last 7 * 24 horus
+Compare " file1 " and " file2 " line by line with 3 lines of unified context
+display a long listing of all the files in the current folder which are bigger than 10KB
+Print common lines in files " set1 " and " set2 "
+display all the normal / regular files in the current folder and do not go beyond 3 levels
+Search the current directory up to depth level 2 for files and directories
+Print the current date followed by ' doing stuff '
+Find all symbolic links under $ some _ directory that are broken
+Search the current directory tree for all * .ogg files
+Print the date followed by the host name
+Saves location of file $ 1 in ' dir _ context ' variable .
+Find directories in maximum 1 level down the directory $ dir with 100 permission that are owned by the user $ username
+Count the number of files in the / usr / ports directory tree whose names begin with ' pkg-plist ' and which contain ' unexec.rmdir % D '
+run " command " on server " host " as user " user "
+Find all * .gif files under current directory and below
+Find files / directories named ' document ' in ' ext2 ' partitions in entire filesystem
+Display the count of regular files under ' home / magie / d2 ' directory tree which have execute permission to all the users
+Remove all vmware- * .log files under current directory
+Search history for " part _ of _ the _ command _ i _ still _ remember _ here "
+Search the source directory tree for regular files
+Search the regular files of the current directory tree for string " texthere "
+kill all background jobs
+Archive " / usr / local / " to " / BackUp / usr / local / " on host " XXX.XXX.XXX.XXX " via ssh and show progress
+Change the owner of " destination _ dir " to " user "
+Find all files / directories under current directory tree whose names start with ' test ' followed by two digits and end with ' .txt ' extension
+Find all files / directories under current directory tree excluding files / directories with name ' query _ to _ avoid '
+Find all files / directories under current directory tree that were accessed less than 1 day ago and move them to ' / path / to / target-dir ' directory
+Search the / home / my _ dir directory tree for regular files whose names begin with " my _ larger _ file _ type "
+Search directory / Users / Me / Desktop / PUsers / Mic / Desktop / PENDITION / *
+Search the current directory tree for files like " * .sql " in their names
+Find all regular files that were modified more than 60 days ago under ' / path-to-directory ' directory tree , sort them according to timestamp and print the filenames preceded with the timestamps
+Delete all files / directories with ' .pyc ' extension under current directory tree
+Delete all files / directories named ' core ' under ' / usr / ports / ' directory tree
+Find files owned by no user
+Split " file.txt " into files of at most 20 lines each with a prefix " new "
+Copies all files under the current folder like " file.ext " with " FooBar " in the path to the root of the current folder , preserving mode , ownership and timestamp attributes .
+Print the date followed by the host name
+Find all * .jpg files in the current directory and below .
+Find all * .ISOLATE.quantifier.txt files / directories under current directory
+Delete all directories under $ workspace _ ts directory ( where $ 1 ) where $ 1 expands as a lobe expanded ) with the glob pattern ' extension
+find all .pm , .pl files in / users / tom and search for multiple pattern in same files and display the matched file names
+Add a line number to every line in " infile "
+Print ver 1 day ago
+Search history for " part _ of _ the _ command _ i _ still _ remember _ here "
+find all the files in the current folder which have been modified in the last one day
+Find all 400 permission files under / data directory , print ' Modifying ' appended with file path for each of them and change their permission to 755
+Find all regular files excluding files with ' .gz ' extension in the current directory tree
+Check if $ { USER } is mounted with no file suffix , and save the output to variable ' gcc '
+Archive files ( not directories ) in " sorce _ dir " to " target _ dir "
+Remove regular files changed more than 15 days ago from the / tmp directory tree
+Find all files / directories under $ TARGET _ DIR directory tree matching the posix extended regular expression \ " . * / $ now . * \ " ( where $ now is a variable ) and save the output in file
+Search the / dir directory tree for files whose names match regular expression ' . * 2015 . * \ ( album . * \ | picture . * \ ) '
+Make directories " ~ / abs / lab4a / folder " Labs / lab4a / folder " followed by " Labs "
+Print lines unique and common to sorted files " file1 " and " file2 "
+Rename $ file file , preserving only part of name before ' - ' symbol , and appending ' .pkg ' suffix to the end
+Find all files beneath the current directory that end with the extension .java and contain the characters StringBuffer . Print the name of the file where a match is found .
+search for a regular / normal file " myfile " in the entire file system excluding the folder in excluded _ path
+Find files with extension $ permissions that are at least 644
+Find all * .java files under current directory and archive them to myfile.tar
+find all files in the directory " dir " which have been accessed in the last 60 minutes
+Print content of ' a ' file , showing all non-printing characters including TAB characters , and displaying $ at the end of each line .
+Read lookup requests from text file ' 1.txt ' and uses them to fetch TXT records .
+Recursively finds all folders in a current folder that contain files like ' .git ' .
+Search for ' string-to-find ' in all files under current directory tree matching the regex ' filename-regex . \ * \ .html ' in their paths and show the matched lines along with the filenames
+Find all files / directories named ' composer.json ' under / directory / containing / files ' directory tree
+Make directories " ~ / abs / lab4a / folder " to " / Labs / lab4a / myfolder "
+Perform case insensitive search for * .gif files / directories under downloads directory
+Find all files / directories under $ TARGET _ DIR directory tree matching the posix extended regular expression \ " . * / $ now . * \ " ( where $ now is a variable ) and save the output in file $ FILE _
+Find all files / directories that belong to the group ' accts ' under ' / apps ' directory tree
+Save the absolute path of the directory of the current script to variable " DIR "
+Search for files / directories which have read and write permission for their owner , and group and only read permission for others
+Print the first 5 decompressed lines of compressed file " $ line "
+Read a line from standard input into variable " message " with prompt " Please Enter a Message : " followed by a newline
+Search for all files with the same inode number 41525360
+Remove all files in the / home / directory tree that were last modified more than 7 days ago
+Search the .andnav files in the current directory tree for string " Test _ Version = '
+Add execute permission to all files ending in " .sh "
+Recursively copies ' include / gtest ' to ' / usr / include ' , preserving all attributes , and copying symlinks as symlinks , without following in source files .
+Find all files / directories under current directory tree that are newer than backup.tar.gz by modification time
+Move all files and directories in the current directory to " $ TARGET " excluding files matching " $ EXCLUDE "
+Find all files in the ' sourceDir ' directory tree
+Print unique lines in sorted file " a.txt " compared to sorted file " b.txt "
+Search the current directory tree for regular files that were changed $ FTIME days ago
+Calculate md5 checksum of the list of all files / dirs in / path recursively including dot files and excluding the patterns ' run ' , ' sys ' , ' tmp ' and ' proc ' , then check the
+Find regular files matching pattern " * oraenv * " and excecute the " file " utility for each of them
+Save the system host name in variable " HOSTNAME "
+Archive files ( not directories ) in " sorce _ dir " to " target _ dir "
+find all files in the current folder which are bigger than 2MB and less than 50 MB
+Find all files under current directory that were modified in the last 24 hours and also include the files that were modified in less than 1 day ago
+Find x * files / directories under / tmp directory whose status was changed less than 1 day ago and move them to ~ / play
+Find all the regular files with extensions pattern ' * .what _ to _ find ' and below and search for ' pattern '
+display list of all the hidden regular / normal files in the directory " / dir / to / search / "
+Find all regular files that contain ' linux ' ( case insensitive ) in their names under ' / root ' directory tree
+Find all files / directories under / somefolder that were modified between 60 minutes and 10 minutes ago
+Print $ d if $ d is an empty directory
+Print $ d if $ d is an empty directory
+Find files in the level 3 of directory tree ~ / Music that are less than 50 bytes in size
+Print only group names from / etc / group .
+Prints path to the target of symbolic link ' relative / path / to / file '
+Save the CURRENT _ WHINCH login in ' cat ' variable
+find all the files that have been modified exactly yesterday ( from 00 : 00 to 23 : 59 yesterday )
+Search the entire file hierarchy for files larger than 100 megabytes and delete them .
+Print only the line " foo / / / " given two empty directories foo and bar
+find regular files under the " mail " folder under the user ' s home directory , displaying filenames and lines that contain the text " Linux "
+Move all files in the current directory tree that match " some _ pattern " to " target _ location "
+Find regular non-hidden files containing ' some text ' in their names with hidden directories optimization
+Search the current directory tree for .m4a files
+Create symbolic links in the current directory for all files excluding " CONFIGFILE " located in " / your / project "
+Find files matching pattern $ 2 in the $ 1 directory recursively and search them for text $ 3 , where $ 1 , $ 2 , $ 3 are the command line arguments to the Bash script
+Make directories to " / tmp / x / y / z / " as needed and do not error if it exists
+Find all files in the ' sourceDir ' directory tree
+Correct permissions for files in the web directory
+find all the files that have been modified exactly yesterday ( from 00 : 00 to 23 : 59 yesterday )
+Find all the files without permission 777 in the file system
+Count the number of files in the / usr / ports directory tree whose names begin with ' pkg-plist ' and which contain ' unexec.rmdir % D '
+Find and copy all log files in the current directory tree to / tmp / log-files
+Search the * .pdf files in the current directory and subdirectories for " something "
+Remove regular files whose names match Perl regular expression ' \ w + - \ d + x \ d + \ . \ w + $ ' from the current directory tree
+Find all files / directories which have been modified within the last day in the drectories / files taken from the glob pattern ' / tmp / test / * '
+display all the xls and csv files in the folder / home
+Find all xml files under current directory and archive them to .bz2 archives
+Search the / usr / bin directory tree for regular files modified or created less than 10 days ago
+Keep only the last two hyphen-separated sections of " abc-def-ghi-jkl "
+Find all files / directories under current directory tree whose paths match the regex ' filename-regex . \ * \ .html '
+Find all .txt files in current directory and rename with .html .
+Find all files / directories which have been modified within the last day in the drectories / files taken from the glob pattern ' / tmp / test / * '
+Remove the files from the home directory tree that were last accessed more than 100 days ago , with confirmation
+Find all files / directories under $ dir directory tree which have been modified in the last 3 days
+Find all files / directories under $ TARGET _ DIR directory tree matching the posix extended regular expression \ " . * / $ now . * \ " ( where $ now is a variable ) and save the output in file $ FILE _ LIS
+Remove all files whose names end with " ~ " in the / home / peter directory tree
+find all files in the file system which have no user and no group
+Print common files in directories " 1 " and " 2 "
+Read a line from standard input into variable " message " with prompt " Please Enter a Message : " followed by a newline
+all the pdf files in the current folder
+Move all files in the current directory tree that have been modified in the last day to " / path / to / target-dir "
+Search for " UTRROUR " in all files under current directory tree and show the matched files with line numbers and filenames
+Print the names and sizes of regular files residing in the " dir " directory tree
+display all the files having spaces in the current folder
+display a long listing of all the files in the current folder in sorted order , which are bigger than 10KB
+Find all files in the current directory tree except .html , ignoring .svn directories
+Compares two listings ' ls ' and ' ls * Music * ' , showing only strings that unique for first listing .
+Sort file pointed by variable $ filename , removing duplicate entries but ignoring the last N characters of each line .
+Find all files / directories under / path / to / source / directory tree that contain ' string ' in their names and were modified more than 1 day ago
+Remove regular files whose names match Perl regular expression ' \ w + - \ d + x \ d + \ . \ w + $ ' from the current directory tree
+Find all files under current directory excluding hidden files
+Go to first directory specified in PATH which contains the command ' oracle '
+Delete all files under $ { S _ TO _ SAVE directory tree that were modified more than $ DAYS _ TO _ SAVE ? } directories
+find all the files in the current folder which do not belong to any user
+Delete all in the / Path / bar directory tree whose names begin with " heapdump "
+Find all files / directories under $ TARGET _ DIR directory tree matching the posix extended regular expression \ " . * / $ now . * \ " ( where $ now is a variable ) and save the output in file $ FILE _ LIST
+find all the normal / regular files in the folder ~ / junk which have been modified in the last 30 days and display the contents of the last 30 * 24 hours
+Remove all files whose names begin with " no-such-thing " in the / home / peter directory tree
+Saves index number of file ' script.sh ' in the ' inode ' variable .
+Find all * .andnav ( case insensitive ) files under current directory and show the first one found
+Find files / directories named ' fileName.txt ' under ' / path / to / folder ' directory tree ignoring the case
+Mount " / tmp / loop.img " on " / mnt / image " as a loop back device
+Search through the / usr directory for all files that begin with the letters Chapter , followed by anything else .
+Find all files in the current directory tree whose size is greater than 1MB , and move them to the " files " folder with confirmation
+Find all xml files under current directory and archive them to .bz2 archives
+Make directory " foo " and do not cause an error if it exists
+Search directory tree ' MyApp.app ' for directories whose name is ' Headers ' and delete them in an optimized way
+Find all files / directories in directories / files taken from the glob pattern ' / folder / path / * ' recursively that have not been modified in the last 2 hours and delete them
+Change to location of ' $ TARGET _ FILE ' file .
+Counts lines in each * .php file , sorted by number of lines , descending .
+Make directory expanded by $ dir variable
+Search for ' string-to-find ' in all files under current directory tree matching the regex ' filename-regex . \ * \ .html ' in their paths and show the matched lines along with the filenames
+Archive " src " to " dst " without overwriting existing files in " dst "
+Compress $ file file using gzip
+Print " 0a.00.1 usb controller some text device 4dc9 " with at most 2009
+Archive " / path / to / files / source " to " user @ remoteip : / path / to / files / destination " via ssh on port 2121
+Find all directories under / home / mywebsite / public _ html / sites / all / modules and set their permission to 750
+Find all CSS files that do something with HTML ID # content
+Change to location of ' $ TARGET _ FILE ' file .
+Display a named character dump of " test.sh "
+Wrap each line in " file.txt " to fit in 80 characters
+find all the files in the current directory and sub-directories whose status was changed after / etc / fstab was modified
+Find all files / directories under ' / data / SpoollIn ' directory tree that contain the string ' xpilot ' in their paths
+Find all .tmp files under and below the / tmp / directory and remove them
+display all the files in the current folder which have not been modified in the last 7 days and which are not in the list " file.lst "
+Suffix all files and folders in the current directory with " _ SUF "
+Print " a.txt b.txt c.txt d.txt " and " xecute " with a wide columns
+find all the files in the file system which have been modified in the last 30 * 24 hours
+Find all files / directories under ' / data / SpoollIn ' directory tree that contain the string ' xpilot ' in their names
+Find all files / directories under ' / data / SpoollIn ' directory tree that contain the string ' xpilot ' in their names
+find all the sqlite files in the current folder and display their base name ( strip the extension )
+find all the files in the file system which have been accessed in the last 1 day
+Print only common file names in sorted listings of directory ' dir1 ' and ' dir2 '
+Find all files / directories under / nas / projects / projects directory that were modified more than 7 days ago and were modified more than 3 days ago
+Delete all files under $ INTRANETDESTINATION / weekly directory tree that were modified more than 32 days ago
+Save the list of all .py files under and below the current directory that contain " something " in their pathnames to output.txt
+Delete all files under user ' s home directory tree that were accessed more than 365 days after their status was changed
+find all the files in the current folder which end with .o or with the name a.out and display them .
+Find all files / directories with ' .log ' extension whose names start with ' app- ' , have been modified in the last 5 minutes and show the first one found
+Save the first " " . separated field of the system host name to variable " HOSTZ "
+Find all regular files under $ FOLDER directory tree that start with ' " . ' and end with ' " ' in their names and were modified in less than $ RETENTION days excluding the files whose contents match one of the regular expressions defined per line in file $ SKIP _ FILE
+Rename all files matching " access.log. < number > .gz " incrementing < number > .
+Archive " / path / to / sfolder / " to " name @ remote.server : / path / to / remote / dfolder " preserving hard links and compressing the data during transmission
+Decompress " path / to / test / file.gz " to standard output and save all lines matching " my regex " to files with a 1000000 line limit
+Print my _ ips of the current directory as an empty environment variable " " .
+Print a count of each unique line in " ip _ addresses "
+Compare " file1 " and " file2 " line by line with 3 lines of unified context
+Read a line from standard input in an interactive shell into variable " input " with prompt " Do that ? [ Y , n ] " and suggestion " Y "
+Recursively change ownership of " / usr / local / lib / node _ modules " to the current user
+Remove all files from the system whose path names contain " GUI "
+Compare " fastcgi _ params " and " fastcgi.conf " line by line , output 3 lines of unified context , and print the C function the change is in
+display a long listing of all the files in the temp folder
+Move all files / directories under ' / var / cache / bz2 / * ' to ' / home / bozo / project / ' directory tree
+Find files in entire file system that are writable by group or other
+Display differences between / destination / dir / 1 and / destination / dir / 2 excluding files that match any pattern in file " exclude.pats " .
+Recursively find files in the current directory with a modification time more than 7 days ago , save the filenames to " compressedP.list " , and compress no more than 10 at a time
+Recursively copies ' include / gtest ' to ' / usr / include ' , preserving all attributes , and copying symlinks as symlinks , without following in source files .
+Find all regular files starting from level 3 of directory tree ~ / container and move them to the current directory ' s parent
+Show the list of files that are not owned by user wnj or are not newer than file ' ttt '
+Search for ' invalidTemplateName ' in all regular files in directories / files taken from the glob pattern ' . / online _ admin / * / UTF-8 / * ' and show the matched lines with the filenames
+find all the reglar files which ahve been changed in the last 5 minutes and do not search in the sub directories .
+Removes all files like ' A * .pdf ' from current folder without prompting .
+Find all files / directories named ' findcommandexamples.txt ' ( case insensitive ) in the entire filesystem
+display all the files ending with " .user " or beginning with " admin " or ending with " .user.gz " in / var / adm / logs / morelogs / and excluding all regular files
+Find all files / directories under current directory tree [ опция _ поиска ] [ значение ] [ значение ]
+Remove the last two components ( directories ) of $ path
+Find all files under ' / home / nez / ' directory tree that were accessed in the last 24 hours excluding the files with / mnt / hda1 / zzdject / * .gz
+Read a single character from standard input into variable " key " without backslash escapes , with a timeout of 5 seconds , and with the prompt " Press any key in the next five seconds " ...
+Print common lines in files " set1 " and " set2 "
+Find all files / directories under ' / home / mywebsite ' directory tree that were modified exactly one day ago
+Set variable OS to the name of the operating system , ie . " Linux "
+Decompress " path / to / test / file.gz " to standard output and save all lines matching " my regex " to files with a 1000000 line limit
+Find all files with space in their names under current directory and rename them by replacing all spaces with _

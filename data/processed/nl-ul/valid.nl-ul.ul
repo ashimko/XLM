@@ -1,0 +1,608 @@
+chmod + x pre@@ tt@@ y@@ -print
+chmod + x r@@ r@@ .s@@ h
+find . -perm 6@@ 00 -print | xargs chmod 6@@ 6@@ 6
+y@@ es n | rm -@@ ir dir1 dir@@ 2 dir@@ 3
+y@@ es | cp * / tmp
+L@@ B@@ U@@ F@@ F@@ E@@ R + = " $ ( date ) "
+K@@ E@@ Y + = ' date -r " $ ar@@ g " + \ % s '
+r@@ sy@@ n@@ c -@@ av@@ l@@ z@@ p / path / to / s@@ folder name @ remo@@ te@@ .s@@ er@@ ver : / path / to / remo@@ te / d@@ folder
+r@@ sy@@ n@@ c -@@ a@@ q@@ z _ vi@@ m@@ r@@ c ~ / .@@ vi@@ m@@ r@@ c
+r@@ sy@@ n@@ c -@@ av@@ z foo : sr@@ c / bar / data / tmp
+r@@ sy@@ n@@ c -@@ av@@ z t@@ at@@ a / t@@ at@@ a@@ 2 /
+find -name " * .php " -exec cp { } { } .@@ ba@@ k \ ;
+b@@ ind ' " \ e [ 24 ~ " : " p@@ w@@ d \ n " '
+i@@ f@@ confi@@ g e@@ th@@ 0 d@@ own
+grep -@@ ar -@@ e . / your / dir | md@@ 5@@ su@@ m | cut -@@ c@@ -@@ 3@@ 2
+sudo find / var / www / html / -type d -exec chmod 77@@ 5 { } \ ;
+sudo find / var / www / html / -type f -exec chmod 6@@ 6@@ 4 { } \ ;
+ch@@ g@@ r@@ p " $ { U@@ S@@ E@@ R } " m@@ yp@@ ro@@ g@@ ra@@ m
+chown -@@ - " $ user : $ group " " $ file "
+sudo chown bo@@ b : s@@ f@@ t@@ p@@ only / home / bo@@ b / wri@@ table
+find -user root -exec chown ww@@ w@@ -@@ data { } \ ;
+find . -type f -@@ o@@ k chown user@@ name { } \ ;
+find . -type d -print0 | xargs -0 chmod 2@@ 77@@ 5
+find . -name ' * .php ' -exec chmod 755 { } \ ; -exec echo ' + ' \ ;
+find . -type d -exec chmod 77@@ 7 { } \ ;
+o@@ d -t x@@ 2 -@@ N 100@@ 0 $ file | cut -@@ c@@ 8@@ - | e@@ grep -m@@ 1 -@@ q ' 0@@ d | 0@@ d | 0@@ d $ '
+u@@ name -@@ m | grep ' 6@@ 4 '
+head -n@@ 9@@ 9@@ 9@@ 9@@ 9@@ 9@@ 9@@ 9 file@@ 1@@ .txt file@@ 2@@ .txt file@@ 3@@ .txt
+sc@@ p -v user @ remo@@ te@@ host : / loc@@ ation / K@@ M@@ S@@ T _ D@@ at@@ a@@ F@@ i@@ le _ * .@@ k@@ m@@ s
+ssh -o U@@ ser@@ K@@ n@@ own@@ H@@ o@@ st@@ s@@ F@@ i@@ le = / dev / nu@@ ll user@@ name @ ho@@ st@@ name
+sc@@ p -c b@@ lo@@ w@@ fi@@ sh -r user @ you@@ r@@ .s@@ er@@ ver@@ .@@ ex@@ amp@@ le@@ .@@ co@@ m : / path / to / foo / home / user / De@@ s@@ k@@ to@@ p /
+y@@ es | mv .@@ ..
+date -d @ 1@@ 2@@ 7@@ 8@@ 9@@ 9@@ 9@@ 6@@ 9@@ 8 + ' % Y@@ - % m@@ - % d % H : % M : % S '
+head / dev / r@@ and@@ o@@ m -@@ c@@ 1@@ 6 | o@@ d -@@ t@@ x@@ 1 -@@ w@@ 1@@ 6 | head -n@@ 1 | cut -d ' ' -f@@ 2@@ - | tr -d ' '
+r@@ sy@@ n@@ c -@@ R@@ v sr@@ c / pro@@ g@@ .j@@ s im@@ ag@@ es / i@@ con@@ .jpg / tmp / p@@ ack@@ age /
+cp -v [ M@@ ac@@ V@@ i@@ m _ s@@ ou@@ r@@ ce _ folder ] / sr@@ c / M@@ ac@@ V@@ i@@ m / m@@ vi@@ m / usr / local / bin
+find . -name \ * .@@ x@@ m@@ l -print0 | c@@ pi@@ o -p@@ a@@ m@@ v@@ d@@ 0 / ne@@ w / pa@@ re@@ nt / dir
+r@@ sy@@ n@@ c -a -@@ -in@@ clu@@ de = ' * / ' --@@ exclu@@ de = ' * ' s@@ ou@@ r@@ ce / de@@ st@@ in@@ ation /
+r@@ sy@@ n@@ c -a -f " + * / " -f " - * " s@@ ou@@ r@@ ce / de@@ st@@ in@@ ation /
+find / ma@@ il -type f | c@@ pi@@ o -p@@ v@@ d@@ m@@ B / home / user@@ name
+cp -n
+cp ' which p@@ y@@ th@@ on@@ 2@@ .@@ 7 ' my@@ en@@ v / bin / p@@ y@@ th@@ on
+cp --@@ remo@@ ve@@ -@@ de@@ st@@ in@@ ation ' read@@ link b@@ ar@@ .p@@ df ' b@@ ar@@ .p@@ df
+cp --@@ remo@@ ve@@ -@@ de@@ st@@ in@@ ation ' read@@ link file ' file
+find . -type d -exec ls -@@ d@@ l@@ r@@ t { } \ ; | wc --@@ lines
+find . -maxdepth 1 -type f -printf ' % T@@ Y@@ - % T@@ m \ n ' | sort | uni@@ q -c
+find / home / my _ dir -name ' * .txt ' | xargs grep -c ^ . *
+find . \ ( -name " * .c " -@@ or -name " * .c@@ p@@ p " -@@ or -name " * .@@ h " -@@ or -name " * .@@ m " -@@ or -name ' * .j@@ ava ' \ ) -print0 | xargs -0 wc
+grep -v ' ^ \ s * $ ' * .p@@ y | wc
+dif@@ f -@@ U 0 file1 file@@ 2 | grep -v ^ @ | wc -l
+com@@ m -@@ 1@@ 2 < ( sort file@@ 1@@ .txt ) < ( sort file@@ 2@@ .txt ) | wc -l
+find / data / S@@ p@@ oo@@ l@@ I@@ n -name jo@@ b@@ .@@ hi@@ st@@ or@@ y -exec grep -l F@@ A@@ I@@ L { } \ + | wc -l
+find / data / S@@ p@@ oo@@ l@@ I@@ n -name jo@@ b@@ .@@ hi@@ st@@ or@@ y -exec grep -l F@@ A@@ I@@ L { } \ ; | wc -l
+find / data / S@@ p@@ oo@@ l@@ I@@ n -name jo@@ b@@ .@@ hi@@ st@@ or@@ y | xargs grep -l F@@ A@@ I@@ L | wc -l
+g@@ zip ' find . \ ! -name ' * .gz ' -print '
+find . \ ! -name " * .gz " -exec g@@ zip { } \ ;
+l@@ n -s g@@ i@@ t@@ -@@ st@@ u@@ f@@ f / home / . [ ! . ] * .
+l@@ n -s / var / ca@@ ch@@ e / a@@ pt / arch@@ i@@ v@@ es / ba@@ sh _ 4@@ .@@ 3@@ -@@ 1@@ 4@@ u@@ b@@ un@@ t@@ u@@ 1 _ a@@ md@@ 64@@ .@@ de@@ b foo
+l@@ n -s t@@ arg@@ et@@ -@@ directory / ' ls -r@@ t t@@ arg@@ et@@ -@@ directory | tail -n@@ 1 ' l@@ at@@ e@@ st
+l@@ n -s .@@ ba@@ sh@@ r@@ c test
+find . -type d -name " my@@ dir " -exec t@@ ou@@ ch ' { } / ab@@ c@@ .txt ' \ ;
+find -name " * .txt " cp { } { } .@@ b@@ k@@ up \ ;
+find test -path ' test / i@@ ce@@ c@@ re@@ a@@ m / cu@@ p@@ ca@@ ke / * ' -o -path ' test / m@@ t@@ n@@ de@@ w / li@@ ve@@ wi@@ re / * ' | c@@ pi@@ o -p@@ ad@@ lu@@ v test@@ -@@ ke@@ e@@ p
+mkdir -p directory { 1 .. 3 } / sub@@ directory { 1 .. 3 } / sub@@ sub@@ directory { 1 .. 2 }
+cat < ( f@@ grep -i -v " $ command " < ( c@@ r@@ on@@ ta@@ b -@@ u test -l ) ) < ( echo " $ jo@@ b " ) | c@@ r@@ on@@ ta@@ b -@@ u test -
+find / home / fold@@ er@@ 1 / * .txt -type f -exec l@@ n -s { } " fold@@ er@@ 1 _ " + \ ;
+fi@@ f@@ 2 = $ ( mk@@ te@@ mp -@@ u )
+mk@@ te@@ mp / tmp / ba@@ na@@ na@@ .@@ XX@@ XX@@ XX@@ XX@@ XX@@ XX@@ XX@@ XX@@ XX@@ XX@@ XX@@ X@@ .@@ mp3
+g@@ nu@@ p@@ lo@@ t@@ scri@@ pt = $ ( mk@@ te@@ mp / tmp / g@@ nu@@ p@@ lo@@ t _ c@@ m@@ d _ $ ( ba@@ se@@ name " $ { 0 } " ) .@@ XX@@ XX@@ XX@@ .g@@ nu@@ p@@ lo@@ t )
+$ my _ te@@ mp _ dir = $ ( mk@@ te@@ mp -d --@@ t@@ mp@@ dir = $ te@@ mp _ dir -t $ te@@ mp@@ l@@ ate )
+r@@ m@@ dir " $ ( dirname $ ( dirname $ dir ) ) "
+g@@ zip -@@ d@@ c li@@ b@@ x@@ m@@ l@@ 2@@ -@@ s@@ ou@@ r@@ ce@@ s@@ -@@ 2@@ .@@ 7@@ .@@ 7@@ .t@@ ar@@ .gz | tar x@@ v@@ f -
+find . -name ' * .@@ do@@ c ' -exec rm " { } " \ ;
+find . \ ( -name ' * .@@ w@@ mv ' -o -name ' * .@@ w@@ m@@ a ' \ ) -exec rm { } \ ;
+find . -name " * .@@ zip " -mtime + 2 -print0 | xargs -0 -I { } rm { }
+find . -name " * .@@ zip " -mtime + 2 or@@ in@@ t@@ 0 | xargs -0 rm
+find / my@@ D@@ ir -type d -@@ delete
+find root -m@@ in@@ depth 2 -type d -empty -@@ delete
+find * -maxdepth 0 -name ' b ' -prune -o -exec rm -r@@ f ' { } ' ' ; '
+find * -maxdepth 0 -name ' b ' -prune -o -exec rm -r@@ f { } \ ;
+find " $ { S } / b@@ un@@ d@@ le@@ d@@ -@@ li@@ b@@ s " \ ! -name ' li@@ b@@ ba@@ ss@@ .s@@ o ' -@@ delete
+find / my@@ D@@ ir -m@@ in@@ depth 1 -mtime 7 -@@ delete
+find / my@@ D@@ ir -m@@ in@@ depth 1 -mtime 7 -exec rm -r@@ f { } \ ;
+find / my@@ D@@ ir -mtime 7 -exec rm -r@@ f { } \ ;
+find $ I@@ N@@ T@@ R@@ A@@ N@@ E@@ T@@ D@@ E@@ S@@ T@@ I@@ N@@ A@@ T@@ I@@ O@@ N / m@@ on@@ th@@ ly -mtime + 3@@ 6@@ 6 -exec rm { } \ ;
+find " $ some _ directory " -name ' . * ' ! -name ' . ' ! -name ' .. ' -@@ delete
+find / tmp / -type f -mtime + 1 -exec rm { } +
+find / home / u@@ 20@@ 8@@ 0@@ 6 / pu@@ b@@ lic _ html -@@ day@@ start -maxdepth 1 -m@@ min + 2@@ 5 -type f -name " * .txt " \ -exec rm -f { } \ ;
+find / home / u@@ 20@@ 8@@ 0@@ 6 / pu@@ b@@ lic _ html -maxdepth 1 -m@@ min + 2@@ 5 -type f -name " * .txt " -@@ delete
+find / -name " o@@ l@@ d@@ S@@ t@@ u@@ f@@ f * .txt " -@@ delete
+find / tmp -name " * .t@@ mp " -print0 | xargs -0 rm find / tmp -name " * .t@@ mp " -print0 | xargs -0 rm
+c@@ r@@ on@@ ta@@ b you@@ r@@ F@@ i@@ le@@ .t@@ ext
+wh@@ o | grep $ U@@ S@@ E@@ R
+find $ dir -type -f size + $ size -print0 | xargs -0 ls -@@ 1@@ h@@ s@@ S
+find " $ S@@ T@@ O@@ R@@ A@@ G@@ E@@ F@@ O@@ L@@ D@@ E@@ R " -name .t@@ o@@ do -printf ' % h \ n ' | uni@@ q | xargs ls -l
+find " $ S@@ T@@ O@@ R@@ A@@ G@@ E@@ F@@ O@@ L@@ D@@ E@@ R " -name .t@@ o@@ do -printf ' % h \ n ' | xargs ls -l
+find $ S@@ T@@ O@@ R@@ A@@ G@@ E@@ F@@ O@@ L@@ D@@ E@@ R -name .t@@ o@@ do -exec ls -l { } \ ;
+find . -name * -exec ls -a { } \ ;
+find . -mtime -1 -@@ ls
+find . -mtime -1 | xargs ls -@@ ld
+find / var -maxdepth 2 -type d ;
+find . -name ' * .@@ do@@ c '
+find . -name \ * .c -print0
+find . \ ( ! -path " * t@@ arg@@ et * " -a ! -path " * to@@ o@@ ls * " -a ! -path " * .g@@ it * " -print \ )
+find . -iname " * $ @ * " -@@ or -iname " . * $ @ * "
+find . | xargs echo
+find . - name " * " - print -@@ о -name " . * " - print -@@ depth
+find -@@ L .
+find . -name " * .txt " -prune -o -print
+find . -type f -@@ ati@@ me + 1
+find -mtime -1
+find / -@@ group li@@ g@@ h@@ tt@@ p@@ d -print
+find / -@@ u@@ i@@ d 100@@ 5
+find / U@@ s@@ ers / M@@ e / De@@ s@@ k@@ to@@ p -@@ re@@ a@@ da@@ ble
+find / home -type f -name * .s@@ x@@ w -@@ ati@@ me -@@ 3 -user b@@ run@@ o
+find . -type f -@@ new@@ er@@ m@@ t " 20@@ 1@@ 4@@ -@@ 0@@ 1@@ -@@ 0@@ 1 " ! -@@ new@@ er@@ m@@ t " 20@@ 1@@ 4@@ -@@ 0@@ 6@@ -@@ 0@@ 1 "
+find -iname " * .jpg "
+grep U@@ T@@ R@@ A@@ C@@ E / bo@@ ot / confi@@ g@@ - $ ( u@@ name -r )
+find . -path " * .g@@ it " -prune -o -type f -print
+find . -path " * .g@@ it * " -prune -o -type f -print
+find . -type f -@@ ati@@ me 7
+find . -mtime 0 -type f
+find $ { F@@ O@@ L@@ D@@ E@@ R } -type f ! -name \ " . * \ " -mtime - $ { R@@ E@@ T@@ E@@ N@@ T@@ I@@ O@@ N }
+find . -@@ l@@ name " * "
+find $ t@@ arg@@ et -type f -iname " * .txt "
+find $ 1 -type f -name ' * ' $ n ' .txt '
+find / usr / local / a@@ pa@@ ch@@ e / lo@@ g@@ s / -type f -name " * _ log " | xargs d@@ u -@@ c@@ sh
+find . -name " * .@@ N@@ E@@ F " -exec ba@@ se@@ name \ { \ } .@@ N@@ E@@ F \ ;
+dif@@ f -@@ y -@@ W 1@@ 5@@ 0 file@@ 1@@ .c@@ f file@@ 2@@ .c@@ f
+ss@@ h@@ -@@ ke@@ y@@ g@@ en -l -@@ E md@@ 5 -f / etc / ssh / ssh _ host _ ec@@ d@@ s@@ a _ ke@@ y@@ .@@ pu@@ b
+file u@@ t@@ f@@ 8@@ .txt
+u@@ name -s -r -v
+find / var / log / -mtime + 60 -type f -exec ls -l { } \ ;
+find . -size -@@ 2@@ 6@@ c -size + 2@@ 3@@ c -exec ls -l ' { } ' \ ;
+find . -size -@@ 2@@ 6@@ c -size + 2@@ 3@@ c -@@ ls
+file -i filename
+find . -maxdepth 1 -name ' * .@@ d@@ at ' -type f -@@ c@@ min + 60 -exec ba@@ se@@ name { } \ ;
+u@@ name -o
+ls | co@@ lu@@ m@@ n -c 8@@ 0
+tree -p -@@ u -@@ g -f
+d@@ u -@@ s@@ b
+mo@@ unt -l
+find . -type f -iname \ * .@@ mo@@ v -printf ' % h \ n ' | sort | uni@@ q | xargs -n 1 -d ' \ n ' -I ' { } ' echo mkdir -@@ v@@ p " / T@@ A@@ R@@ G@@ E@@ T _ F@@ O@@ L@@ D@@ E@@ R _ R@@ O@@ O@@ T / { } "
+o@@ d -@@ t@@ x@@ 2 FIL@@ E@@ N@@ A@@ ME
+o@@ d -t c file
+sho@@ pt -s li@@ th@@ i@@ st
+sho@@ pt -s no@@ ca@@ se@@ g@@ lo@@ b
+sho@@ pt -s no@@ ca@@ se@@ match
+sho@@ pt -s pro@@ g@@ com@@ p
+w@@ at@@ ch -n@@ 10 cat / tmp / i@@ o@@ st@@ at@@ .@@ run@@ n@@ ing
+cat comm@@ and@@ s@@ -@@ to@@ -exe@@ cu@@ te@@ -@@ remo@@ te@@ l@@ y@@ .s@@ h | ssh b@@ la@@ h _ ser@@ ver
+echo " $ ur@@ l " | cut -d ' / ' -f@@ 3
+find / usr / sh@@ are \ ! -type d wc -l
+b@@ ind -p | grep -a for@@ w@@ ard
+find . -type f \ ( -name " * .@@ d@@ at " \ ) -exec tail -n + 5 -@@ q " $ file " { } + | te@@ e con@@ c@@ at@@ .txt
+find / home / my@@ home / data / A@@ R@@ C@@ H@@ I@@ V@@ E / . -name . -o -type d -prune -o -name ' * 20@@ 1@@ 5@@ 1@@ 2 * ' -print | xargs -i mv { } / home / my@@ home / A@@ R@@ C@@ H@@ I@@ V@@ E / T@@ emp@@ F@@ o@@ l@@ der / .
+find / m@@ nt / zip -name " * pre@@ f@@ s copy " -print0 | xargs rm
+c@@ d ' find . -name file@@ .@@ x@@ m@@ l -exec dirname { } \ ; '
+c@@ d ' find . -name file@@ .@@ x@@ m@@ l -printf % h '
+find $ HO@@ ME -name ' * .c ' -print | xargs grep -l sp@@ rint@@ f
+find . -path ' * / l@@ an@@ g / en@@ .c@@ ss ' -prune -o -name ' * .c@@ ss ' -print
+find . -type f -name " * .j@@ ava " | xargs tar r@@ v@@ f my@@ file@@ .t@@ ar
+find . -type f -name " * .j@@ ava " | xargs tar c@@ v@@ f my@@ file@@ .t@@ ar
+find . -name " * .j@@ ava " -exec grep -@@ H@@ in T@@ O@@ D@@ O { } + | cut -d " : " -f 1
+d@@ u -s --@@ b@@ loc@@ k@@ -size = M / path / to / your / directory /
+find $ pa@@ re@@ n@@ t@@ dir -name $ to@@ find *
+find " $ s@@ ou@@ r@@ ce _ dir " -name * . $ input _ file _ type
+find . -iname " * .c@@ ls " -exec echo ' { if ( l@@ en@@ g@@ th ( $ 0 ) > L ) { L@@ I@@ N@@ E = $ 0 ; L = l@@ en@@ g@@ th ( $ 0 ) } } E@@ N@@ D { print L@@ I@@ N@@ E " L " L } ' { } \ ;
+find . -name ' * .jpg '
+find dir -not -path ' .g@@ it ' -iname ' * .p@@ y '
+find . -name \ * .s@@ q@@ l -not -@@ s@@ a@@ me@@ file $ o@@ l@@ de@@ st _ to _ ke@@ e@@ p -not -@@ newer $ o@@ l@@ de@@ st _ to _ ke@@ e@@ p
+find wor@@ k@@ ing -type f -name " * .s@@ r@@ t " | head -1
+find / -name " * .txt "
+find / -name ' * .txt ' -exec d@@ u -@@ h@@ c { } \ ;
+find . -name ' * sh@@ p * '
+find -name " * text "
+find . -name " * .c ' | xargs e@@ grep st@@ d@@ li@@ b@@ .@@ h
+find . -name ' * .gz '
+find * -name " * .j@@ ava "
+find $ d -name ' * .j@@ s ' | grep -v " "
+find . / m@@ u@@ si@@ c -name " * .@@ mp3 " -print0 | xargs -0 ls
+find . / m@@ u@@ si@@ c -name " * .@@ mp3 " -print0 | xargs -0 ls
+find . -maxdepth 1 -m@@ in@@ depth 1 \ ( -name ' * .p@@ y ' -not -name ' test _ * ' -not -name ' se@@ t@@ up@@ .p@@ y ' \ )
+find j@@ ch@@ o -name 2 * .@@ data
+find / data -type f -perm 4@@ 00 -exec echo M@@ o@@ dif@@ y@@ ing { } \ ;
+find / -type d -perm 77@@ 7 -print -exec chmod 755 { } \ ;
+c@@ d $ ( find . -name S@@ u@@ b@@ scri@@ p@@ ti@@ on@@ .j@@ ava -printf ' % h \ n ' )
+find -name " * .c@@ p@@ p " -o -name " * .c "
+find -@@ regex ' . * \ . \ ( c \ | c@@ p@@ p \ ) '
+find . -maxdepth 1 -type d -print0
+find . -name " D " -type d
+find . / -type d -name ' D '
+find / -name local -type d
+find / some@@ P@@ ath -type d -name " some@@ N@@ a@@ me@@ P@@ re@@ fi@@ x * ' -mtime + 10 -print | xargs rm -r@@ f ;
+find test -@@ regex " [ co@@ ur@@ se * ] " -type d
+find / home / me / t@@ arg@@ et _ dir _ 1 -type d
+find / home / my@@ we@@ b@@ si@@ te / pu@@ b@@ lic _ html / si@@ tes / all / mo@@ d@@ ul@@ es -type d -exec chmod 7@@ 5@@ 0 { } +
+find -type d exe@@ c chmod 77@@ 5 { } +
+find -type d | xargs chmod 77@@ 5
+sudo find fold@@ er@@ name -type d -exec chmod 755 { } " ; "
+find . -type f -printf " % f \ n " -name " * .j@@ ar " | sort -f | uni@@ q -i -d
+find { } -type f -@@ depth 1 -perm + 0@@ 1@@ 1@@ 1 | sort -r
+find { } -name ' up@@ v@@ o@@ ter@@ - * ' \ ( -type f -@@ or -type l \ ) -maxdepth 1 -perm + 1@@ 1@@ 1
+find / etc -@@ i@@ regex ' . * xt . * '
+find / tmp / test / * -@@ day@@ start -mtime -1
+find " $ S@@ T@@ O@@ R@@ A@@ G@@ E@@ F@@ O@@ L@@ D@@ E@@ R " -name .t@@ o@@ do -exec dirname { } \ ;
+find . -iname " p@@ ho@@ to@@ .jpg "
+find -name p@@ ho@@ to@@ .jpg
+find . -name ' * ' $ V@@ E@@ R@@ S@@ I@@ O@@ N ' * '
+find ~ -iname " sc@@ re@@ en * "
+find $ some@@ th@@ ing
+find / etc -size + 5@@ M -exec ls -@@ sh { } +
+find / etc -@@ newer / etc / mo@@ t@@ d
+find / usr / local -mtime -1
+find / e@@ ser@@ ver@@ 6 -@@ L
+find . -print0 | xargs -I { } -0 echo { }
+find . -name " * [ 1@@ k ] * "
+find . -@@ regex " . * / ( test ) [ 0-9 ] [ 0-9 ] \ .txt "
+find . -@@ i@@ who@@ le@@ name " * A@@ C@@ K * 1 "
+find . -path . / directory -prune -o -name ' * .j@@ s ' -print
+find / app@@ s / a@@ u@@ di@@ t -perm -@@ 7 -print | xargs chmod o ‑ w
+find . -@@ depth -name " * * " -exe@@ c@@ dir re@@ name " s / / _ / g " " { } " \ ;
+find / home / w@@ su@@ N@@ I@@ D / -name file@@ 1@@ .txt
+find / dir \ ( -name foo -prune \ ) -o \ ( -name bar -prune \ ) -o -name " * .s@@ h " -print
+find . -type f ! \ ( -name " * g@@ z " -o -name " * tmp " -o -name " * x@@ f@@ t@@ p " \ ) -exec g@@ zip -n ' { } ' \ ;
+find / home / my@@ user -mtime + 7 -print
+find . -@@ ati@@ me + 30 -print
+f@@ u@@ ll _ back@@ up _ dir = " $ ( find . -@@ depth \ ( -@@ who@@ le@@ name \ . / \ . \ * \ ) -prune -o -print | c@@ pi@@ o -@@ o@@ a@@ v ) "
+find . -size -@@ 10@@ k
+find . | sort
+find . | grep -@@ v@@ f file@@ .@@ l@@ st
+find . | xargs wc -l
+find . -type f -@@ ati@@ me 1
+find . -@@ ati@@ me + 30 -print
+find / o@@ pt -mtime + 30 -mtime -@@ 5@@ 0
+find ~ -size 100@@ M
+find ~ -mtime 1 -@@ day@@ start
+find ~ -iname ' * .t@@ ex '
+find -name test@@ 2 -prune
+cat ' find . -name a@@ a@@ a@@ .txt '
+find / -@@ who@@ le@@ name ' / pro@@ c ' -prune -o -type f -perm -@@ 00@@ 0@@ 2 -exec ls -l { } \ ;
+find / -@@ who@@ le@@ name ' / pro@@ c ' -prune -o -type f -perm -@@ 00@@ 0@@ 2 -exec ls -l { } \ ;
+find / -name comp@@ o@@ ser@@ .j@@ s@@ on -exec grep -n d@@ r@@ us@@ h { } / dev / nu@@ ll \ ;
+find . -user to@@ m@@ my@@ e
+find / home -@@ group de@@ ve@@ lo@@ p@@ er
+find / -user root
+find / -name " dir@@ -@@ nam@@ e@@ -@@ h@@ ere "
+find -@@ newer or@@ d@@ in@@ ar@@ y _ file
+find / \ ( -perm -@@ 00@@ 6 -o -perm -@@ 00@@ 7 \ ) \ ( ! -type -l \ ) -@@ ls
+find / [ о@@ п@@ ц@@ и@@ я _ п@@ о@@ и@@ с@@ к@@ а ] [ з@@ н@@ а@@ ч@@ е@@ н@@ и@@ е ] [ о@@ п@@ ц@@ и@@ я _ д@@ е@@ й@@ с@@ т@@ в@@ и@@ я ]
+find " $ m@@ u@@ si@@ c@@ dir " -type f -print
+find . / li@@ b / a@@ p@@ p -type f | sort | te@@ e my@@ F@@ i@@ le
+find / path -perm -@@ 0@@ 2@@ 2
+find / path -perm -@@ g + w , o + w
+find / path -perm -@@ g@@ o + w
+find / path -type f -print0 | xargs -0 md@@ 5@@ su@@ m
+find -@@ E / some@@ folder -type f -@@ regex ' \ . / ( . * \ .@@ er@@ r@@ or@@ . * | se@@ con@@ d . * log | . * F@@ F@@ P@@ C \ .log ) $ '
+find . / sub@@ folder . / sub@@ folder / * / -maxdepth 1 -type f
+find / -mtime + 5@@ 0 -mtime -@@ 1@@ 00
+find . -type f -iname ' * .jpg ' -print0
+find . / -name " * .txt " | re@@ v | cut -d ' / ' -f@@ 1 | re@@ v
+find / home / foo -name " * .gz "
+find / usr / in@@ clu@@ de -type f -mtime -@@ 4@@ 00 -name " * .@@ h "
+sort file | uni@@ q | cut -f@@ 1 -d ' ' | uni@@ q -c | re@@ v
+find " $ S@@ O@@ U@@ R@@ C@@ E " -type f -iname ' * .jpg '
+find -name ' * .php '
+find / var / www / -type f -iname " * .php " -print
+find . -@@ reg@@ ex@@ type po@@ si@@ x@@ -@@ exten@@ d@@ ed -@@ regex " [ a@@ -f@@ 0-9 \ - ] \ { 3@@ 6 \ } \ .jpg "
+find / -@@ re@@ a@@ da@@ ble
+find . -type f -exec echo mv -t . { } +
+find ma@@ in@@ -@@ directory -type f -exec mv -v ' { } ' ' { } ' .html \ ;
+find . -type f -mtime 2 -mtime -@@ 3 -@@ day@@ start -exec ls -l { } \ ;
+find . -user se@@ d@@ la@@ v -type f
+find $ DIR -type f -iname " * . $ T@@ Y@@ P@@ E "
+FIL@@ E@@ S = $ ( find $ FIL@@ E@@ S _ P@@ A@@ T@@ H -type f -name " * " )
+find / home / jo@@ h@@ n -name " l@@ and@@ of * " -type f -print
+find . \ ( -not -path ' . / dir1 / * ' -@@ and -not -path ' . / dir@@ 2 / * ' -@@ or -path ' . / dir1 / sub@@ dir1 / * ' \ ) -type f
+find . -type s
+find . -name " * .txt " | xargs -I ' { } ' mv ' { } ' / foo / ' { } ' .@@ bar
+find / -@@ mo@@ unt -name " * .txt "
+find / -@@ x@@ dev -name " * .txt "
+find te@@ mp@@ s / -name " th@@ u@@ mb@@ .p@@ n@@ g "
+find . -name ' * .@@ w@@ a@@ v ' -maxdepth 1
+find . -name " * .@@ x@@ m@@ l " -exec grep -@@ H@@ F@@ f < ( find . -name " * .txt " -printf " % f \ n " ) { } \ ;
+find . -type f -name ' * .@@ zip ' -print0 | xargs -0 tar -@@ x@@ z@@ f
+find ~ / -name ' c@@ ore * ' -exec rm { } \
+find . -name " * .p@@ df " -print | grep -v " ^ \ . / p@@ d@@ f@@ s / "
+find . -size -@@ 5@@ 00@@ k
+find . -type f -exec ls -s { } \ ; sort -n | head -@@ 5
+find $ wor@@ k@@ spac@@ e _ ts -m@@ in@@ depth 1 -maxdepth 1 -type d -mtime -@@ 30
+find -m@@ in@@ depth 3 -maxdepth 3 -type d -name " * N@@ e@@ w P@@ ar@@ ts * " -exec l@@ n -s -t / c@@ y@@ g@@ d@@ ri@@ ve / c / V@@ i@@ e@@ w@@ s { } \ ;
+find -type d -printf ' % T + % p \ n ' | sort | head -1
+find / home -type d -perm 77@@ 7 -print -exec chmod 755 { } \ ;
+find wor@@ d@@ pre@@ ss -name ' * j@@ s '
+find / home / user / my@@ user@@ name / -name my@@ file.txt -print
+find -name " * test * " -@@ depth
+find ' ls -d / [ u@@ b@@ s@@ o ] * ' -name s@@ ar
+find / us@@ ers / to@@ m -name " * .p@@ l " -name " * .p@@ m "
+find / path -perm -@@ 0@@ 2@@ 2
+find / path -perm -@@ g + w , o + w
+find / path -perm -@@ g@@ o + w
+find / -name ar@@ ro@@ w@@ .jpg
+find -@@ a@@ min -@@ 60
+find . -@@ links 1
+find ~ / sr@@ c -@@ newer ma@@ in@@ .c@@ ss
+find / -type f -size + 5@@ 0@@ M -size -@@ 100@@ M
+find / -type f ! -perm 644
+find / usr -@@ newer / usr / F@@ i@@ r@@ st@@ F@@ i@@ le -print
+find . -name " foo . * "
+find / -type f -perm -@@ 00@@ 2 -print0
+find / -in@@ u@@ m 1@@ 9@@ 9@@ 0@@ 5@@ 3
+find . .@@ .. -print -@@ qu@@ it
+find / -name g@@ r@@ u@@ b@@ .@@ con@@ f
+find ~ / De@@ s@@ k@@ to@@ p -name " * .jpg " -o -name " * .g@@ if " -o -name " * .p@@ n@@ g " -print0 | xargs -0 mv -@@ t@@ arg@@ et@@ -@@ directory ~ / P@@ i@@ ct@@ u@@ re@@ s
+find . -type d -print0 | xargs -0 d@@ u | sort -n | tail -@@ 10 | cut -f@@ 2 | xargs -I { } d@@ u -@@ sh { }
+md@@ 5@@ su@@ m file * .txt
+find / -type d -iname " pro@@ j@@ e@@ ct@@ .@@ im@@ ag@@ es " -@@ ls
+find -m@@ in@@ depth 3 -maxdepth 5 -name pa@@ ss@@ w@@ d
+find -m@@ in@@ depth 3 -maxdepth 5 -name pa@@ ss@@ w
+find . -name \ * \ : \ *
+find / dir / to / search / -type f -name ' ex@@ pre@@ ssi@@ on -@@ or ex@@ pre@@ ssi@@ on ' -print
+grep -r " se@@ arch@@ e@@ d@@ -@@ string " .
+sudo l@@ n -f -s $ j@@ av@@ a@@ U@@ sr@@ Li@@ b / j@@ d@@ k@@ 1 * / bin / * / usr / bin /
+sudo l@@ n -s -f " / usr / local / bin / f@@ in@@ d@@ p@@ d@@ f@@ text " " / usr / local / bin / f@@ p@@ df "
+l@@ n -@@ s@@ f@@ n / oth@@ er / dir ne@@ w _ dir
+find . -mtime -@@ 3 -exec rm -r@@ f { } \ ;
+rm -f / tmp / st@@ o@@ re@@ d _ ex@@ ce@@ p@@ ti@@ on / tmp / st@@ o@@ re@@ d _ ex@@ ce@@ p@@ ti@@ on _ line / tmp / st@@ o@@ re@@ d _ ex@@ ce@@ p@@ ti@@ on _ s@@ ou@@ r@@ ce
+mo@@ unt | co@@ lu@@ m@@ n -t
+co@@ lu@@ m@@ n -t -s ' ' filename
+date -d @ $ T@@ I@@ M@@ E@@ S@@ T@@ A@@ M@@ P
+pa@@ ss = $ ( L@@ C _ C@@ T@@ Y@@ P@@ E = C < / dev / ur@@ and@@ o@@ m tr -@@ c@@ d [ : g@@ ra@@ p@@ h : ] | tr -d ' \ n ' | fol@@ d -@@ w 3@@ 2 | head -n 1 )
+grep ^ Q F@@ i@@ le@@ 1@@ .txt | cut -d = -f@@ 2@@ - | sort | com@@ m -@@ 2@@ 3 - < ( sort F@@ i@@ le@@ 2@@ .txt )
+find . -m@@ in@@ depth 1 -maxdepth 1 -type f -print0 | xargs -0 -I { } echo " { } "
+find dir1 ! -type d | xargs wc -c
+find $ F@@ U@@ L@@ FIL@@ L@@ M@@ E@@ N@@ T -@@ ls
+find . -type f -@@ regex ' . * \ ( c \ | h \ | c@@ p@@ p \ ) ' -exec ls { } \ ;
+find / data / -name ' comm@@ and@@ - * -@@ se@@ t@@ up ' | sort -t - -@@ V -@@ k 2@@ ,@@ 2
+find . -type f -exec ls -l ' { } ' \ ;
+find / var -path * / l ? ? / s@@ a@@ mb@@ a *
+find . / -name " * .s@@ q@@ li@@ te " -@@ ls
+find . -type l | xargs -I % ls -l % | grep t@@ arg@@ et@@ file.txt
+com@@ m -@@ 1@@ 2 < ( find ~ / bin / F@@ i@@ le@@ s@@ D@@ v@@ or@@ a@@ k / . * -maxdepth 0 ) < ( find ~ / .@@ P@@ A@@ S@@ T _ R@@ C _ files / . * )
+find / pro@@ c / $ 1 / ex@@ e -printf ' % l \ n '
+ls -d -1 $ P@@ W@@ D / * * / *
+tree -@@ L 2
+g@@ zip -l $ i
+find / some@@ loc@@ ation / log _ output -type f -@@ ct@@ i@@ me + 4@@ 0 -exec ls -l { } \ ;
+find / \ ! -@@ re@@ a@@ da@@ ble -prune -o -name ' * .j@@ b@@ d ' -@@ ls
+find . -type f -name ' * .gz ' -printf ' % s % p \ n ' | sort -n@@ r | head -n 1
+find . -type f -exec ba@@ se@@ name { } \ ;
+b@@ ind -l | grep /
+find $ directory -type l -printf " % p $ I@@ F@@ S "
+find / usr / sh@@ are / do@@ c -name " co@@ p@@ y@@ ri@@ g@@ h@@ t "
+find / -name pa@@ ss@@ w@@ d
+find . -type f -name " T@@ es * " -exec ls -l { } \ ;
+find -name filename
+mkdir ~ / L@@ ab@@ s / la@@ b@@ 4@@ a / folder { 1@@ ,@@ 2@@ ,@@ 3 }
+mkdir ~ / L@@ ab@@ s / la@@ b@@ 4@@ a / folder { 1 .. 3 }
+cat / dev / ur@@ and@@ o@@ m | tr -@@ d@@ c ' a@@ -@@ z@@ A@@ -@@ Z@@ 0-9 ' | fol@@ d -@@ w 3@@ 2 | head -n 1 | xargs mkdir
+mkdir $ ( cat / dev / ur@@ and@@ o@@ m | tr -@@ d@@ c ' a@@ -@@ z@@ A@@ -@@ Z@@ 0-9 ' | fol@@ d -@@ w 3@@ 2 | head -n 1 )
+mkdir / tmp / A / tmp / B / tmp / C " / tmp / dir with spac@@ es "
+mkdir my@@ bu@@ i@@ ld
+jo@@ in -t : < ( sort file1 ) < ( sort file@@ 2 )
+pa@@ st@@ e -d , -s file
+mo@@ unt -o r@@ o , lo@@ o@@ p , o@@ f@@ f@@ set = $ O@@ F@@ F@@ S@@ E@@ T -t a@@ u@@ to $ I@@ M@@ A@@ G@@ E / me@@ di@@ a / $ D@@ E@@ S@@ T
+mv * / foo
+mv ' ls ' / foo
+find s@@ ou@@ r@@ ce@@ D@@ ir -print0 | xargs -0 mv -t de@@ st@@ D@@ ir
+find s@@ ou@@ r@@ ce@@ D@@ ir -m@@ in@@ depth 1 -maxdepth 1 -exec mv --@@ t@@ arg@@ et@@ -@@ directory = de@@ st@@ D@@ ir ' { } ' +
+find s@@ ou@@ r@@ ce@@ D@@ ir -m@@ in@@ depth 1 -maxdepth 1 -print0 | xargs -0 mv --@@ t@@ arg@@ et@@ -@@ directory = de@@ st@@ D@@ ir
+find . / -type f -print | xargs -i mv -f { } . / new@@ dir
+find . / -type f -print | xargs -@@ l@@ 5@@ 6 -I { } mv -f { } . / new@@ dir
+mv " $ 2 " " ' dirname $ 1 ' "
+find . -@@ ati@@ me + 1 -type f -exec mv { } T@@ M@@ P \ ; # mv files o@@ l@@ der the@@ n 1 day to dir T@@ M@@ P
+ssh user @ host -@@ X
+uni@@ q -@@ w@@ 1@@ 2 -c file
+jo@@ in -@@ v@@ 1 su@@ c@@ cess@@ .txt f@@ a@@ i@@ l@@ .txt
+find . -print0 | xargs -0
+echo " T@@ hi@@ s is a sen@@ ten@@ ce " . | tr -s " " " \ 0@@ 1@@ 2 "
+sort filename | uni@@ q -c
+sort filename | uni@@ q -c | sort -n@@ r
+find . | sort -f | uni@@ q -i -d
+ls | sort -f | uni@@ q -i -d
+dif@@ f -@@ b@@ ur@@ N@@ ad te@@ ste@@ 1 te@@ ste@@ 2
+di@@ g @ some@@ .@@ oth@@ er@@ .@@ i@@ p@@ .@@ ad@@ d@@ ress do@@ ma@@ in@@ . a
+find -name ' * .jpg ' | sort -n
+tail -f / var / log / some@@ .log | grep --@@ lin@@ e@@ -@@ bu@@ f@@ f@@ e@@ re@@ d foo | grep bar
+ba@@ se@@ name " ' p@@ w@@ d ' "
+ba@@ se@@ name $ ( p@@ w@@ d )
+ba@@ se@@ name ' p@@ w@@ d '
+echo " $ ( ba@@ se@@ name $ ( p@@ w@@ d ) ) "
+p@@ w@@ d | xargs ba@@ se@@ name
+p@@ w@@ d | grep -o ' [ ^ / ] * $ '
+ba@@ se@@ name $ ( echo " a : b : c : d : e " | tr ' : ' ' / ' )
+c@@ al 0@@ 2 1@@ 9@@ 5@@ 6
+find . / -name * .@@ o@@ g@@ v -exec echo my@@ file { } \ ;
+grep -@@ a@@ o " [ / \ \ ] " / dev / ur@@ and@@ o@@ m | tr -d \ \ n
+date -d " $ ( date -d " 2 m@@ on@@ th@@ s " + % Y@@ - % m@@ -1 ) -1 day " + % a
+dirname ' p@@ w@@ d -@@ P '
+sort file1 file@@ 2 | uni@@ q -@@ u
+find emp@@ t@@ y@@ 1 emp@@ t@@ y@@ 2 not _ empty -prune -empty
+fol@@ d -@@ b -@@ w 2@@ 0 | cut --@@ out@@ pu@@ t@@ -@@ de@@ li@@ mi@@ ter $ ' \ t ' -@@ b 1@@ -@@ 3@@ ,@@ 4@@ -@@ 10@@ ,@@ 1@@ 1@@ -@@ 2@@ 0
+df -@@ h /
+echo " dirname : ' dirname " $ 0 " ' "
+echo " dirname : ' dirname $ 0 ' "
+cat t@@ ex@@ t@@ .txt | cut -d " " -f 4
+echo ' date -@@ v@@ -@@ 1@@ d + % F '
+p@@ st@@ ree -p
+cat --@@ h@@ e@@ l@@ p
+wh@@ o -@@ l@@ a
+tail -n 100@@ 0 / var / sp@@ oo@@ l / c@@ ro@@ n / *
+echo 0@@ a@@ .@@ 00@@ .@@ 1 us@@ b con@@ t@@ ro@@ l@@ l@@ er some text de@@ vi@@ ce 4@@ d@@ c@@ 9 | re@@ v | cut -@@ b@@ 1@@ -@@ 4 | re@@ v
+tail -1 < ( sort set )
+cat d@@ u@@ mp@@ .txt | head -@@ 1@@ 6@@ 2@@ 24 | tail -@@ 2@@ 5@@ 8
+ls -@@ ld / tmp / t@@ nt
+p@@ s -@@ e -@@ or@@ ss = , arg@@ s = | sort -n@@ r | head
+se@@ q 10 | pa@@ st@@ e -@@ s@@ d " \ n " -
+~ $ . t@@ ra@@ p@@ .s@@ h | cat
+$ ( dirname $ ( read@@ link -@@ e .. / .. / .. / .. / etc / pa@@ ss@@ w@@ d ) )
+$ ( dirname $ ( read@@ link -@@ e .. / .. / .. / .. / etc / pa@@ ss@@ w@@ d ) )
+echo < ( y@@ es )
+echo " ' p@@ w@@ d -@@ P ' "
+p@@ st@@ ree | cat
+p@@ st@@ ree -p user
+ls -l | head -@@ 2 | tail -1
+ls -l | tail -n + 2 | head -n@@ 1
+cut -d ' ' -f 2
+cut -d \ -f 2
+echo 1@@ 2@@ 3 | te@@ e > ( tr 1 a ) | tr 1 b
+i@@ f@@ confi@@ g | grep H@@ W
+wh@@ o | grep -i ad@@ min | cut -@@ c@@ 1@@ 0-@@ 2@@ 0
+date + " % T "
+find . -name ' * .php ' -type f -exec cat -@@ - { } + | wc -l
+read@@ link ' p@@ w@@ d '
+com@@ m -@@ 2 -@@ 3 A B | com@@ m -@@ 2 -@@ 3 - C | com@@ m -@@ 2 -@@ 3 - D
+echo ' who@@ a@@ m@@ i '
+who@@ a@@ m@@ i
+p@@ w@@ d | tr ' / ' ' \ n '
+c@@ r@@ on@@ ta@@ b
+find . -prune
+o@@ d -@@ A n -@@ N 2 -t u@@ 2 / dev / ur@@ and@@ o@@ m
+read -s E@@ N@@ T@@ E@@ R@@ E@@ D _ P@@ A@@ S@@ S@@ W@@ O@@ R@@ D
+read -p " $ * "
+read -p " P@@ a@@ ss@@ word : " -s S@@ S@@ H@@ P@@ A@@ S@@ S
+read -r an@@ s
+read -p " P@@ le@@ a@@ se E@@ n@@ ter a M@@ e@@ ss@@ age : $ c@@ r " me@@ ss@@ age
+read -p $ ' E@@ n@@ ter your age : \ n '
+read -@@ e -p " E@@ n@@ ter the path to the file : " -i " / usr / local / etc / " FIL@@ E@@ P@@ A@@ T@@ H
+read -@@ e -p " M@@ y pro@@ mp@@ t : " var@@ name
+read -n 1 c
+sudo chown -@@ R ww@@ w@@ -@@ data : ww@@ w@@ -@@ data / var / www
+chown a@@ m@@ z@@ ad@@ m@@ .@@ root -@@ R / usr / li@@ b / p@@ y@@ th@@ on@@ 2@@ .@@ 6 / si@@ te@@ -p@@ ack@@ ag@@ es / a@@ w@@ sc@@ l@@ i /
+cp -r $ 1 $ 2
+find / path / to / s@@ ou@@ r@@ ce -type d | c@@ pi@@ o -p@@ d / path / to / de@@ st /
+find . -name " * .p@@ df " -print0 | xargs -0 rm -r@@ f
+find . -name ' * .p@@ df ' -exec rm -f { } \ ;
+find . -type f | e@@ grep -v ' \ .@@ b@@ z@@ 2 ' | xargs b@@ zi@@ p@@ 2 -@@ 9 &
+grep -in@@ r " T@@ ext " folder / to / b@@ e / se@@ arch@@ ed /
+ls * * / * .p@@ y * * / * .html
+grep -@@ R@@ I@@ l " " .
+find . -type f -not -name ' * t@@ xt ' | xargs rm
+find . -name " * .p@@ y@@ c " -exec rm -r@@ f { } \ ;
+find . -name " * .p@@ y@@ c " | xargs rm -r@@ f
+find . -name ' * .p@@ y@@ c ' -print0 | xargs -0 rm
+rm * * / * .p@@ y@@ c
+rm ' find . -name \ * .p@@ y@@ c '
+find . -iname ' * .p@@ y@@ c ' -print0 | xargs -0 --@@ no@@ -@@ run@@ -@@ i@@ f@@ -empty rm
+chmod -@@ R 755 / directory
+sudo mo@@ unt -o remo@@ unt -o exe@@ c / dev / s@@ da@@ 7
+mo@@ unt -o remo@@ unt , size = 4@@ 0@@ G / dev / sh@@ m
+find ' p@@ w@@ d ' -name c@@ ore -@@ ct@@ i@@ me + 4 -exe@@ c@@ dir / bin / rm -f { } \ ;
+find . -type f -@@ regex " . + - [ 0-9 ] + x [ 0-9 ] + \ .jpg " -exec rm -r@@ f { } \ ;
+find . -type f -@@ regex " . + - [ 0-9 ] + x [ 0-9 ] + \ .jpg " | xargs rm
+find . -name ' * .@@ do@@ c ' -exec rm " { } " \ ;
+find . -name " ne@@ w * .s@@ h " -exec rm -f ' { } ' \ +
+find . -name " ne@@ w * .s@@ h " -exec rm -f ' { } ' \ ;
+find dir -name \ \ * ~ -exec rm { } +
+find / usr -name c@@ ore -@@ ati@@ me + 7 -exec rm " { } " \ ;
+/ usr / bin / find / home / user / S@@ er@@ ies / -iname " * s@@ amp@@ le * " -exec rm { } \ ;
+find / home / user / S@@ er@@ ies / -iname ' * s@@ amp@@ le * ' -exec rm { } \ ;
+find . -type f -mtime + 3 -exec rm -f { } \ ;
+find . -name v@@ m@@ w@@ a@@ re@@ - * .log -print0 | xargs -0 rm
+find . -name v@@ m@@ w@@ a@@ re@@ - * .log | xargs -i rm -r@@ f { }
+find . -name li@@ b@@ G@@ L@@ E * | xargs rm -f
+find -name " * " | xargs rm -f
+find / tmp -maxdepth 1 -type f -@@ delete
+find . -name v@@ m@@ w@@ a@@ re@@ - * .log -print0 | xargs -0 rm
+r@@ m@@ dir ed *
+path = $ ( ba@@ se@@ name $ path )
+find / sr@@ v / ab@@ c / -type d -empty -exec r@@ m@@ dir { } \ ;
+find . -maxdepth 1 | grep -v " exclu@@ de the@@ se " | xargs rm -r
+find / path / to / files * -mtime + 5 -exec rm { } \ ;
+find . -type f -size + 1@@ M -exec rm { } +
+echo $ filename | re@@ v | cut -f 2@@ - -d ' . ' | re@@ v
+ss@@ h@@ -@@ ke@@ y@@ g@@ en -f ~ / .@@ ssh / i@@ d _ r@@ s@@ a -@@ P " "
+re@@ name -v ' s # / file # # ' v _ { 1@@ ,@@ 2@@ ,@@ 3 } / file.txt
+mv file@@ 00@@ 1@@ ab@@ c@@ .txt ab@@ c@@ 1@@ .txt
+mv o@@ ld tmp
+find -maxdepth 3 -m@@ in@@ depth 3 -type f -iname ' * .jpg ' -exec re@@ name -n ' s / j@@ pg $ / j@@ p@@ e@@ g / i ' { } +
+find . -name C@@ V@@ S -prune -o -exec mv ' { } ' ' echo { } | tr ' [ A@@ -@@ Z ] ' ' [ a@@ -@@ z ] " \ ; -print
+find . -name " * .@@ and@@ na@@ v " -exec re@@ name -v ' s / \ .@@ and@@ na@@ v $ / \ .t@@ i@@ le / i ' { } \ ;
+find . -name " * .@@ and@@ na@@ v " | re@@ name " s / \ .@@ and@@ na@@ v $ / .t@@ i@@ le / "
+echo $ ( y@@ es im@@ ag@@ e@@ .p@@ n@@ g | head -n@@ 10 )
+y@@ es im@@ ag@@ e@@ .p@@ n@@ g | head -n@@ 10 | xargs echo
+find -name " * ex@@ p _ to _ find _ in _ folders * ' -exec re@@ name " s / ex@@ p _ to _ find _ for _ re@@ p@@ la@@ ce@@ me@@ nt / ex@@ p _ to _ re@@ p@@ la@@ ce / " { } \ ;
+grep -v ' ^ $ ' Y@@ O@@ U@@ R@@ FIL@@ E | n@@ l -s = -@@ w@@ 9@@ 9 | tr -s ' ' p
+echo -@@ e " l@@ en@@ g@@ th ( F@@ O@@ O ) = = $ ( echo -n@@ e " $ { F@@ O@@ O } " | wc -@@ m ) "
+head -1 table | tr -s ' ' ' \ n ' | n@@ l -n@@ l@@ n | grep " T@@ arg@@ et " | cut -f@@ 1
+u@@ name -v | grep -o ' # [ 0-9 ] \ + '
+echo " a@@ a@@ a@@ a e@@ e@@ e@@ e b@@ b@@ b@@ b f@@ f@@ f@@ f c@@ c@@ c@@ c " | tr ' ' ' \ n ' | ta@@ c | tr ' \ n ' ' '
+jo@@ in -t $ ' \ t ' file1 file@@ 2
+jo@@ in < ( sort -n file1 ) < ( sort -n file@@ 2 )
+en@@ v ' cat x@@ x@@ x@@ x ' oth@@ er@@ scri@@ p@@ t@@ .s@@ h
+cat $ 2 | grep -v " # " | ssh -t $ 1 $ I@@ N@@ T@@ E@@ R@@ P@@ R@@ E@@ T@@ E@@ R
+ab@@ s@@ path = $ ( read@@ link -f $ path )
+S@@ C@@ R@@ I@@ P@@ T = " $ ( read@@ link --@@ c@@ an@@ on@@ i@@ c@@ al@@ i@@ z@@ e@@ -@@ ex@@ i@@ st@@ ing " $ 0 " ) "
+me = $ ( read@@ link --@@ c@@ an@@ on@@ i@@ c@@ al@@ i@@ z@@ e --@@ no@@ -@@ new@@ line $ 0 )
+f = $ ( cat numb@@ er@@ s@@ .txt )
+C@@ A@@ T = ' which cat '
+f@@ u@@ ll _ f = " $ ( which f ) "
+ver = ' echo -n@@ e " $ 1 \ n $ 2 " | sort -@@ V@@ r | head -n@@ 1 '
+i@@ p = $ ( ho@@ st@@ name -I )
+S@@ T@@ A@@ M@@ P = ' date -r file _ name '
+md@@ 5 = $ ( md@@ 5@@ su@@ m " $ my _ i@@ s@@ o _ file " | cut -d ' ' -f 1 )
+size = " $ ( z@@ cat " $ file " | wc -c ) "
+my@@ V@@ ar = $ ( te@@ e )
+find test@@ 1 -type f -name ' t@@ ex@@ t@@ file.txt ' -print
+find / m@@ nt / ra@@ i@@ d / up@@ lo@@ ad -mtime + 5 -print
+find . -name \ * .p@@ df -print
+find \ ( -name ' me@@ ss@@ ag@@ es . * ' ! -path " * / .s@@ v@@ n / * " ! -path " * / C@@ V@@ S / * " \ ) -exec grep -@@ I@@ w u@@ in@@ t { } +
+find -type f -exec grep -@@ I@@ q . { } \ ; -@@ and -print
+find . -type f -exec grep -@@ I@@ q . { } \ ; -@@ and -print
+find . -name .@@ v@@ en@@ d@@ or -prune -o -name ' * .@@ r@@ b ' -print
+find . -name ' * .j@@ ava ' -@@ newer bu@@ i@@ l@@ d@@ .@@ x@@ m@@ l -print
+find . -perm 77@@ 5 -print
+find . -mtime -1 ! -name ' .@@ D@@ S _ S@@ t@@ ore ' -type f -exec ba@@ se@@ name { } \ ;
+find . -mtime -1 ! -name ' .@@ D@@ S _ S@@ t@@ ore ' -type f -printf ' % f \ n '
+find -type f -user www
+find . -type f -name " * ke@@ e@@ p . $ { S@@ U@@ F@@ FI@@ X } "
+find . -type f -@@ regex " . + - [ 0-9 ] + x [ 0-9 ] + \ .jpg "
+find -@@ P . -@@ l@@ name ' * / test * '
+find $ path -type f -name " * . $ extension "
+find / -user o@@ l@@ d@@ user -type f -exec chown new@@ user { } \
+find / -f@@ st@@ ype ex@@ t@@ 3 -name z@@ sh -@@ ls
+find . -name " $ pattern "
+hi@@ st@@ or@@ y 3@@ 00 | grep sc@@ p | grep i@@ mp@@ or@@ t@@ an@@ t $
+hi@@ st@@ or@@ y | grep " 8@@ 4@@ 0 "
+hi@@ st@@ or@@ y | grep -@@ C 5 i@@ f@@ confi@@ g
+hi@@ st@@ or@@ y | grep i@@ f@@ confi@@ g -@@ A@@ 5 -@@ B@@ 5
+cat file | grep pattern | pa@@ st@@ e -@@ s@@ d ' '
+find / -name " * . * ' -exec grep -@@ il " fo@@ o@@ bar " { } \ ;
+find . -type f -print | xargs grep " ex@@ amp@@ le "
+find s@@ ou@@ r@@ c@@ es -type f -exec grep -@@ H foo { } +
+find . -type f | xargs grep " m@@ ag@@ i@@ c "
+find -name file -@@ qu@@ it
+find / \ ( -perm 2@@ 000 -o -perm 4@@ 000 \ ) -print | dif@@ f - file@@ s@@ .@@ se@@ cur@@ e
+find / app@@ s -@@ x@@ dev -name " * .log " -type f -mtime + 60 | xargs rm
+find / na@@ s / pro@@ j@@ e@@ ct@@ s / m@@ g@@ m@@ t / scri@@ p@@ ts / per@@ l -mtime 8 -mtime -@@ 10 -@@ day@@ start -iname " * .p@@ l "
+find / home -type f -perm 0@@ 77@@ 7 -print
+find . -type d -name a@@ a
+find / n@@ f@@ s / o@@ f@@ fi@@ ce -name .@@ user@@ .log -print
+find / home / my@@ we@@ b@@ si@@ te -type f -name " fo@@ o@@ b@@ ar@@ .txt "
+find . -perm -@@ 4@@ 4@@ 4 -perm / 2@@ 2@@ 2 ! -perm / 1@@ 1@@ 1
+find var / log -print0 -iname ' a@@ na@@ con@@ d@@ a . * ' | tar -@@ c@@ v@@ f some@@ file@@ .t@@ ar -@@ T -
+find . -name foo | xargs ls -@@ t@@ l
+find / -iname ' * p@@ y@@ th@@ on * '
+find / -name ' * p@@ y@@ th@@ on * '
+find . -name " S@@ 1@@ A * 1@@ S * S@@ A@@ F@@ E "
+find ~ / -@@ ati@@ me + 1@@ 00 -exec rm -i { } \ ;
+find . -perm -@@ 4@@ 4@@ 4 -perm / 2@@ 2@@ 2 ! -perm / 1@@ 1@@ 1
+find . -perm -a + r -perm / a + w ! -perm / a + x
+find . -print | xargs grep v \ $ pro@@ ce@@ ss
+grep foo ' find / usr / sr@@ c / lin@@ u@@ x -name " * .html " '
+find . -path . / .g@@ it -prune -o -not -name ' * g@@ it * ' -print | grep g@@ it
+find / b@@ oo@@ k -print | xargs grep ' [ N@@ n ] u@@ t@@ sh@@ e@@ ll '
+find . -name " * .@@ ba@@ sh " | xargs grep " echo "
+find . -name " * .j@@ s " -exec grep -@@ i@@ H foo { } \ ;
+grep -@@ i@@ H foo ' find . -name " * .j@@ s " '
+find my _ folder -type f -exec grep -l " ne@@ e@@ d@@ le text " { } \ ; -exec file { } \ ; | grep text
+find M@@ y@@ A@@ pp@@ .@@ a@@ p@@ p -name H@@ ea@@ d@@ ers -type d -prune -exec rm -r@@ f { } +
+find . -type f -exec grep " foo " ' { } ' \ ;
+find . -type f -exec grep -@@ H wh@@ at@@ e@@ ver { } \ ;
+find . -type f | xargs -@@ L 1@@ 00 grep wh@@ at@@ e@@ ver
+find . -type f | xargs grep wh@@ at@@ e@@ ver
+find / -@@ group ma@@ na@@ g@@ ers -print
+chmod 644 ' find / home / my / sp@@ ec@@ i@@ al / folder -type f '
+t@@ ou@@ ch -@@ m --@@ date = " W@@ ed J@@ u@@ n 1@@ 2 1@@ 4 : 00 : 00 I@@ D@@ T 20@@ 1@@ 3 " filename
+P@@ S@@ 1 = ' ho@@ st@@ name " : \ W > '
+P@@ S@@ 4 = ' + $ ( date " + % s : % N " ) % N : % i > '
+ssh -@@ L 1@@ 2@@ 3@@ 4 : remo@@ te@@ 2 : 2@@ 2 -p 4@@ 5@@ 6@@ 7@@ 8 user@@ 1 @ remo@@ te@@ 1
+find . -name " * I@@ T@@ M * '
+date " + % Y@@ - % m@@ - % d "
+find / m@@ nt / ra@@ i@@ d -type d -print
+read -r@@ s@@ p $ ' P@@ ress any ke@@ y or w@@ a@@ it 5 se@@ con@@ ds to con@@ t@@ in@@ u@@ e .@@ .. \ n ' -n 1 -t 5
+read -n@@ 1 -s
+s@@ u -l bu@@ i@@ l@@ der
+cat file1 file@@ 2 | sort -t . -@@ k 2@@ .@@ 1
+split --@@ bytes = 1@@ 5@@ 00@@ 00@@ 00@@ 00 ab@@ c@@ .txt ab@@ c
+split -n l / 10 file
+cat file1 file@@ 2 .@@ .. file@@ 4@@ 00@@ 00 | split -n r / 1@@ 4@@ 4@@ 5 -d - out@@ pu@@ t@@ pre@@ fi@@ x
+ssh " $ 1 " -l p@@ e@@ te
+ssh -@@ X@@ Y -t user @ remo@@ te _ I@@ P ' ssh -@@ X@@ Y -t user @ remo@@ te@@ T@@ o@@ Re@@ mo@@ te _ I@@ P '
+en@@ v - scri@@ p@@ t@@ name
+z@@ cat t@@ ar@@ b@@ al@@ l@@ .t@@ ar@@ .gz | tar x
+hi@@ st@@ or@@ y -@@ w
+t@@ ou@@ ch -t ' date + % m % d@@ 00@@ 00 ' / tmp / $ $
+k@@ i@@ ll $ P@@ I@@ D
+b@@ zi@@ p@@ 2 -@@ k@@ v * / *

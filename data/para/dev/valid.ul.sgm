@@ -1,0 +1,1219 @@
+<refset trglang="ul" setid="commands_nl2bash" srclang="any">
+<doc sysid="ref" docid="1" genre="commands_nl2bash" origlang="nl">
+<seg id="1">chmod +x pretty-print</seg>
+<doc sysid="ref" docid="2" genre="commands_nl2bash" origlang="nl">
+<seg id="1">chmod +x rr.sh</seg>
+<doc sysid="ref" docid="3" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -perm 600 -print | xargs chmod 666</seg>
+<doc sysid="ref" docid="4" genre="commands_nl2bash" origlang="nl">
+<seg id="1">yes n | rm -ir dir1 dir2 dir3</seg>
+<doc sysid="ref" docid="5" genre="commands_nl2bash" origlang="nl">
+<seg id="1">yes | cp * /tmp</seg>
+<doc sysid="ref" docid="6" genre="commands_nl2bash" origlang="nl">
+<seg id="1">LBUFFER+="$(date)"</seg>
+<doc sysid="ref" docid="7" genre="commands_nl2bash" origlang="nl">
+<seg id="1">KEY+=`date -r "$arg" +\ %s`</seg>
+<doc sysid="ref" docid="8" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rsync -avlzp /path/to/sfolder name@remote.server:/path/to/remote/dfolder</seg>
+<doc sysid="ref" docid="9" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rsync -aqz _vimrc ~/.vimrc</seg>
+<doc sysid="ref" docid="10" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rsync -avz foo:src/bar /data/tmp</seg>
+<doc sysid="ref" docid="11" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rsync -avz tata/ tata2/</seg>
+<doc sysid="ref" docid="12" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name "*.php" –exec cp {} {}.bak \;</seg>
+<doc sysid="ref" docid="13" genre="commands_nl2bash" origlang="nl">
+<seg id="1">bind '"\e[24~":"pwd\n"'</seg>
+<doc sysid="ref" docid="14" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ifconfig eth0 down</seg>
+<doc sysid="ref" docid="15" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep -ar -e . /your/dir | md5sum | cut -c-32</seg>
+<doc sysid="ref" docid="16" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sudo  find /var/www/html/ -type d -exec chmod 775 {} \;</seg>
+<doc sysid="ref" docid="17" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sudo  find /var/www/html/ -type f -exec chmod 664 {} \;</seg>
+<doc sysid="ref" docid="18" genre="commands_nl2bash" origlang="nl">
+<seg id="1">chgrp "${USER}" myprogram</seg>
+<doc sysid="ref" docid="19" genre="commands_nl2bash" origlang="nl">
+<seg id="1">chown -- "$user:$group" "$file"</seg>
+<doc sysid="ref" docid="20" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sudo chown bob:sftponly /home/bob/writable</seg>
+<doc sysid="ref" docid="21" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -user root -exec chown www-data {} \;</seg>
+<doc sysid="ref" docid="22" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -ok chown username {} \;</seg>
+<doc sysid="ref" docid="23" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type d -print0 | xargs -0 chmod 2775</seg>
+<doc sysid="ref" docid="24" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.php' -exec chmod 755 {} \; -exec echo '+' \;</seg>
+<doc sysid="ref" docid="25" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type d -exec chmod 777 {} \;</seg>
+<doc sysid="ref" docid="26" genre="commands_nl2bash" origlang="nl">
+<seg id="1">od -t x2 -N 1000 $file | cut -c8- | egrep -m1 -q ' 0d| 0d|0d$'</seg>
+<doc sysid="ref" docid="27" genre="commands_nl2bash" origlang="nl">
+<seg id="1">uname -m | grep '64'</seg>
+<doc sysid="ref" docid="28" genre="commands_nl2bash" origlang="nl">
+<seg id="1">head -n99999999 file1.txt file2.txt file3.txt</seg>
+<doc sysid="ref" docid="29" genre="commands_nl2bash" origlang="nl">
+<seg id="1">scp -v user@remotehost:/location/KMST_DataFile_*.kms</seg>
+<doc sysid="ref" docid="30" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh -o UserKnownHostsFile=/dev/null username@hostname</seg>
+<doc sysid="ref" docid="31" genre="commands_nl2bash" origlang="nl">
+<seg id="1">scp -c blowfish -r user@your.server.example.com:/path/to/foo /home/user/Desktop/</seg>
+<doc sysid="ref" docid="32" genre="commands_nl2bash" origlang="nl">
+<seg id="1">yes | mv ...</seg>
+<doc sysid="ref" docid="33" genre="commands_nl2bash" origlang="nl">
+<seg id="1">date -d @1278999698 +'%Y-%m-%d %H:%M:%S'</seg>
+<doc sysid="ref" docid="34" genre="commands_nl2bash" origlang="nl">
+<seg id="1">head /dev/random -c16 | od -tx1 -w16 | head -n1 | cut -d' ' -f2- | tr -d ' '</seg>
+<doc sysid="ref" docid="35" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rsync -Rv src/prog.js images/icon.jpg /tmp/package/</seg>
+<doc sysid="ref" docid="36" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cp -v [MacVim_source_folder]/src/MacVim/mvim /usr/local/bin</seg>
+<doc sysid="ref" docid="37" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name \*.xml -print0 | cpio -pamvd0 /new/parent/dir</seg>
+<doc sysid="ref" docid="38" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rsync -a --include='*/' --exclude='*' source/ destination/</seg>
+<doc sysid="ref" docid="39" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rsync -a -f"+ */" -f"- *" source/ destination/</seg>
+<doc sysid="ref" docid="40" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /mail -type f | cpio -pvdmB /home/username</seg>
+<doc sysid="ref" docid="41" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cp -n</seg>
+<doc sysid="ref" docid="42" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cp `which python2.7` myenv/bin/python</seg>
+<doc sysid="ref" docid="43" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cp --remove-destination `readlink bar.pdf` bar.pdf</seg>
+<doc sysid="ref" docid="44" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cp --remove-destination `readlink file` file</seg>
+<doc sysid="ref" docid="45" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type d -exec ls -dlrt {} \; | wc --lines</seg>
+<doc sysid="ref" docid="46" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -maxdepth 1 -type f -printf '%TY-%Tm\n' | sort | uniq -c</seg>
+<doc sysid="ref" docid="47" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/my_dir -name '*.txt' | xargs grep -c ^.*</seg>
+<doc sysid="ref" docid="48" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . \( -name "*.c" -or -name "*.cpp" -or -name "*.h" -or -name "*.m" -or -name '*.java' \) -print0 | xargs -0 wc</seg>
+<doc sysid="ref" docid="49" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep -v '^\s*$' *.py | wc</seg>
+<doc sysid="ref" docid="50" genre="commands_nl2bash" origlang="nl">
+<seg id="1">diff -U 0 file1 file2 | grep -v ^@ | wc -l</seg>
+<doc sysid="ref" docid="51" genre="commands_nl2bash" origlang="nl">
+<seg id="1">comm -12 <(sort file1.txt) <(sort file2.txt) | wc -l</seg>
+<doc sysid="ref" docid="52" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /data/SpoolIn -name job.history -exec grep -l FAIL {} \+ | wc -l</seg>
+<doc sysid="ref" docid="53" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /data/SpoolIn -name job.history -exec grep -l FAIL {} \; | wc -l</seg>
+<doc sysid="ref" docid="54" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /data/SpoolIn -name job.history | xargs grep -l FAIL | wc -l</seg>
+<doc sysid="ref" docid="55" genre="commands_nl2bash" origlang="nl">
+<seg id="1">gzip `find . \! -name '*.gz' -print`</seg>
+<doc sysid="ref" docid="56" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . \! -name "*.gz" -exec gzip {} \;</seg>
+<doc sysid="ref" docid="57" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ln -s git-stuff/home/.[!.]* .</seg>
+<doc sysid="ref" docid="58" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ln -s   /var/cache/apt/archives/bash_4.3-14ubuntu1_amd64.deb foo</seg>
+<doc sysid="ref" docid="59" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ln -s target-directory/`ls -rt target-directory | tail -n1` latest</seg>
+<doc sysid="ref" docid="60" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ln -s .bashrc test</seg>
+<doc sysid="ref" docid="61" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type d -name "mydir" -exec touch '{}/abc.txt' \;</seg>
+<doc sysid="ref" docid="62" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name "*.txt" cp {} {}.bkup \;</seg>
+<doc sysid="ref" docid="63" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find test -path 'test/icecream/cupcake/*' -o -path 'test/mtndew/livewire/*' | cpio -padluv test-keep</seg>
+<doc sysid="ref" docid="64" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mkdir -p directory{1..3}/subdirectory{1..3}/subsubdirectory{1..2}</seg>
+<doc sysid="ref" docid="65" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat <(fgrep -i -v "$command" <(crontab -u test -l)) <(echo "$job") | crontab -u test -</seg>
+<doc sysid="ref" docid="66" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/folder1/*.txt -type f -exec ln -s {} "folder1_" +\;</seg>
+<doc sysid="ref" docid="67" genre="commands_nl2bash" origlang="nl">
+<seg id="1">fif2=$(mktemp -u)</seg>
+<doc sysid="ref" docid="68" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mktemp /tmp/banana.XXXXXXXXXXXXXXXXXXXXXXX.mp3</seg>
+<doc sysid="ref" docid="69" genre="commands_nl2bash" origlang="nl">
+<seg id="1">gnuplotscript=$(mktemp /tmp/gnuplot_cmd_$(basename "${0}").XXXXXX.gnuplot)</seg>
+<doc sysid="ref" docid="70" genre="commands_nl2bash" origlang="nl">
+<seg id="1">$ my_temp_dir=$(mktemp -d --tmpdir=$temp_dir -t $template)</seg>
+<doc sysid="ref" docid="71" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rmdir "$(dirname $(dirname $dir))"</seg>
+<doc sysid="ref" docid="72" genre="commands_nl2bash" origlang="nl">
+<seg id="1">gzip -dc libxml2-sources-2.7.7.tar.gz | tar xvf -</seg>
+<doc sysid="ref" docid="73" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.doc' -exec rm "{}" \;</seg>
+<doc sysid="ref" docid="74" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . \( -name '*.wmv' -o -name '*.wma' \) -exec rm {} \;</seg>
+<doc sysid="ref" docid="75" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.zip" -mtime +2 -print0 | xargs -0 -I {} rm {}</seg>
+<doc sysid="ref" docid="76" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.zip" -mtime +2 orint0 | xargs -0 rm</seg>
+<doc sysid="ref" docid="77" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /myDir -type d -delete</seg>
+<doc sysid="ref" docid="78" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find root -mindepth 2 -type d -empty -delete</seg>
+<doc sysid="ref" docid="79" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find * -maxdepth 0 -name 'b' -prune -o -exec rm -rf '{}' ';'</seg>
+<doc sysid="ref" docid="80" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find * -maxdepth 0 -name 'b' -prune -o -exec rm -rf {} \;</seg>
+<doc sysid="ref" docid="81" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find "${S}/bundled-libs" \! -name 'libbass.so' -delete</seg>
+<doc sysid="ref" docid="82" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /myDir -mindepth 1 -mtime 7 -delete</seg>
+<doc sysid="ref" docid="83" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /myDir -mindepth 1 -mtime 7 -exec rm -rf {} \;</seg>
+<doc sysid="ref" docid="84" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /myDir -mtime 7 -exec rm -rf {} \;</seg>
+<doc sysid="ref" docid="85" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $INTRANETDESTINATION/monthly -mtime +366 -exec rm {} \;</seg>
+<doc sysid="ref" docid="86" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find "$some_directory" -name '.*' ! -name '.' ! -name '..' -delete</seg>
+<doc sysid="ref" docid="87" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /tmp/ -type f -mtime +1 -exec rm {} +</seg>
+<doc sysid="ref" docid="88" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/u20806/public_html -daystart -maxdepth 1 -mmin +25 -type f -name "*.txt" \ -exec rm -f {} \;</seg>
+<doc sysid="ref" docid="89" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/u20806/public_html -maxdepth 1 -mmin +25 -type f -name "*.txt" -delete</seg>
+<doc sysid="ref" docid="90" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name "oldStuff*.txt" -delete</seg>
+<doc sysid="ref" docid="91" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /tmp -name "*.tmp" -print0 | xargs -0 rm   find /tmp -name "*.tmp" -print0 | xargs -0 rm</seg>
+<doc sysid="ref" docid="92" genre="commands_nl2bash" origlang="nl">
+<seg id="1">crontab yourFile.text</seg>
+<doc sysid="ref" docid="93" genre="commands_nl2bash" origlang="nl">
+<seg id="1">who | grep $USER</seg>
+<doc sysid="ref" docid="94" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $dir -type -f size +$size -print0 | xargs -0 ls -1hsS</seg>
+<doc sysid="ref" docid="95" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find "$STORAGEFOLDER" -name .todo -printf '%h\n' | uniq | xargs ls -l</seg>
+<doc sysid="ref" docid="96" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find "$STORAGEFOLDER" -name .todo -printf '%h\n' | xargs ls -l</seg>
+<doc sysid="ref" docid="97" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $STORAGEFOLDER -name .todo  -exec ls -l {} \;</seg>
+<doc sysid="ref" docid="98" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name  * -exec ls -a {} \;</seg>
+<doc sysid="ref" docid="99" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -mtime -1 -ls</seg>
+<doc sysid="ref" docid="100" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -mtime -1 | xargs ls -ld</seg>
+<doc sysid="ref" docid="101" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /var -maxdepth 2 -type d;</seg>
+<doc sysid="ref" docid="102" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.doc'</seg>
+<doc sysid="ref" docid="103" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name \*.c -print0</seg>
+<doc sysid="ref" docid="104" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . \( ! -path "*target*" -a ! -path "*tools*" -a ! -path "*.git*" -print \)</seg>
+<doc sysid="ref" docid="105" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -iname "*$@*" -or -iname ".*$@*"</seg>
+<doc sysid="ref" docid="106" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . | xargs echo</seg>
+<doc sysid="ref" docid="107" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . — name "*" — print -о -name ".*" — print -depth</seg>
+<doc sysid="ref" docid="108" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -L .</seg>
+<doc sysid="ref" docid="109" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.txt" -prune -o -print</seg>
+<doc sysid="ref" docid="110" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -atime +1</seg>
+<doc sysid="ref" docid="111" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find  -mtime -1</seg>
+<doc sysid="ref" docid="112" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -group lighttpd -print</seg>
+<doc sysid="ref" docid="113" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -uid 1005</seg>
+<doc sysid="ref" docid="114" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /Users/Me/Desktop -readable</seg>
+<doc sysid="ref" docid="115" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home -type f -name *.sxw -atime -3 -user bruno</seg>
+<doc sysid="ref" docid="116" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -newermt "2014-01-01" ! -newermt "2014-06-01"</seg>
+<doc sysid="ref" docid="117" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -iname "*.jpg"</seg>
+<doc sysid="ref" docid="118" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep UTRACE /boot/config-$(uname -r)</seg>
+<doc sysid="ref" docid="119" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -path "*.git" -prune -o -type f -print</seg>
+<doc sysid="ref" docid="120" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -path "*.git*" -prune -o -type f -print</seg>
+<doc sysid="ref" docid="121" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -atime 7</seg>
+<doc sysid="ref" docid="122" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -mtime 0 -type f</seg>
+<doc sysid="ref" docid="123" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ${FOLDER} -type f ! -name \".*\" -mtime -${RETENTION}</seg>
+<doc sysid="ref" docid="124" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -lname "*"</seg>
+<doc sysid="ref" docid="125" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $target -type f -iname "*.txt"</seg>
+<doc sysid="ref" docid="126" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $1 -type f -name '*'$n'.txt'</seg>
+<doc sysid="ref" docid="127" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /usr/local/apache/logs/ -type f -name "*_log"|xargs du -csh</seg>
+<doc sysid="ref" docid="128" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.NEF" -exec basename \{\} .NEF \;</seg>
+<doc sysid="ref" docid="129" genre="commands_nl2bash" origlang="nl">
+<seg id="1">diff -y -W 150 file1.cf file2.cf</seg>
+<doc sysid="ref" docid="130" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh-keygen -l -E md5 -f /etc/ssh/ssh_host_ecdsa_key.pub</seg>
+<doc sysid="ref" docid="131" genre="commands_nl2bash" origlang="nl">
+<seg id="1">file utf8.txt</seg>
+<doc sysid="ref" docid="132" genre="commands_nl2bash" origlang="nl">
+<seg id="1">uname -s -r -v</seg>
+<doc sysid="ref" docid="133" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /var/log/ -mtime +60 -type f -exec ls -l {} \;</seg>
+<doc sysid="ref" docid="134" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -size -26c -size +23c -exec ls -l '{}' \;</seg>
+<doc sysid="ref" docid="135" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -size -26c -size +23c -ls</seg>
+<doc sysid="ref" docid="136" genre="commands_nl2bash" origlang="nl">
+<seg id="1">file -i filename</seg>
+<doc sysid="ref" docid="137" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -maxdepth 1 -name '*.dat' -type f -cmin +60 -exec basename {} \;</seg>
+<doc sysid="ref" docid="138" genre="commands_nl2bash" origlang="nl">
+<seg id="1">uname -o</seg>
+<doc sysid="ref" docid="139" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ls | column -c 80</seg>
+<doc sysid="ref" docid="140" genre="commands_nl2bash" origlang="nl">
+<seg id="1">tree -p -u -g -f</seg>
+<doc sysid="ref" docid="141" genre="commands_nl2bash" origlang="nl">
+<seg id="1">du -sb</seg>
+<doc sysid="ref" docid="142" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mount -l</seg>
+<doc sysid="ref" docid="143" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -iname \*.mov -printf '%h\n' | sort | uniq | xargs -n 1 -d '\n' -I '{}' echo mkdir -vp "/TARGET_FOLDER_ROOT/{}"</seg>
+<doc sysid="ref" docid="144" genre="commands_nl2bash" origlang="nl">
+<seg id="1">od -tx2 FILENAME</seg>
+<doc sysid="ref" docid="145" genre="commands_nl2bash" origlang="nl">
+<seg id="1">od -t c file</seg>
+<doc sysid="ref" docid="146" genre="commands_nl2bash" origlang="nl">
+<seg id="1">shopt -s lithist</seg>
+<doc sysid="ref" docid="147" genre="commands_nl2bash" origlang="nl">
+<seg id="1">shopt -s nocaseglob</seg>
+<doc sysid="ref" docid="148" genre="commands_nl2bash" origlang="nl">
+<seg id="1">shopt -s nocasematch</seg>
+<doc sysid="ref" docid="149" genre="commands_nl2bash" origlang="nl">
+<seg id="1">shopt -s progcomp</seg>
+<doc sysid="ref" docid="150" genre="commands_nl2bash" origlang="nl">
+<seg id="1">watch -n10 cat /tmp/iostat.running</seg>
+<doc sysid="ref" docid="151" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat commands-to-execute-remotely.sh | ssh blah_server</seg>
+<doc sysid="ref" docid="152" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo "$url" | cut -d'/' -f3</seg>
+<doc sysid="ref" docid="153" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /usr/share \! -type d wc -l</seg>
+<doc sysid="ref" docid="154" genre="commands_nl2bash" origlang="nl">
+<seg id="1">bind -p | grep -a forward</seg>
+<doc sysid="ref" docid="155" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f \( -name "*.dat" \) -exec tail -n+5 -q "$file" {} + |tee concat.txt</seg>
+<doc sysid="ref" docid="156" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/myhome/data/ARCHIVE/. -name . -o -type d -prune -o -name '*201512*' -print | xargs -i mv {} /home/myhome/ARCHIVE/TempFolder/.</seg>
+<doc sysid="ref" docid="157" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /mnt/zip -name "*prefs copy" -print0 | xargs rm</seg>
+<doc sysid="ref" docid="158" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cd `find . -name file.xml -exec dirname {} \;`</seg>
+<doc sysid="ref" docid="159" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cd `find . -name file.xml -printf %h`</seg>
+<doc sysid="ref" docid="160" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $HOME -name '*.c' -print | xargs    grep -l sprintf</seg>
+<doc sysid="ref" docid="161" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -path '*/lang/en.css' -prune -o -name '*.css' -print</seg>
+<doc sysid="ref" docid="162" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -name "*.java" | xargs    tar rvf myfile.tar</seg>
+<doc sysid="ref" docid="163" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -name "*.java" | xargs    tar cvf myfile.tar</seg>
+<doc sysid="ref" docid="164" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.java" -exec grep -Hin TODO {} + | cut -d ":" -f 1</seg>
+<doc sysid="ref" docid="165" genre="commands_nl2bash" origlang="nl">
+<seg id="1">du -s --block-size=M /path/to/your/directory/</seg>
+<doc sysid="ref" docid="166" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $parentdir -name $tofind*</seg>
+<doc sysid="ref" docid="167" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find "$source_dir" -name *.$input_file_type</seg>
+<doc sysid="ref" docid="168" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -iname "*.cls" -exec echo '{if(length($0) > L) { LINE=$0; L = length($0)}} END {print LINE"L"L}' {} \;</seg>
+<doc sysid="ref" docid="169" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.jpg'</seg>
+<doc sysid="ref" docid="170" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find dir -not -path '.git' -iname '*.py'</seg>
+<doc sysid="ref" docid="171" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name \*.sql -not -samefile $oldest_to_keep -not -newer $oldest_to_keep</seg>
+<doc sysid="ref" docid="172" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find working -type f -name "*.srt" | head -1</seg>
+<doc sysid="ref" docid="173" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name "*.txt"</seg>
+<doc sysid="ref" docid="174" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name '*.txt' -exec du -hc {} \;</seg>
+<doc sysid="ref" docid="175" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*shp*'</seg>
+<doc sysid="ref" docid="176" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name "*text"</seg>
+<doc sysid="ref" docid="177" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name ‘*.c’ | xargs egrep stdlib.h</seg>
+<doc sysid="ref" docid="178" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.gz'</seg>
+<doc sysid="ref" docid="179" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find * -name "*.java"</seg>
+<doc sysid="ref" docid="180" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $d -name '*.js' | grep -v " "</seg>
+<doc sysid="ref" docid="181" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ./music -name "*.mp3" -print0 | xargs -0 ls</seg>
+<doc sysid="ref" docid="182" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ./music -name "*.mp3" -print0 | xargs -0 ls</seg>
+<doc sysid="ref" docid="183" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -maxdepth 1 -mindepth 1 \( -name '*.py' -not -name 'test_*' -not -name 'setup.py' \)</seg>
+<doc sysid="ref" docid="184" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find jcho -name 2*.data</seg>
+<doc sysid="ref" docid="185" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /data -type f -perm 400 -exec echo Modifying {} \;</seg>
+<doc sysid="ref" docid="186" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -type d -perm 777 -print -exec chmod 755 {} \;</seg>
+<doc sysid="ref" docid="187" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cd $(find . -name Subscription.java -printf '%h\n')</seg>
+<doc sysid="ref" docid="188" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name "*.cpp" -o -name "*.c"</seg>
+<doc sysid="ref" docid="189" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -regex '.*\.\(c\|cpp\)'</seg>
+<doc sysid="ref" docid="190" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -maxdepth 1 -type d -print0</seg>
+<doc sysid="ref" docid="191" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "D" -type d</seg>
+<doc sysid="ref" docid="192" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ./ -type d -name 'D'</seg>
+<doc sysid="ref" docid="193" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name local -type d</seg>
+<doc sysid="ref" docid="194" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /somePath -type d -name ‘someNamePrefix*’ -mtime +10 -print | xargs rm -rf ;</seg>
+<doc sysid="ref" docid="195" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find test -regex "[course*]" -type d</seg>
+<doc sysid="ref" docid="196" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/me/target_dir_1 -type d</seg>
+<doc sysid="ref" docid="197" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/mywebsite/public_html/sites/all/modules -type d -exec chmod 750 {} +</seg>
+<doc sysid="ref" docid="198" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -type d exec chmod 775 {} +</seg>
+<doc sysid="ref" docid="199" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -type d | xargs chmod 775</seg>
+<doc sysid="ref" docid="200" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sudo find foldername -type d -exec chmod 755 {} ";"</seg>
+<doc sysid="ref" docid="201" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -printf "%f\n" -name "*.jar" | sort -f | uniq -i -d</seg>
+<doc sysid="ref" docid="202" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find {} -type f -depth 1 -perm +0111 | sort -r</seg>
+<doc sysid="ref" docid="203" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find {} -name 'upvoter-*' \( -type f -or -type l \) -maxdepth 1 -perm +111</seg>
+<doc sysid="ref" docid="204" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /etc -iregex '.*xt.*'</seg>
+<doc sysid="ref" docid="205" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /tmp/test/* -daystart -mtime -1</seg>
+<doc sysid="ref" docid="206" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find "$STORAGEFOLDER" -name .todo  -exec dirname {} \;</seg>
+<doc sysid="ref" docid="207" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -iname "photo.jpg"</seg>
+<doc sysid="ref" docid="208" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name photo.jpg</seg>
+<doc sysid="ref" docid="209" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*`$VERSION`*'</seg>
+<doc sysid="ref" docid="210" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ~ -iname "screen*"</seg>
+<doc sysid="ref" docid="211" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $something</seg>
+<doc sysid="ref" docid="212" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /etc -size +5M -exec ls -sh {} +</seg>
+<doc sysid="ref" docid="213" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /etc -newer /etc/motd</seg>
+<doc sysid="ref" docid="214" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /usr/local -mtime -1</seg>
+<doc sysid="ref" docid="215" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /eserver6 -L</seg>
+<doc sysid="ref" docid="216" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -print0 | xargs -I{} -0 echo {}</seg>
+<doc sysid="ref" docid="217" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*[1k]*"</seg>
+<doc sysid="ref" docid="218" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -regex ".*/(test)[0-9][0-9]\.txt"</seg>
+<doc sysid="ref" docid="219" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -iwholename "*ACK*1"</seg>
+<doc sysid="ref" docid="220" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -path ./directory -prune -o -name '*.js' -print</seg>
+<doc sysid="ref" docid="221" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /apps/audit -perm -7 -print | xargs chmod o‑w</seg>
+<doc sysid="ref" docid="222" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -depth -name "* *" -execdir rename "s/ /_/g" "{}" \;</seg>
+<doc sysid="ref" docid="223" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/wsuNID/ -name file1.txt</seg>
+<doc sysid="ref" docid="224" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /dir \( -name foo -prune \) -o \( -name bar -prune \) -o -name "*.sh" -print</seg>
+<doc sysid="ref" docid="225" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f ! \( -name "*gz" -o -name "*tmp" -o -name "*xftp" \) -exec gzip -n '{}' \;</seg>
+<doc sysid="ref" docid="226" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/myuser -mtime +7 -print</seg>
+<doc sysid="ref" docid="227" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -atime +30 -print</seg>
+<doc sysid="ref" docid="228" genre="commands_nl2bash" origlang="nl">
+<seg id="1">full_backup_dir="$(find . -depth \( -wholename \./\.\* \) -prune -o -print | cpio -oav)"</seg>
+<doc sysid="ref" docid="229" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -size -10k</seg>
+<doc sysid="ref" docid="230" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . | sort</seg>
+<doc sysid="ref" docid="231" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . | grep -vf file.lst</seg>
+<doc sysid="ref" docid="232" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . | xargs wc -l</seg>
+<doc sysid="ref" docid="233" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -atime 1</seg>
+<doc sysid="ref" docid="234" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -atime +30 -print</seg>
+<doc sysid="ref" docid="235" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /opt -mtime +30 -mtime -50</seg>
+<doc sysid="ref" docid="236" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ~ -size 100M</seg>
+<doc sysid="ref" docid="237" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ~ -mtime 1 -daystart</seg>
+<doc sysid="ref" docid="238" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ~ -iname '*.tex'</seg>
+<doc sysid="ref" docid="239" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name test2 -prune</seg>
+<doc sysid="ref" docid="240" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat `find . -name aaa.txt`</seg>
+<doc sysid="ref" docid="241" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -wholename  '/proc' -prune  -o  -type f -perm -0002 -exec ls -l {} \;</seg>
+<doc sysid="ref" docid="242" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -wholename  '/proc' -prune  -o  -type f -perm -0002 -exec ls -l {} \;</seg>
+<doc sysid="ref" docid="243" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name composer.json -exec grep -n drush {} /dev/null \;</seg>
+<doc sysid="ref" docid="244" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -user tommye</seg>
+<doc sysid="ref" docid="245" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home -group developer</seg>
+<doc sysid="ref" docid="246" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -user root</seg>
+<doc sysid="ref" docid="247" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name "dir-name-here"</seg>
+<doc sysid="ref" docid="248" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -newer ordinary_file</seg>
+<doc sysid="ref" docid="249" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / \( -perm -006 -o -perm -007 \) \( ! -type -l \) -ls</seg>
+<doc sysid="ref" docid="250" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / [опция_поиска] [значение] 	[опция_действия]</seg>
+<doc sysid="ref" docid="251" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find "$musicdir" -type f -print</seg>
+<doc sysid="ref" docid="252" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ./lib/app -type f | sort | tee myFile</seg>
+<doc sysid="ref" docid="253" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /path -perm -022</seg>
+<doc sysid="ref" docid="254" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /path -perm -g+w,o+w</seg>
+<doc sysid="ref" docid="255" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /path -perm -go+w</seg>
+<doc sysid="ref" docid="256" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /path -type f -print0 | xargs -0 md5sum</seg>
+<doc sysid="ref" docid="257" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -E /somefolder -type f -regex '\./(.*\.error.*|second.*log|.*FFPC\.log)$'</seg>
+<doc sysid="ref" docid="258" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ./subfolder ./subfolder/*/ -maxdepth 1 -type f</seg>
+<doc sysid="ref" docid="259" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -mtime +50 -mtime -100</seg>
+<doc sysid="ref" docid="260" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -iname '*.jpg' -print0</seg>
+<doc sysid="ref" docid="261" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ./ -name "*.txt" | rev | cut -d '/' -f1 | rev</seg>
+<doc sysid="ref" docid="262" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/foo -name "*.gz"</seg>
+<doc sysid="ref" docid="263" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /usr/include -type f -mtime -400 -name "*.h"</seg>
+<doc sysid="ref" docid="264" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sort file | uniq | cut -f1 -d' ' | uniq -c | rev</seg>
+<doc sysid="ref" docid="265" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find "$SOURCE" -type f -iname '*.jpg'</seg>
+<doc sysid="ref" docid="266" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name '*.php'</seg>
+<doc sysid="ref" docid="267" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /var/www/ -type f -iname "*.php" -print</seg>
+<doc sysid="ref" docid="268" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -regextype posix-extended -regex "[a-f0-9\-]\{36\}\.jpg"</seg>
+<doc sysid="ref" docid="269" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -readable</seg>
+<doc sysid="ref" docid="270" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -exec echo mv -t . {} +</seg>
+<doc sysid="ref" docid="271" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find main-directory -type f -exec mv -v '{}' '{}'.html \;</seg>
+<doc sysid="ref" docid="272" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -mtime 2 -mtime -3 -daystart -exec ls -l {} \;</seg>
+<doc sysid="ref" docid="273" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -user sedlav -type f</seg>
+<doc sysid="ref" docid="274" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $DIR -type f -iname "*.$TYPE"</seg>
+<doc sysid="ref" docid="275" genre="commands_nl2bash" origlang="nl">
+<seg id="1">FILES=$(find $FILES_PATH -type f -name "*")</seg>
+<doc sysid="ref" docid="276" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/john -name "landof*" -type f -print</seg>
+<doc sysid="ref" docid="277" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . \( -not -path './dir1/*' -and -not -path './dir2/*' -or -path './dir1/subdir1/*' \) -type f</seg>
+<doc sysid="ref" docid="278" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type s</seg>
+<doc sysid="ref" docid="279" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.txt" | xargs -I '{}' mv '{}' /foo/'{}'.bar</seg>
+<doc sysid="ref" docid="280" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -mount -name "*.txt"</seg>
+<doc sysid="ref" docid="281" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -xdev -name "*.txt"</seg>
+<doc sysid="ref" docid="282" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find temps/ -name "thumb.png"</seg>
+<doc sysid="ref" docid="283" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.wav' -maxdepth 1</seg>
+<doc sysid="ref" docid="284" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.xml" -exec grep -HFf <(find . -name "*.txt" -printf "%f\n") {} \;</seg>
+<doc sysid="ref" docid="285" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -name '*.zip' -print0 | xargs -0 tar -xzf</seg>
+<doc sysid="ref" docid="286" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ~/ -name 'core*' -exec rm {} \</seg>
+<doc sysid="ref" docid="287" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.pdf" -print | grep -v "^\./pdfs/"</seg>
+<doc sysid="ref" docid="288" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -size -500k</seg>
+<doc sysid="ref" docid="289" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -exec ls -s {} \; sort -n |head -5</seg>
+<doc sysid="ref" docid="290" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $workspace_ts -mindepth 1 -maxdepth 1 -type d -mtime -30</seg>
+<doc sysid="ref" docid="291" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -mindepth 3 -maxdepth 3 -type d -name "*New Parts*" -exec ln -s -t /cygdrive/c/Views {} \;</seg>
+<doc sysid="ref" docid="292" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -type d -printf '%T+ %p\n' | sort | head -1</seg>
+<doc sysid="ref" docid="293" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home -type d -perm 777 -print -exec chmod 755 {} \;</seg>
+<doc sysid="ref" docid="294" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find wordpress -name '*js'</seg>
+<doc sysid="ref" docid="295" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/user/myusername/ -name myfile.txt -print</seg>
+<doc sysid="ref" docid="296" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name "*test*" -depth</seg>
+<doc sysid="ref" docid="297" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find `ls -d /[ubso]*` -name sar</seg>
+<doc sysid="ref" docid="298" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /users/tom -name "*.pl" -name "*.pm"</seg>
+<doc sysid="ref" docid="299" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /path -perm -022</seg>
+<doc sysid="ref" docid="300" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /path -perm -g+w,o+w</seg>
+<doc sysid="ref" docid="301" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /path -perm -go+w</seg>
+<doc sysid="ref" docid="302" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name arrow.jpg</seg>
+<doc sysid="ref" docid="303" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -amin -60</seg>
+<doc sysid="ref" docid="304" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -links 1</seg>
+<doc sysid="ref" docid="305" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ~/src -newer main.css</seg>
+<doc sysid="ref" docid="306" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -type f -size +50M -size -100M</seg>
+<doc sysid="ref" docid="307" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -type f ! -perm 644</seg>
+<doc sysid="ref" docid="308" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /usr -newer /usr/FirstFile -print</seg>
+<doc sysid="ref" docid="309" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "foo.*"</seg>
+<doc sysid="ref" docid="310" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -type f -perm -002 -print0</seg>
+<doc sysid="ref" docid="311" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -inum 199053</seg>
+<doc sysid="ref" docid="312" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . ... -print -quit</seg>
+<doc sysid="ref" docid="313" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name grub.conf</seg>
+<doc sysid="ref" docid="314" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ~/Desktop -name “*.jpg” -o -name “*.gif” -o -name “*.png” -print0 | xargs -0 mv –target-directory ~/Pictures</seg>
+<doc sysid="ref" docid="315" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type d -print0 | xargs -0 du | sort -n | tail -10 | cut -f2 | xargs -I{} du -sh {}</seg>
+<doc sysid="ref" docid="316" genre="commands_nl2bash" origlang="nl">
+<seg id="1">md5sum file*.txt</seg>
+<doc sysid="ref" docid="317" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find  / -type d -iname "project.images" -ls</seg>
+<doc sysid="ref" docid="318" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -mindepth 3 -maxdepth 5 -name passwd</seg>
+<doc sysid="ref" docid="319" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -mindepth 3 -maxdepth 5 -name passw</seg>
+<doc sysid="ref" docid="320" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name \*\:\*</seg>
+<doc sysid="ref" docid="321" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /dir/to/search/ -type f -name 'expression -or expression' -print</seg>
+<doc sysid="ref" docid="322" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep -r "searched-string" .</seg>
+<doc sysid="ref" docid="323" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sudo ln -f -s $javaUsrLib/jdk1*/bin/* /usr/bin/</seg>
+<doc sysid="ref" docid="324" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sudo ln -s -f "/usr/local/bin/findpdftext" "/usr/local/bin/fpdf"</seg>
+<doc sysid="ref" docid="325" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ln -sfn /other/dir new_dir</seg>
+<doc sysid="ref" docid="326" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -mtime -3 -exec rm -rf {} \;</seg>
+<doc sysid="ref" docid="327" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rm -f /tmp/stored_exception /tmp/stored_exception_line /tmp/stored_exception_source</seg>
+<doc sysid="ref" docid="328" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mount | column -t</seg>
+<doc sysid="ref" docid="329" genre="commands_nl2bash" origlang="nl">
+<seg id="1">column -t -s' ' filename</seg>
+<doc sysid="ref" docid="330" genre="commands_nl2bash" origlang="nl">
+<seg id="1">date -d @$TIMESTAMP</seg>
+<doc sysid="ref" docid="331" genre="commands_nl2bash" origlang="nl">
+<seg id="1">pass=$(LC_CTYPE=C < /dev/urandom tr -cd [:graph:] | tr -d '\n' | fold -w 32 | head -n 1)</seg>
+<doc sysid="ref" docid="332" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep ^Q File1.txt | cut -d= -f2- | sort | comm -23 - <(sort File2.txt)</seg>
+<doc sysid="ref" docid="333" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -mindepth 1 -maxdepth 1 -type f -print0 | xargs -0 -I {} echo "{}"</seg>
+<doc sysid="ref" docid="334" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find dir1 ! -type d |xargs wc -c</seg>
+<doc sysid="ref" docid="335" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $FULFILLMENT -ls</seg>
+<doc sysid="ref" docid="336" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -regex '.*\(c\|h\|cpp\)' -exec ls {} \;</seg>
+<doc sysid="ref" docid="337" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /data/ -name 'command-*-setup' | sort -t - -V -k 2,2</seg>
+<doc sysid="ref" docid="338" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -exec ls -l '{}' \;</seg>
+<doc sysid="ref" docid="339" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find  /var -path */l??/samba*</seg>
+<doc sysid="ref" docid="340" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ./ -name "*.sqlite" -ls</seg>
+<doc sysid="ref" docid="341" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type l | xargs -I % ls -l % | grep targetfile.txt</seg>
+<doc sysid="ref" docid="342" genre="commands_nl2bash" origlang="nl">
+<seg id="1">comm -12 <(find ~/bin/FilesDvorak/.* -maxdepth 0) <(find ~/.PAST_RC_files/.*)</seg>
+<doc sysid="ref" docid="343" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /proc/$1/exe -printf '%l\n'</seg>
+<doc sysid="ref" docid="344" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ls -d -1 $PWD/**/*</seg>
+<doc sysid="ref" docid="345" genre="commands_nl2bash" origlang="nl">
+<seg id="1">tree -L 2</seg>
+<doc sysid="ref" docid="346" genre="commands_nl2bash" origlang="nl">
+<seg id="1">gzip -l $i</seg>
+<doc sysid="ref" docid="347" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /somelocation/log_output -type f -ctime +40 -exec ls -l {} \;</seg>
+<doc sysid="ref" docid="348" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / \! -readable -prune -o -name '*.jbd' -ls</seg>
+<doc sysid="ref" docid="349" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -name '*.gz' -printf '%s %p\n'|sort -nr|head -n 1</seg>
+<doc sysid="ref" docid="350" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -exec basename {} \;</seg>
+<doc sysid="ref" docid="351" genre="commands_nl2bash" origlang="nl">
+<seg id="1">bind -l | grep /</seg>
+<doc sysid="ref" docid="352" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $directory -type l -printf "%p$IFS"</seg>
+<doc sysid="ref" docid="353" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /usr/share/doc -name "copyright"</seg>
+<doc sysid="ref" docid="354" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name passwd</seg>
+<doc sysid="ref" docid="355" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -name "Tes*" -exec ls -l {} \;</seg>
+<doc sysid="ref" docid="356" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name filename</seg>
+<doc sysid="ref" docid="357" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mkdir ~/Labs/lab4a/folder{1,2,3}</seg>
+<doc sysid="ref" docid="358" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mkdir ~/Labs/lab4a/folder{1..3}</seg>
+<doc sysid="ref" docid="359" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1 | xargs mkdir</seg>
+<doc sysid="ref" docid="360" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mkdir $(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)</seg>
+<doc sysid="ref" docid="361" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mkdir /tmp/A /tmp/B /tmp/C "/tmp/ dir with spaces"</seg>
+<doc sysid="ref" docid="362" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mkdir mybuild</seg>
+<doc sysid="ref" docid="363" genre="commands_nl2bash" origlang="nl">
+<seg id="1">join -t: <(sort file1) <(sort file2)</seg>
+<doc sysid="ref" docid="364" genre="commands_nl2bash" origlang="nl">
+<seg id="1">paste -d, -s file</seg>
+<doc sysid="ref" docid="365" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mount -o ro,loop,offset=$OFFSET -t auto $IMAGE /media/$DEST</seg>
+<doc sysid="ref" docid="366" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mv * /foo</seg>
+<doc sysid="ref" docid="367" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mv `ls` /foo</seg>
+<doc sysid="ref" docid="368" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find sourceDir -print0 | xargs -0 mv -t destDir</seg>
+<doc sysid="ref" docid="369" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find sourceDir -mindepth 1 -maxdepth 1 -exec mv --target-directory=destDir '{}' +</seg>
+<doc sysid="ref" docid="370" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find sourceDir -mindepth 1 -maxdepth 1 -print0 | xargs -0 mv --target-directory=destDir</seg>
+<doc sysid="ref" docid="371" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ./ -type f -print | xargs    -i mv -f {} ./newdir</seg>
+<doc sysid="ref" docid="372" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ./ -type f -print | xargs    -l56 -I {} mv -f {} ./newdir</seg>
+<doc sysid="ref" docid="373" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mv "$2" "`dirname $1`"</seg>
+<doc sysid="ref" docid="374" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -atime +1 -type f -exec mv {} TMP \; # mv files older then 1 day to dir TMP</seg>
+<doc sysid="ref" docid="375" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh user@host -X</seg>
+<doc sysid="ref" docid="376" genre="commands_nl2bash" origlang="nl">
+<seg id="1">uniq -w12 -c file</seg>
+<doc sysid="ref" docid="377" genre="commands_nl2bash" origlang="nl">
+<seg id="1">join -v1 success.txt fail.txt</seg>
+<doc sysid="ref" docid="378" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -print0 | xargs -0</seg>
+<doc sysid="ref" docid="379" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo "This is   a sentence." | tr -s " " "\012"</seg>
+<doc sysid="ref" docid="380" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sort filename | uniq -c</seg>
+<doc sysid="ref" docid="381" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sort filename | uniq -c | sort -nr</seg>
+<doc sysid="ref" docid="382" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . | sort -f | uniq -i -d</seg>
+<doc sysid="ref" docid="383" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ls | sort -f | uniq -i -d</seg>
+<doc sysid="ref" docid="384" genre="commands_nl2bash" origlang="nl">
+<seg id="1">diff -burNad teste1 teste2</seg>
+<doc sysid="ref" docid="385" genre="commands_nl2bash" origlang="nl">
+<seg id="1">dig @some.other.ip.address domain. a</seg>
+<doc sysid="ref" docid="386" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name '*.jpg' | sort -n</seg>
+<doc sysid="ref" docid="387" genre="commands_nl2bash" origlang="nl">
+<seg id="1">tail -f /var/log/some.log | grep --line-buffered foo | grep bar</seg>
+<doc sysid="ref" docid="388" genre="commands_nl2bash" origlang="nl">
+<seg id="1">basename "`pwd`"</seg>
+<doc sysid="ref" docid="389" genre="commands_nl2bash" origlang="nl">
+<seg id="1">basename $(pwd)</seg>
+<doc sysid="ref" docid="390" genre="commands_nl2bash" origlang="nl">
+<seg id="1">basename `pwd`</seg>
+<doc sysid="ref" docid="391" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo "$(basename $(pwd))"</seg>
+<doc sysid="ref" docid="392" genre="commands_nl2bash" origlang="nl">
+<seg id="1">pwd | xargs basename</seg>
+<doc sysid="ref" docid="393" genre="commands_nl2bash" origlang="nl">
+<seg id="1">pwd | grep -o '[^/]*$'</seg>
+<doc sysid="ref" docid="394" genre="commands_nl2bash" origlang="nl">
+<seg id="1">basename $(echo "a:b:c:d:e" | tr ':' '/')</seg>
+<doc sysid="ref" docid="395" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cal 02 1956</seg>
+<doc sysid="ref" docid="396" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ./ -name *.ogv -exec echo myfile {} \;</seg>
+<doc sysid="ref" docid="397" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep -ao "[/\\]" /dev/urandom|tr -d \\n</seg>
+<doc sysid="ref" docid="398" genre="commands_nl2bash" origlang="nl">
+<seg id="1">date -d "$(date -d "2 months" +%Y-%m-1) -1 day" +%a</seg>
+<doc sysid="ref" docid="399" genre="commands_nl2bash" origlang="nl">
+<seg id="1">dirname `pwd -P`</seg>
+<doc sysid="ref" docid="400" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sort file1 file2 | uniq -u</seg>
+<doc sysid="ref" docid="401" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find empty1 empty2 not_empty -prune -empty</seg>
+<doc sysid="ref" docid="402" genre="commands_nl2bash" origlang="nl">
+<seg id="1">fold -b -w 20 | cut --output-delimiter $'\t' -b 1-3,4-10,11-20</seg>
+<doc sysid="ref" docid="403" genre="commands_nl2bash" origlang="nl">
+<seg id="1">df -h /</seg>
+<doc sysid="ref" docid="404" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo "dirname: `dirname "$0"`"</seg>
+<doc sysid="ref" docid="405" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo "dirname: `dirname $0`"</seg>
+<doc sysid="ref" docid="406" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat text.txt | cut -d " " -f 4</seg>
+<doc sysid="ref" docid="407" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo `date -v-1d +%F`</seg>
+<doc sysid="ref" docid="408" genre="commands_nl2bash" origlang="nl">
+<seg id="1">pstree -p</seg>
+<doc sysid="ref" docid="409" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat --help</seg>
+<doc sysid="ref" docid="410" genre="commands_nl2bash" origlang="nl">
+<seg id="1">who -la</seg>
+<doc sysid="ref" docid="411" genre="commands_nl2bash" origlang="nl">
+<seg id="1">tail -n 1000 /var/spool/cron/*</seg>
+<doc sysid="ref" docid="412" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo 0a.00.1 usb controller some text device 4dc9 | rev | cut -b1-4 | rev</seg>
+<doc sysid="ref" docid="413" genre="commands_nl2bash" origlang="nl">
+<seg id="1">tail -1 <(sort set)</seg>
+<doc sysid="ref" docid="414" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat dump.txt | head -16224 | tail -258</seg>
+<doc sysid="ref" docid="415" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ls -ld /tmp /tnt</seg>
+<doc sysid="ref" docid="416" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ps -e -orss=,args= | sort -nr | head</seg>
+<doc sysid="ref" docid="417" genre="commands_nl2bash" origlang="nl">
+<seg id="1">seq 10 | paste -sd" \n" -</seg>
+<doc sysid="ref" docid="418" genre="commands_nl2bash" origlang="nl">
+<seg id="1">~ $ . trap.sh | cat</seg>
+<doc sysid="ref" docid="419" genre="commands_nl2bash" origlang="nl">
+<seg id="1">$(dirname $(readlink -e ../../../../etc/passwd))</seg>
+<doc sysid="ref" docid="420" genre="commands_nl2bash" origlang="nl">
+<seg id="1">$(dirname $(readlink -e ../../../../etc/passwd))</seg>
+<doc sysid="ref" docid="421" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo <(yes)</seg>
+<doc sysid="ref" docid="422" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo "`pwd -P`"</seg>
+<doc sysid="ref" docid="423" genre="commands_nl2bash" origlang="nl">
+<seg id="1">pstree | cat</seg>
+<doc sysid="ref" docid="424" genre="commands_nl2bash" origlang="nl">
+<seg id="1">pstree -p user</seg>
+<doc sysid="ref" docid="425" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ls -l | head -2 | tail -1</seg>
+<doc sysid="ref" docid="426" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ls -l | tail -n +2 | head -n1</seg>
+<doc sysid="ref" docid="427" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cut -d ' ' -f 2</seg>
+<doc sysid="ref" docid="428" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cut -d\  -f 2</seg>
+<doc sysid="ref" docid="429" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo 123 | tee >(tr 1 a)  | tr 1 b</seg>
+<doc sysid="ref" docid="430" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ifconfig | grep HW</seg>
+<doc sysid="ref" docid="431" genre="commands_nl2bash" origlang="nl">
+<seg id="1">who |grep -i admin |cut -c10-20</seg>
+<doc sysid="ref" docid="432" genre="commands_nl2bash" origlang="nl">
+<seg id="1">date +"%T"</seg>
+<doc sysid="ref" docid="433" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.php' -type f -exec cat -- {} + | wc -l</seg>
+<doc sysid="ref" docid="434" genre="commands_nl2bash" origlang="nl">
+<seg id="1">readlink `pwd`</seg>
+<doc sysid="ref" docid="435" genre="commands_nl2bash" origlang="nl">
+<seg id="1">comm -2 -3 A B | comm -2 -3 - C | comm -2 -3 - D</seg>
+<doc sysid="ref" docid="436" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo `whoami`</seg>
+<doc sysid="ref" docid="437" genre="commands_nl2bash" origlang="nl">
+<seg id="1">whoami</seg>
+<doc sysid="ref" docid="438" genre="commands_nl2bash" origlang="nl">
+<seg id="1">pwd | tr '/' '\n'</seg>
+<doc sysid="ref" docid="439" genre="commands_nl2bash" origlang="nl">
+<seg id="1">crontab</seg>
+<doc sysid="ref" docid="440" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -prune</seg>
+<doc sysid="ref" docid="441" genre="commands_nl2bash" origlang="nl">
+<seg id="1">od -A n -N 2 -t u2 /dev/urandom</seg>
+<doc sysid="ref" docid="442" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -s ENTERED_PASSWORD</seg>
+<doc sysid="ref" docid="443" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -p "$*"</seg>
+<doc sysid="ref" docid="444" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -p "Password: " -s SSHPASS</seg>
+<doc sysid="ref" docid="445" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -r ans</seg>
+<doc sysid="ref" docid="446" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -p "Please Enter a Message: $cr" message</seg>
+<doc sysid="ref" docid="447" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -p $'Enter your age:\n'</seg>
+<doc sysid="ref" docid="448" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -e -p "Enter the path to the file: " -i "/usr/local/etc/" FILEPATH</seg>
+<doc sysid="ref" docid="449" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -e -p "My prompt: " varname</seg>
+<doc sysid="ref" docid="450" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -n 1 c</seg>
+<doc sysid="ref" docid="451" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sudo chown -R www-data:www-data /var/www</seg>
+<doc sysid="ref" docid="452" genre="commands_nl2bash" origlang="nl">
+<seg id="1">chown amzadm.root -R /usr/lib/python2.6/site-packages/awscli/</seg>
+<doc sysid="ref" docid="453" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cp -r $1 $2</seg>
+<doc sysid="ref" docid="454" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /path/to/source -type d | cpio -pd /path/to/dest/</seg>
+<doc sysid="ref" docid="455" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.pdf" -print0 | xargs -0 rm -rf</seg>
+<doc sysid="ref" docid="456" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.pdf' -exec rm -f {} \;</seg>
+<doc sysid="ref" docid="457" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f | egrep -v '\.bz2' | xargs bzip2 -9 &</seg>
+<doc sysid="ref" docid="458" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep -inr "Text" folder/to/be/searched/</seg>
+<doc sysid="ref" docid="459" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ls **/*.py **/*.html</seg>
+<doc sysid="ref" docid="460" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep -RIl "" .</seg>
+<doc sysid="ref" docid="461" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -not -name '*txt' | xargs rm</seg>
+<doc sysid="ref" docid="462" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.pyc" -exec rm -rf {} \;</seg>
+<doc sysid="ref" docid="463" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.pyc"|xargs rm -rf</seg>
+<doc sysid="ref" docid="464" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.pyc' -print0 | xargs -0 rm</seg>
+<doc sysid="ref" docid="465" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rm **/*.pyc</seg>
+<doc sysid="ref" docid="466" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rm `find . -name \*.pyc`</seg>
+<doc sysid="ref" docid="467" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -iname '*.pyc' -print0 | xargs -0 --no-run-if-empty  rm</seg>
+<doc sysid="ref" docid="468" genre="commands_nl2bash" origlang="nl">
+<seg id="1">chmod -R 755 /directory</seg>
+<doc sysid="ref" docid="469" genre="commands_nl2bash" origlang="nl">
+<seg id="1">sudo mount -o remount -o exec /dev/sda7</seg>
+<doc sysid="ref" docid="470" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mount -o remount,size=40G /dev/shm</seg>
+<doc sysid="ref" docid="471" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find `pwd` -name core -ctime +4 -execdir /bin/rm -f {} \;</seg>
+<doc sysid="ref" docid="472" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -regex ".+-[0-9]+x[0-9]+\.jpg" -exec rm -rf {} \;</seg>
+<doc sysid="ref" docid="473" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -regex ".+-[0-9]+x[0-9]+\.jpg" | xargs rm</seg>
+<doc sysid="ref" docid="474" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.doc' -exec rm "{}" \;</seg>
+<doc sysid="ref" docid="475" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "new*.sh" -exec rm -f '{}' \+</seg>
+<doc sysid="ref" docid="476" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "new*.sh" -exec rm -f '{}' \;</seg>
+<doc sysid="ref" docid="477" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find dir -name \\*~ -exec rm {} +</seg>
+<doc sysid="ref" docid="478" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /usr -name core -atime +7 -exec rm "{}" \;</seg>
+<doc sysid="ref" docid="479" genre="commands_nl2bash" origlang="nl">
+<seg id="1">/usr/bin/find /home/user/Series/ -iname "*sample*" -exec rm {} \;</seg>
+<doc sysid="ref" docid="480" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/user/Series/ -iname '*sample*' -exec rm {} \;</seg>
+<doc sysid="ref" docid="481" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -mtime +3 –exec rm –f {} \;</seg>
+<doc sysid="ref" docid="482" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name vmware-*.log -print0 | xargs -0 rm</seg>
+<doc sysid="ref" docid="483" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name vmware-*.log | xargs -i rm -rf {}</seg>
+<doc sysid="ref" docid="484" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name libGLE* | xargs rm -f</seg>
+<doc sysid="ref" docid="485" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name "*" | xargs rm -f</seg>
+<doc sysid="ref" docid="486" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /tmp -maxdepth 1 -type f -delete</seg>
+<doc sysid="ref" docid="487" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name vmware-*.log -print0 | xargs -0 rm</seg>
+<doc sysid="ref" docid="488" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rmdir ed*</seg>
+<doc sysid="ref" docid="489" genre="commands_nl2bash" origlang="nl">
+<seg id="1">path=$(basename $path)</seg>
+<doc sysid="ref" docid="490" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /srv/abc/ -type d -empty -exec rmdir {} \;</seg>
+<doc sysid="ref" docid="491" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -maxdepth 1 | grep -v "exclude these" | xargs rm -r</seg>
+<doc sysid="ref" docid="492" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /path/to/files* -mtime +5 -exec rm {} \;</seg>
+<doc sysid="ref" docid="493" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -size +1M -exec rm {} +</seg>
+<doc sysid="ref" docid="494" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo $filename | rev | cut -f 2- -d '.' | rev</seg>
+<doc sysid="ref" docid="495" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh-keygen -f ~/.ssh/id_rsa -P ""</seg>
+<doc sysid="ref" docid="496" genre="commands_nl2bash" origlang="nl">
+<seg id="1">rename -v 's#/file##' v_{1,2,3}/file.txt</seg>
+<doc sysid="ref" docid="497" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mv file001abc.txt abc1.txt</seg>
+<doc sysid="ref" docid="498" genre="commands_nl2bash" origlang="nl">
+<seg id="1">mv old tmp</seg>
+<doc sysid="ref" docid="499" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -maxdepth 3 -mindepth 3 -type f -iname '*.jpg' -exec rename -n 's/jpg$/jpeg/i' {} +</seg>
+<doc sysid="ref" docid="500" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name CVS -prune -o -exec mv '{}' `echo {} | tr '[A-Z]' '[a-z]'` \; -print</seg>
+<doc sysid="ref" docid="501" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.andnav" -exec rename -v 's/\.andnav$/\.tile/i' {} \;</seg>
+<doc sysid="ref" docid="502" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.andnav" | rename "s/\.andnav$/.tile/"</seg>
+<doc sysid="ref" docid="503" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo $(yes image.png | head -n10)</seg>
+<doc sysid="ref" docid="504" genre="commands_nl2bash" origlang="nl">
+<seg id="1">yes image.png | head -n10 | xargs echo</seg>
+<doc sysid="ref" docid="505" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name ‘*exp_to_find_in_folders*’ -exec rename “s/exp_to_find_for_replacement/exp_to_replace/” {} \;</seg>
+<doc sysid="ref" docid="506" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep -v '^$' YOURFILE | nl -s= -w99 | tr -s ' ' p</seg>
+<doc sysid="ref" docid="507" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo -e "length(FOO)==$(echo -ne "${FOO}" | wc -m)"</seg>
+<doc sysid="ref" docid="508" genre="commands_nl2bash" origlang="nl">
+<seg id="1">head -1 table | tr -s ' ' '\n' | nl -nln |  grep "Target" | cut -f1</seg>
+<doc sysid="ref" docid="509" genre="commands_nl2bash" origlang="nl">
+<seg id="1">uname -v | grep -o '#[0-9]\+'</seg>
+<doc sysid="ref" docid="510" genre="commands_nl2bash" origlang="nl">
+<seg id="1">echo "aaaa eeee bbbb ffff cccc"|tr ' ' '\n'|tac|tr '\n' ' '</seg>
+<doc sysid="ref" docid="511" genre="commands_nl2bash" origlang="nl">
+<seg id="1">join -t $'\t' file1 file2</seg>
+<doc sysid="ref" docid="512" genre="commands_nl2bash" origlang="nl">
+<seg id="1">join <(sort -n file1) <(sort -n file2)</seg>
+<doc sysid="ref" docid="513" genre="commands_nl2bash" origlang="nl">
+<seg id="1">env `cat xxxx` otherscript.sh</seg>
+<doc sysid="ref" docid="514" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat $2 | grep -v "#" | ssh -t $1 $INTERPRETER</seg>
+<doc sysid="ref" docid="515" genre="commands_nl2bash" origlang="nl">
+<seg id="1">abspath=$(readlink -f $path)</seg>
+<doc sysid="ref" docid="516" genre="commands_nl2bash" origlang="nl">
+<seg id="1">SCRIPT="$(readlink --canonicalize-existing "$0")"</seg>
+<doc sysid="ref" docid="517" genre="commands_nl2bash" origlang="nl">
+<seg id="1">me=$(readlink --canonicalize --no-newline $0)</seg>
+<doc sysid="ref" docid="518" genre="commands_nl2bash" origlang="nl">
+<seg id="1">f=$(cat numbers.txt)</seg>
+<doc sysid="ref" docid="519" genre="commands_nl2bash" origlang="nl">
+<seg id="1">CAT=`which cat`</seg>
+<doc sysid="ref" docid="520" genre="commands_nl2bash" origlang="nl">
+<seg id="1">full_f="$(which f)"</seg>
+<doc sysid="ref" docid="521" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ver=`echo -ne "$1\n$2" |sort -Vr |head -n1`</seg>
+<doc sysid="ref" docid="522" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ip=$(hostname -I)</seg>
+<doc sysid="ref" docid="523" genre="commands_nl2bash" origlang="nl">
+<seg id="1">STAMP=`date -r file_name`</seg>
+<doc sysid="ref" docid="524" genre="commands_nl2bash" origlang="nl">
+<seg id="1">md5=$(md5sum "$my_iso_file" | cut -d ' ' -f 1)</seg>
+<doc sysid="ref" docid="525" genre="commands_nl2bash" origlang="nl">
+<seg id="1">size="$(zcat "$file" | wc -c)"</seg>
+<doc sysid="ref" docid="526" genre="commands_nl2bash" origlang="nl">
+<seg id="1">myVar=$(tee)</seg>
+<doc sysid="ref" docid="527" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find test1 -type f -name 'textfile.txt' -print</seg>
+<doc sysid="ref" docid="528" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /mnt/raid/upload -mtime +5 -print</seg>
+<doc sysid="ref" docid="529" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name \*.pdf -print</seg>
+<doc sysid="ref" docid="530" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find \( -name 'messages.*' ! -path "*/.svn/*" ! -path "*/CVS/*" \) -exec grep -Iw uint {} +</seg>
+<doc sysid="ref" docid="531" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -type f -exec grep -Iq . {} \; -and -print</seg>
+<doc sysid="ref" docid="532" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -exec grep -Iq . {} \; -and -print</seg>
+<doc sysid="ref" docid="533" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name .vendor -prune -o -name '*.rb' -print</seg>
+<doc sysid="ref" docid="534" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name '*.java' -newer build.xml -print</seg>
+<doc sysid="ref" docid="535" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find .  -perm 775 -print</seg>
+<doc sysid="ref" docid="536" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -mtime -1 ! -name '.DS_Store' -type f -exec basename {} \;</seg>
+<doc sysid="ref" docid="537" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -mtime -1 ! -name '.DS_Store' -type f -printf '%f\n'</seg>
+<doc sysid="ref" docid="538" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -type f -user www</seg>
+<doc sysid="ref" docid="539" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -name "*keep.${SUFFIX}"</seg>
+<doc sysid="ref" docid="540" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -regex ".+-[0-9]+x[0-9]+\.jpg"</seg>
+<doc sysid="ref" docid="541" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -P . -lname '*/test*'</seg>
+<doc sysid="ref" docid="542" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find $path -type f -name "*.$extension"</seg>
+<doc sysid="ref" docid="543" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -user olduser  -type f  -exec chown newuser {} \</seg>
+<doc sysid="ref" docid="544" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -fstype ext3 -name zsh -ls</seg>
+<doc sysid="ref" docid="545" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "$pattern"</seg>
+<doc sysid="ref" docid="546" genre="commands_nl2bash" origlang="nl">
+<seg id="1">history 300 | grep scp | grep important$</seg>
+<doc sysid="ref" docid="547" genre="commands_nl2bash" origlang="nl">
+<seg id="1">history | grep " 840"</seg>
+<doc sysid="ref" docid="548" genre="commands_nl2bash" origlang="nl">
+<seg id="1">history | grep -C 5 ifconfig</seg>
+<doc sysid="ref" docid="549" genre="commands_nl2bash" origlang="nl">
+<seg id="1">history | grep ifconfig -A5 -B5</seg>
+<doc sysid="ref" docid="550" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat file | grep pattern | paste -sd' '</seg>
+<doc sysid="ref" docid="551" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name ‘*.*’ -exec grep -il “foobar” {} \;</seg>
+<doc sysid="ref" docid="552" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -print | xargs grep "example"</seg>
+<doc sysid="ref" docid="553" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find sources -type f -exec grep -H foo {} +</seg>
+<doc sysid="ref" docid="554" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f | xargs grep "magic"</seg>
+<doc sysid="ref" docid="555" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find -name file -quit</seg>
+<doc sysid="ref" docid="556" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / \( -perm 2000 -o -perm 4000 \) -print | diff - files.secure</seg>
+<doc sysid="ref" docid="557" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /apps -xdev -name "*.log" -type f -mtime +60 | xargs rm</seg>
+<doc sysid="ref" docid="558" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /nas/projects/mgmt/scripts/perl -mtime 8 -mtime -10 -daystart -iname "*.pl"</seg>
+<doc sysid="ref" docid="559" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home -type f -perm 0777 -print</seg>
+<doc sysid="ref" docid="560" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type d -name aa</seg>
+<doc sysid="ref" docid="561" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /nfs/office -name .user.log -print</seg>
+<doc sysid="ref" docid="562" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /home/mywebsite -type f -name "foobar.txt"</seg>
+<doc sysid="ref" docid="563" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -perm -444 -perm /222 ! -perm /111</seg>
+<doc sysid="ref" docid="564" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find var/log -print0 -iname 'anaconda.*' | tar -cvf somefile.tar -T -</seg>
+<doc sysid="ref" docid="565" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name foo | xargs ls -tl</seg>
+<doc sysid="ref" docid="566" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -iname '*python*'</seg>
+<doc sysid="ref" docid="567" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -name '*python*'</seg>
+<doc sysid="ref" docid="568" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "S1A*1S*SAFE"</seg>
+<doc sysid="ref" docid="569" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find ~/ -atime +100 -exec rm -i {} \;</seg>
+<doc sysid="ref" docid="570" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -perm -444 -perm /222 ! -perm /111</seg>
+<doc sysid="ref" docid="571" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -perm -a+r -perm /a+w ! -perm /a+x</seg>
+<doc sysid="ref" docid="572" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -print|xargs grep v\$process</seg>
+<doc sysid="ref" docid="573" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep foo `find /usr/src/linux -name "*.html"`</seg>
+<doc sysid="ref" docid="574" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -path ./.git -prune -o -not -name '*git*' -print |grep git</seg>
+<doc sysid="ref" docid="575" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /book -print | xargs grep '[Nn] utshell'</seg>
+<doc sysid="ref" docid="576" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.bash" |xargs grep "echo"</seg>
+<doc sysid="ref" docid="577" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name "*.js" -exec grep -iH foo {} \;</seg>
+<doc sysid="ref" docid="578" genre="commands_nl2bash" origlang="nl">
+<seg id="1">grep -iH foo `find . -name "*.js"`</seg>
+<doc sysid="ref" docid="579" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find my_folder -type f -exec grep -l "needle text" {} \; -exec file {} \; | grep text</seg>
+<doc sysid="ref" docid="580" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find MyApp.app -name Headers -type d -prune -exec rm -rf {} +</seg>
+<doc sysid="ref" docid="581" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -exec grep "foo" '{}' \;</seg>
+<doc sysid="ref" docid="582" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f -exec grep -H whatever {} \;</seg>
+<doc sysid="ref" docid="583" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f | xargs -L 100 grep whatever</seg>
+<doc sysid="ref" docid="584" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -type f | xargs grep whatever</seg>
+<doc sysid="ref" docid="585" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find / -group managers -print</seg>
+<doc sysid="ref" docid="586" genre="commands_nl2bash" origlang="nl">
+<seg id="1">chmod 644 `find /home/my/special/folder -type f`</seg>
+<doc sysid="ref" docid="587" genre="commands_nl2bash" origlang="nl">
+<seg id="1">touch -m --date="Wed Jun 12 14:00:00 IDT 2013" filename</seg>
+<doc sysid="ref" docid="588" genre="commands_nl2bash" origlang="nl">
+<seg id="1">PS1=`hostname`':\W> '</seg>
+<doc sysid="ref" docid="589" genre="commands_nl2bash" origlang="nl">
+<seg id="1">PS4='+$(date "+%s:%N") %N:%i> '</seg>
+<doc sysid="ref" docid="590" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh -L 1234:remote2:22 -p 45678 user1@remote1</seg>
+<doc sysid="ref" docid="591" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find . -name ‘*ITM*’</seg>
+<doc sysid="ref" docid="592" genre="commands_nl2bash" origlang="nl">
+<seg id="1">date "+%Y-%m-%d"</seg>
+<doc sysid="ref" docid="593" genre="commands_nl2bash" origlang="nl">
+<seg id="1">find /mnt/raid -type d -print</seg>
+<doc sysid="ref" docid="594" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -rsp $'Press any key or wait 5 seconds to continue...\n' -n 1 -t 5</seg>
+<doc sysid="ref" docid="595" genre="commands_nl2bash" origlang="nl">
+<seg id="1">read -n1 -s</seg>
+<doc sysid="ref" docid="596" genre="commands_nl2bash" origlang="nl">
+<seg id="1">su -l builder</seg>
+<doc sysid="ref" docid="597" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat file1 file2 |sort -t. -k 2.1</seg>
+<doc sysid="ref" docid="598" genre="commands_nl2bash" origlang="nl">
+<seg id="1">split --bytes=1500000000 abc.txt abc</seg>
+<doc sysid="ref" docid="599" genre="commands_nl2bash" origlang="nl">
+<seg id="1">split -n l/10 file</seg>
+<doc sysid="ref" docid="600" genre="commands_nl2bash" origlang="nl">
+<seg id="1">cat file1 file2 ... file40000 | split -n r/1445 -d - outputprefix</seg>
+<doc sysid="ref" docid="601" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh "$1" -l pete</seg>
+<doc sysid="ref" docid="602" genre="commands_nl2bash" origlang="nl">
+<seg id="1">ssh -XY -t user@remote_IP 'ssh -XY -t user@remoteToRemote_IP'</seg>
+<doc sysid="ref" docid="603" genre="commands_nl2bash" origlang="nl">
+<seg id="1">env - scriptname</seg>
+<doc sysid="ref" docid="604" genre="commands_nl2bash" origlang="nl">
+<seg id="1">zcat tarball.tar.gz | tar x</seg>
+<doc sysid="ref" docid="605" genre="commands_nl2bash" origlang="nl">
+<seg id="1">history -w</seg>
+<doc sysid="ref" docid="606" genre="commands_nl2bash" origlang="nl">
+<seg id="1">touch -t `date +%m%d0000` /tmp/$$</seg>
+<doc sysid="ref" docid="607" genre="commands_nl2bash" origlang="nl">
+<seg id="1">kill $PID</seg>
+<doc sysid="ref" docid="608" genre="commands_nl2bash" origlang="nl">
+<seg id="1">bzip2 -kv */*</seg>
+<doc sysid="ref" docid="609" genre="commands_nl2bash" origlang="nl">
+<seg id="1">bzip2 -kv */*/*/*/*/*/*/*</seg>
